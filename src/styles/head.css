@@ -1,0 +1,247 @@
+.box {
+  height: 120px;
+  width: 1920px;
+}
+
+.box .header {
+  background-color: transparent;
+  height: 120px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}
+
+.box .overlap {
+  height: 120px;
+  position: relative;
+  width: 1920px;
+}
+
+.box .side-effects {
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.box .overlap-group {
+  height: 120px;
+  position: relative;
+}
+
+.box .rectangle {
+  background-color: #071320;
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.box .div {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 185, 198, 0.18) 0%,
+    rgba(0, 0, 0, 0) 66.5%
+  );
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.box .nav {
+  height: 49px;
+  left: 675px;
+  position: absolute;
+  top: 30px;
+  width: 1210px;
+}
+
+.box .login {
+  height: 48px;
+  left: 998px;
+  position: absolute;
+  top: 0;
+  width: 214px;
+}
+
+.box .overlap-group-2 {
+  height: 48px;
+  position: relative;
+  width: 212px;
+}
+
+.box .rectangle-2 {
+  background: linear-gradient(
+    180deg,
+    rgb(230, 236, 237) 0%,
+    rgb(230, 236, 237) 100%
+  );
+  border-radius: 12px;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 212px;
+}
+
+.box .text-wrapper {
+  background-blend-mode: luminosity;
+  color: #02dcf3;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 60px;
+  letter-spacing: -1.28px;
+  line-height: Truepx;
+  position: absolute;
+  top: 0;
+}
+
+.box .memco {
+  height: 48px;
+  left: 681px;
+  position: absolute;
+  top: 1px;
+  width: 214px;
+}
+
+.box .rectangle-3 {
+  background: linear-gradient(
+    180deg,
+    rgb(24.44, 24.44, 24.44) 0%,
+    rgb(30, 30, 30) 100%
+  );
+  border-radius: 12px;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 212px;
+}
+
+.box .text-wrapper-2 {
+  color: #02dcf3;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 47px;
+  letter-spacing: -1.28px;
+  line-height: Truepx;
+  position: absolute;
+  top: 0;
+}
+
+.box .location {
+  height: 48px;
+  left: 454px;
+  position: absolute;
+  top: 1px;
+  width: 214px;
+}
+
+.box .text-wrapper-3 {
+  color: #02dcf3;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 31px;
+  letter-spacing: -1.60px;
+  line-height: Truepx;
+  position: absolute;
+  top: 0;
+}
+
+.box .about {
+  height: 48px;
+  left: 227px;
+  position: absolute;
+  top: 1px;
+  width: 214px;
+}
+
+.box .text-wrapper-4 {
+  color: #02dcf3;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 29px;
+  letter-spacing: -0.96px;
+  line-height: Truepx;
+  position: absolute;
+  top: 0;
+}
+
+.box .contact {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 214px;
+}
+
+.box .text-wrapper-5 {
+  color: #02dcf3;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: -1.60px;
+  line-height: Truepx;
+  position: absolute;
+  top: 0;
+}
+
+.box .line {
+  height: 43px;
+  left: 945px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+
+.box .bioinfo {
+  height: 87px;
+  left: 27px;
+  position: absolute;
+  top: 11px;
+  width: 233px;
+}
+
+.box .logo {
+  height: 87px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+.box .bioswift {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(3, 229, 204) 4.5%,
+    rgb(31, 169, 229) 66.5%,
+    rgb(2, 220, 243) 87%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 72px;
+  letter-spacing: -0.64px;
+  line-height: Truepx;
+  position: absolute;
+  top: 20px;
+  width: 159px;
+}
+
+

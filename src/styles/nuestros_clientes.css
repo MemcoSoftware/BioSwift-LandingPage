@@ -1,0 +1,38 @@
+.nuestros-clientes {
+  background-color: #071320;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.nuestros-clientes .overlap-group {
+  height: 842px;
+  left: 0;
+  position: absolute;
+  top: 238px;
+  width: 1920px;
+}
+
+.nuestros-clientes .bg-details {
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 756px;
+  width: 1920px;
+}
+
+.nuestros-clientes .clients {
+  height: 815px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.nuestros-clientes .main-title {
+  height: 202px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}

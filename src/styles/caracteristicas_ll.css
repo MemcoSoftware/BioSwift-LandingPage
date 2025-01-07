@@ -1,0 +1,402 @@
+.caracteristicas-ll {
+  background-color: #061320;
+  height: 768px;
+  width: 1920px;
+}
+
+.caracteristicas-ll .overlap {
+  height: 768px;
+  position: relative;
+}
+
+.caracteristicas-ll .third-line {
+  height: 148px;
+  left: 233px;
+  position: absolute;
+  top: 575px;
+  width: 1506px;
+}
+
+.caracteristicas-ll .overlap-group {
+  height: 148px;
+  position: relative;
+}
+
+.caracteristicas-ll .tech-support {
+  height: 109px;
+  left: 1281px;
+  position: absolute;
+  top: 34px;
+  width: 180px;
+}
+
+.caracteristicas-ll .text-support {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 93px;
+  width: 176px;
+}
+
+.caracteristicas-ll .icon-support {
+  height: 84px;
+  left: 50px;
+  position: absolute;
+  top: 0;
+  width: 88px;
+}
+
+.caracteristicas-ll .operational {
+  height: 105px;
+  left: 829px;
+  position: absolute;
+  top: 40px;
+  width: 274px;
+}
+
+.caracteristicas-ll .text-filters {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 89px;
+  width: 271px;
+}
+
+.caracteristicas-ll .icon-filters {
+  height: 72px;
+  left: 100px;
+  position: absolute;
+  top: 0;
+  width: 78px;
+}
+
+.caracteristicas-ll .advanced-filters {
+  height: 105px;
+  left: 459px;
+  position: absolute;
+  top: 40px;
+  width: 192px;
+}
+
+.caracteristicas-ll .img {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 89px;
+  width: 188px;
+}
+
+.caracteristicas-ll .icon-filters-2 {
+  height: 73px;
+  left: 53px;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}
+
+.caracteristicas-ll .intelligent-reports {
+  height: 105px;
+  left: 60px;
+  position: absolute;
+  top: 40px;
+  width: 219px;
+}
+
+.caracteristicas-ll .text-intelligent {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 89px;
+  width: 215px;
+}
+
+.caracteristicas-ll .icon-intelligent {
+  height: 73px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 72px;
+}
+
+.caracteristicas-ll .div {
+  height: 148px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1506px;
+}
+
+.caracteristicas-ll .img-2 {
+  height: 154px;
+  left: -2px;
+  position: absolute;
+  top: -3px;
+  width: 342px;
+}
+
+.caracteristicas-ll .img-3 {
+  height: 155px;
+  left: 408px;
+  position: absolute;
+  top: -3px;
+  width: 293px;
+}
+
+.caracteristicas-ll .img-4 {
+  height: 154px;
+  left: 758px;
+  position: absolute;
+  top: -2px;
+  width: 418px;
+}
+
+.caracteristicas-ll .img-5 {
+  height: 155px;
+  left: 1232px;
+  position: absolute;
+  top: -3px;
+  width: 275px;
+}
+
+.caracteristicas-ll .second-line {
+  height: 148px;
+  left: 233px;
+  position: absolute;
+  top: 311px;
+  width: 1506px;
+}
+
+.caracteristicas-ll .notifications {
+  height: 99px;
+  left: 1288px;
+  position: absolute;
+  top: 42px;
+  width: 167px;
+}
+
+.caracteristicas-ll .text-customizable {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 83px;
+  width: 163px;
+}
+
+.caracteristicas-ll .icon-notifications {
+  height: 70px;
+  left: 53px;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.caracteristicas-ll .customizable-reports {
+  height: 113px;
+  left: 830px;
+  position: absolute;
+  top: 30px;
+  width: 275px;
+}
+
+.caracteristicas-ll .text-customizable-2 {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 97px;
+  width: 271px;
+}
+
+.caracteristicas-ll .icon-customizable {
+  height: 87px;
+  left: 105px;
+  position: absolute;
+  top: 0;
+  width: 78px;
+}
+
+.caracteristicas-ll .graphic-reports {
+  height: 101px;
+  left: 458px;
+  position: absolute;
+  top: 42px;
+  width: 194px;
+}
+
+.caracteristicas-ll .text-reports {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 87px;
+  width: 190px;
+}
+
+.caracteristicas-ll .icon-reports {
+  height: 64px;
+  left: 63px;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.caracteristicas-ll .strong-password {
+  height: 100px;
+  left: 60px;
+  position: absolute;
+  top: 39px;
+  width: 218px;
+}
+
+.caracteristicas-ll .text-password {
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  top: 81px;
+  width: 215px;
+}
+
+.caracteristicas-ll .icon-password {
+  height: 67px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 74px;
+}
+
+.caracteristicas-ll .first-line {
+  height: 148px;
+  left: 233px;
+  position: absolute;
+  top: 47px;
+  width: 1506px;
+}
+
+.caracteristicas-ll .api-integration {
+  height: 97px;
+  left: 1280px;
+  position: absolute;
+  top: 44px;
+  width: 182px;
+}
+
+.caracteristicas-ll .text-integration {
+  height: 13px;
+  left: 1px;
+  position: absolute;
+  top: 82px;
+  width: 180px;
+}
+
+.caracteristicas-ll .icon-integration {
+  height: 64px;
+  left: 61px;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.caracteristicas-ll .documentation-access {
+  height: 109px;
+  left: 835px;
+  position: absolute;
+  top: 33px;
+  width: 265px;
+}
+
+.caracteristicas-ll .text-access {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 93px;
+  width: 263px;
+}
+
+.caracteristicas-ll .icon-access {
+  height: 77px;
+  left: 96px;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.caracteristicas-ll .intuitive-design {
+  height: 123px;
+  left: 468px;
+  position: absolute;
+  top: 19px;
+  width: 175px;
+}
+
+.caracteristicas-ll .text-intuitive {
+  height: 19px;
+  left: 1px;
+  position: absolute;
+  top: 102px;
+  width: 171px;
+}
+
+.caracteristicas-ll .icon-intuitive {
+  height: 89px;
+  left: 31px;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.caracteristicas-ll .dashboard {
+  height: 112px;
+  left: 58px;
+  position: absolute;
+  top: 29px;
+  width: 222px;
+}
+
+.caracteristicas-ll .text-dashboard {
+  height: 13px;
+  left: 1px;
+  position: absolute;
+  top: 97px;
+  width: 218px;
+}
+
+.caracteristicas-ll .icon-dashboard {
+  height: 88px;
+  left: 69px;
+  position: absolute;
+  top: 0;
+  width: 86px;
+}
+
+.caracteristicas-ll .effects {
+  height: 768px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.caracteristicas-ll .rectangle {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(115, 115, 115, 0.68) 100%
+  );
+  height: 768px;
+  left: 1739px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 181px;
+}
+
+.caracteristicas-ll .rectangle-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(115, 115, 115, 0.68) 100%
+  );
+  height: 768px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 187px;
+}

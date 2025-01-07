@@ -1,0 +1,401 @@
+.caracteristicas {
+    background-color: #071320;
+    height: 1080px;
+    overflow: hidden;
+    width: 1920px;
+  }
+  
+  .caracteristicas .overlap {
+    height: 1077px;
+    left: -131px;
+    position: relative;
+    top: 48px;
+    width: 2060px;
+  }
+  
+  .caracteristicas .ver-mas {
+    height: 47px;
+    left: 1724px;
+    position: absolute;
+    top: 963px;
+    width: 253px;
+  }
+  
+  .caracteristicas .text {
+    height: 40px;
+    left: 78px;
+    position: absolute;
+    top: -2px;
+    width: 172px;
+  }
+  
+  .caracteristicas .arrow {
+    height: 29px;
+    left: -2px;
+    position: absolute;
+    top: 9px;
+    width: 49px;
+  }
+  
+  .caracteristicas .overlap-wrapper {
+    height: 541px;
+    left: 625px;
+    position: absolute;
+    top: 350px;
+    width: 1364px;
+  }
+  
+  .caracteristicas .overlap-group {
+    height: 541px;
+    position: relative;
+    width: 1368px;
+  }
+  
+  .caracteristicas .seguridad-y-accesos {
+    height: 541px;
+    left: 970px;
+    position: absolute;
+    top: 0;
+    width: 398px;
+  }
+  
+  .caracteristicas .div {
+    border-radius: 10px;
+    box-shadow: 0px 4px 45.9px 1px #02dcf3;
+    height: 541px;
+    position: relative;
+    width: 394px;
+  }
+  
+  .caracteristicas .overlap-2 {
+    height: 434px;
+    left: 9px;
+    position: absolute;
+    top: 88px;
+    width: 362px;
+  }
+  
+  .caracteristicas .padlock {
+    height: 74px;
+    left: 291px;
+    position: absolute;
+    top: 360px;
+    width: 71px;
+  }
+  
+  .caracteristicas .description {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 32px;
+    font-weight: 300;
+    left: 0;
+    line-height: 44px;
+    position: absolute;
+    top: 0;
+    width: 348px;
+  }
+  
+  .caracteristicas .text-wrapper {
+    letter-spacing: 0.2px;
+  }
+  
+  .caracteristicas .span {
+    letter-spacing: -0.1px;
+  }
+  
+  .caracteristicas .title {
+    color: #00000033;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 34px;
+    font-weight: 600;
+    height: 49px;
+    left: 19px;
+    letter-spacing: -2.04px;
+    line-height: 49px;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    white-space: nowrap;
+  }
+  
+  .caracteristicas .reporte-y-analisis {
+    height: 541px;
+    left: 485px;
+    position: absolute;
+    top: 0;
+    width: 398px;
+  }
+  
+  .caracteristicas .overlap-group-2 {
+    height: 445px;
+    left: 4px;
+    position: absolute;
+    top: 88px;
+    width: 379px;
+  }
+  
+  .caracteristicas .icon {
+    height: 96px;
+    left: 277px;
+    object-fit: cover;
+    position: absolute;
+    top: 349px;
+    width: 102px;
+  }
+  
+  .caracteristicas .p {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 32px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 44px;
+    position: absolute;
+    top: 0;
+    width: 353px;
+  }
+  
+  .caracteristicas .title-2 {
+    color: #00000033;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    height: 63px;
+    left: 4px;
+    letter-spacing: -1.08px;
+    line-height: 40.7px;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    width: 387px;
+  }
+  
+  .caracteristicas .funcionalidades {
+    height: 541px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 398px;
+  }
+  
+  .caracteristicas .overlap-3 {
+    border-radius: 10px;
+    height: 541px;
+    position: relative;
+    width: 394px;
+  }
+  
+  .caracteristicas .overlap-group-3 {
+    height: 432px;
+    left: 7px;
+    position: absolute;
+    top: 90px;
+    width: 378px;
+  }
+  
+  .caracteristicas .img {
+    height: 85px;
+    left: 293px;
+    position: absolute;
+    top: 347px;
+    width: 85px;
+  }
+  
+  .caracteristicas .description-2 {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 32px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 38.9px;
+    position: absolute;
+    top: 0;
+    width: 353px;
+  }
+  
+  .caracteristicas .title-3 {
+    color: #00000033;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    height: 54px;
+    left: 36px;
+    letter-spacing: -1.08px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+  }
+  
+  .caracteristicas .neon-lines {
+    height: 540px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 1363px;
+  }
+  
+  .caracteristicas .rectangle {
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(2, 220, 243), rgb(1, 165, 182)) 1;
+    border-radius: 10px;
+    height: 540px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 393px;
+  }
+  
+  .caracteristicas .rectangle-2 {
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(2, 220, 243), rgb(1, 165, 182)) 1;
+    border-radius: 10px;
+    height: 540px;
+    left: 485px;
+    position: absolute;
+    top: 0;
+    width: 393px;
+  }
+  
+  .caracteristicas .rectangle-3 {
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(2, 220, 243), rgb(1, 165, 182)) 1;
+    border-radius: 10px;
+    height: 540px;
+    left: 970px;
+    position: absolute;
+    top: 0;
+    width: 393px;
+  }
+  
+  .caracteristicas .hand {
+    height: 939px;
+    left: 0;
+    position: absolute;
+    top: 138px;
+    width: 568px;
+  }
+  
+  .caracteristicas .overlap-4 {
+    height: 894px;
+    left: 131px;
+    position: relative;
+    width: 442px;
+  }
+  
+  .caracteristicas .atom {
+    height: 637px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 442px;
+  }
+  
+  .caracteristicas .hand-2 {
+    height: 799px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 95px;
+    width: 437px;
+  }
+  
+  .caracteristicas .overlap-group-wrapper {
+    height: 282px;
+    left: 320px;
+    position: absolute;
+    top: 0;
+    width: 1408px;
+  }
+  
+  .caracteristicas .overlap-5 {
+    height: 282px;
+    position: relative;
+    width: 1404px;
+  }
+  
+  .caracteristicas .shadow-text {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(40, 41, 45) 0%, rgba(40, 41, 45, 0.45) 54%, rgb(40, 41, 45) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 166px;
+    font-weight: 400;
+    height: 249px;
+    left: 10px;
+    letter-spacing: -4.98px;
+    line-height: normal;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 33px;
+  }
+  
+  .caracteristicas .text-2 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(3, 229, 204) 4.5%, rgb(31, 169, 229) 66.5%, rgb(2, 220, 243) 87%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 166px;
+    font-weight: 400;
+    height: 249px;
+    left: 0;
+    letter-spacing: -4.98px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .caracteristicas .bg {
+    height: 956px;
+    left: 198px;
+    position: absolute;
+    top: 8px;
+    width: 1862px;
+  }
+  
+  .caracteristicas .overlap-6 {
+    height: 403px;
+    left: 92px;
+    position: absolute;
+    top: -56px;
+    width: 1761px;
+  }
+  
+  .caracteristicas .polygon {
+    height: 403px;
+    left: 1460px;
+    position: absolute;
+    top: 0;
+    width: 301px;
+  }
+  
+  .caracteristicas .rectangle-4 {
+    background: linear-gradient(180deg, rgba(5.54, 173.09, 162.49, 0.25) 0%, rgba(24, 180, 232, 0.25) 100%);
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 56px;
+    filter: blur(294.5px);
+    height: 165px;
+    left: 0;
+    position: absolute;
+    top: 56px;
+    width: 1474px;
+  }
+  
+  .caracteristicas .polygon-2 {
+    height: 566px;
+    left: -67px;
+    position: absolute;
+    top: 458px;
+    width: 486px;
+  }
+  

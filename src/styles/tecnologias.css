@@ -1,0 +1,459 @@
+.tecnologias {
+  background-color: #071320;
+  height: 1080px;
+  width: 1920px;
+}
+
+.tecnologias .overlap {
+  height: 1069px;
+  position: relative;
+  top: 10px;
+  width: 1891px;
+}
+
+.tecnologias .overlap-group {
+  height: 794px;
+  left: 740px;
+  position: absolute;
+  top: 275px;
+  width: 1139px;
+}
+
+.tecnologias .bg-effects {
+  height: 690px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 1139px;
+}
+
+.tecnologias .ellipse {
+  background-color: #00000033;
+  border-radius: 102px/106px;
+  filter: blur(323.1px);
+  height: 212px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 204px;
+}
+
+.tecnologias .div {
+  background-color: #00000033;
+  border-radius: 46.5px/106px;
+  filter: blur(323.1px);
+  height: 212px;
+  left: 1046px;
+  position: absolute;
+  top: 478px;
+  width: 93px;
+}
+
+.tecnologias .ellipse-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 10.77%,
+    rgb(115, 115, 115) 52%,
+    rgba(217, 217, 217, 0) 69.5%
+  );
+  border-radius: 46.5px/106px;
+  filter: blur(231.4px);
+  height: 212px;
+  left: 626px;
+  position: absolute;
+  top: 63px;
+  width: 93px;
+}
+
+.tecnologias .icons {
+  height: 469px;
+  left: 55px;
+  position: absolute;
+  top: 0;
+  width: 896px;
+}
+
+.tecnologias .icon {
+  height: 125px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 125px;
+}
+
+.tecnologias .img {
+  height: 35px;
+  left: 152px;
+  position: absolute;
+  top: 0;
+  width: 145px;
+}
+
+.tecnologias .icon-2 {
+  height: 67px;
+  left: 389px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 107px;
+}
+
+.tecnologias .overlap-2 {
+  height: 266px;
+  left: 661px;
+  position: absolute;
+  top: 16px;
+  width: 235px;
+}
+
+.tecnologias .overlap-3 {
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 235px;
+}
+
+.tecnologias .icon-3 {
+  height: 96px;
+  left: 127px;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.tecnologias .icon-4 {
+  height: 140px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 95px;
+  width: 132px;
+}
+
+.tecnologias .icon-5 {
+  height: 69px;
+  left: 149px;
+  object-fit: cover;
+  position: absolute;
+  top: 168px;
+  width: 85px;
+}
+
+.tecnologias .icon-6 {
+  height: 109px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 103px;
+}
+
+.tecnologias .icon-7 {
+  height: 99px;
+  left: 326px;
+  position: absolute;
+  top: 131px;
+  width: 118px;
+}
+
+.tecnologias .overlap-group-2 {
+  height: 183px;
+  left: 709px;
+  position: absolute;
+  top: 287px;
+  width: 153px;
+}
+
+.tecnologias .icon-8 {
+  height: 84px;
+  left: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.tecnologias .icon-9 {
+  height: 109px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 74px;
+  width: 101px;
+}
+
+.tecnologias .icon-10 {
+  height: 123px;
+  left: 149px;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 117px;
+}
+
+.tecnologias .icon-11 {
+  height: 92px;
+  left: 53px;
+  object-fit: cover;
+  position: absolute;
+  top: 226px;
+  width: 109px;
+}
+
+.tecnologias .icon-12 {
+  height: 89px;
+  left: 520px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 121px;
+}
+
+.tecnologias .icon-13 {
+  height: 112px;
+  left: 219px;
+  object-fit: cover;
+  position: absolute;
+  top: 206px;
+  width: 107px;
+}
+
+.tecnologias .icon-14 {
+  height: 128px;
+  left: 136px;
+  object-fit: cover;
+  position: absolute;
+  top: 334px;
+  width: 121px;
+}
+
+.tecnologias .icon-15 {
+  height: 103px;
+  left: 337px;
+  object-fit: cover;
+  position: absolute;
+  top: 349px;
+  width: 97px;
+}
+
+.tecnologias .icon-16 {
+  height: 98px;
+  left: 501px;
+  position: absolute;
+  top: 134px;
+  width: 96px;
+}
+
+.tecnologias .icon-17 {
+  height: 127px;
+  left: 497px;
+  object-fit: cover;
+  position: absolute;
+  top: 336px;
+  width: 122px;
+}
+
+.tecnologias .icon-18 {
+  height: 48px;
+  left: 376px;
+  position: absolute;
+  top: 273px;
+  width: 188px;
+}
+
+.tecnologias .icon-19 {
+  height: 76px;
+  left: 620px;
+  object-fit: cover;
+  position: absolute;
+  top: 291px;
+  width: 76px;
+}
+
+.tecnologias .tecnologias-title {
+  height: 256px;
+  left: 126px;
+  position: absolute;
+  top: 538px;
+  width: 824px;
+}
+
+.tecnologias .overlap-4 {
+  height: 256px;
+  position: relative;
+  width: 818px;
+}
+
+.tecnologias .shadow {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 220, 243, 0.07) 13%,
+    rgba(31, 169, 229, 0.07) 33.5%,
+    rgba(3, 229, 204, 0.07) 95.5%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 121px;
+  font-weight: 700;
+  height: 164px;
+  left: 1px;
+  letter-spacing: -4.84px;
+  line-height: 231px;
+  position: absolute;
+  top: 92px;
+  white-space: nowrap;
+  width: 817px;
+}
+
+.tecnologias .text-wrapper {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 220, 243, 0.2) 13%,
+    rgba(31, 169, 229, 0.2) 33.5%,
+    rgba(3, 229, 204, 0.2) 95.5%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 121px;
+  font-weight: 700;
+  height: 164px;
+  left: 0;
+  letter-spacing: -4.84px;
+  line-height: 231px;
+  position: absolute;
+  top: 63px;
+  white-space: nowrap;
+  width: 817px;
+}
+
+.tecnologias .text {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(3, 229, 204) 4.5%, rgb(31, 169, 229) 66.5%, rgb(2, 220, 243) 87%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 121px;
+  font-weight: 700;
+  height: 231px;
+  left: 0;
+  letter-spacing: -4.84px;
+  line-height: 231px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.tecnologias .overlap-5 {
+  height: 1058px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1891px;
+}
+
+.tecnologias .icon-design {
+  height: 1058px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 622px;
+}
+
+.tecnologias .nav {
+  height: 105px;
+  left: 472px;
+  position: absolute;
+  top: 51px;
+  width: 1419px;
+}
+
+.tecnologias .overlap-6 {
+  background-color: #02dcf305;
+  border-radius: 82px;
+  box-shadow: inset 0px 43px 76px -45px #00eeff40;
+  height: 105px;
+  position: relative;
+  width: 1409px;
+}
+
+.tecnologias .frontend {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 324px;
+  letter-spacing: -0.96px;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  width: 284px;
+}
+
+.tecnologias .overlap-group-3 {
+  height: 73px;
+  left: 621px;
+  position: absolute;
+  top: 19px;
+  width: 547px;
+}
+
+.tecnologias .base-datos {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: -0.96px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 407px;
+}
+
+.tecnologias .nube {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 405px;
+  letter-spacing: -0.96px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+  width: 142px;
+}
+
+.tecnologias .tools {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 1194px;
+  letter-spacing: -0.96px;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  width: 174px;
+}
+
+.tecnologias .backend {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 43px;
+  letter-spacing: -0.96px;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  width: 260px;
+}
