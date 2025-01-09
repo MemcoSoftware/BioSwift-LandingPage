@@ -1,9 +1,9 @@
-.box {
+.head {
   height: 108px;
   width: 1920px;
 }
 
-.box .header {
+.head .header {
   background-color: transparent;
   height: 120px;
   left: 0;
@@ -12,13 +12,13 @@
   width: 1920px;
 }
 
-.box .overlap {
+.head .overlap {
   height: 120px;
   position: relative;
   width: 1920px;
 }
 
-.box .side-effects {
+.head .side-effects {
   height: 120px;
   left: 0;
   position: absolute;
@@ -26,12 +26,12 @@
   width: 1920px;
 }
 
-.box .overlap-group {
+.head .overlap-group {
   height: 120px;
   position: relative;
 }
 
-.box .rectangle {
+.head .rectangle {
   background-color: #071320;
   height: 108px;
   left: 0;
@@ -40,7 +40,7 @@
   width: 1920px;
 }
 
-.box .div {
+.head .div {
   background: linear-gradient(
     180deg,
     rgba(15, 185, 198, 0.18) 0%,
@@ -53,7 +53,7 @@
   width: 1920px;
 }
 
-.box .nav {
+.head .nav {
   height: 49px;
   left: 675px;
   position: absolute;
@@ -61,7 +61,7 @@
   width: 1210px;
 }
 
-.box .login {
+.head .login {
   height: 48px;
   left: 998px;
   position: absolute;
@@ -69,13 +69,13 @@
   width: 214px;
 }
 
-.box .overlap-group-2 {
+.head .overlap-group-2 {
   height: 48px;
   position: relative;
   width: 212px;
 }
 
-.box .rectangle-2 {
+.head .rectangle-2 {
   background: linear-gradient(
     180deg,
     rgb(230, 236, 237) 0%,
@@ -89,7 +89,7 @@
   width: 212px;
 }
 
-.box .text-wrapper {
+.head .text-wrapper {
   background-blend-mode: luminosity;
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
@@ -103,7 +103,7 @@
   padding-top: 6px;
 }
 
-.box .memco {
+.head .memco {
   height: 48px;
   left: 681px;
   position: absolute;
@@ -111,7 +111,7 @@
   width: 214px;
 }
 
-.box .rectangle-3 {
+.head .rectangle-3 {
   background: linear-gradient(
     180deg,
     rgb(24.44, 24.44, 24.44) 0%,
@@ -125,7 +125,7 @@
   width: 212px;
 }
 
-.box .text-wrapper-2 {
+.head .text-wrapper-2 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 32px;
@@ -138,7 +138,7 @@
   padding-top: 6px;
 }
 
-.box .location {
+.head .location {
   height: 48px;
   left: 454px;
   position: absolute;
@@ -146,7 +146,7 @@
   width: 214px;
 }
 
-.box .text-wrapper-3 {
+.head .text-wrapper-3 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 32px;
@@ -159,7 +159,7 @@
   padding-top: 6px;
 }
 
-.box .about {
+.head .about {
   height: 48px;
   left: 227px;
   position: absolute;
@@ -167,7 +167,7 @@
   width: 214px;
 }
 
-.box .text-wrapper-4 {
+.head .text-wrapper-4 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 32px;
@@ -180,7 +180,7 @@
   padding-top: 6px;
 }
 
-.box .contact {
+.head .contact {
   height: 48px;
   left: 0;
   position: absolute;
@@ -188,7 +188,7 @@
   width: 214px;
 }
 
-.box .text-wrapper-5 {
+.head .text-wrapper-5 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 32px;
@@ -201,7 +201,7 @@
   padding-top: 6px;
 }
 
-.box .line {
+.head .line {
   height: 43px;
   left: 945px;
   object-fit: cover;
@@ -210,7 +210,7 @@
   width: 1px;
 }
 
-.box .bioinfo {
+.head .bioinfo {
   height: 87px;
   left: 27px;
   position: absolute;
@@ -218,7 +218,7 @@
   width: 233px;
 }
 
-.box .logo {
+.head .logo {
   height: 87px;
   left: 0;
   object-fit: cover;
@@ -227,7 +227,7 @@
   width: 68px;
 }
 
-.box .bioswift {
+.head .bioswift {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(

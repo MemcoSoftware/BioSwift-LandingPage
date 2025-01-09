@@ -5,7 +5,7 @@ import '../styles/head.css'
 
 export const Head = (): JSX.Element => {
   return (
-    <div className="box">
+    <div className="head">
       <header className="header">
         <div className="overlap">
           <div className="side-effects">
