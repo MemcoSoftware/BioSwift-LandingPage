@@ -1,0 +1,26 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden; /* Evita barras de scroll innecesarias */
+}
+
+.snap-container {
+  scroll-snap-type: y mandatory; /* Habilita el scroll snap vertical */
+  overflow-y: scroll; /* Permite desplazamiento vertical */
+  height: 100vh; /* El contenedor ocupa todo el viewport */
+  scroll-behavior: smooth; /* Transición suave entre secciones */
+}
+
+.snap-container > * {
+  scroll-snap-align: start; /* Cada sección encaja al inicio */
+  height: 100vh; /* Cada sección ocupa todo el viewport */
+  display: flex; /* Centra el contenido */
+  align-items: center;
+  justify-content: center;
+}
