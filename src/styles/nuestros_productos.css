@@ -85,13 +85,13 @@
   font-family: "Poppins-Light", Helvetica;
   font-size: 28px;
   font-weight: 300;
-  height: 106px;
+  height: 64vh;
   left: 0;
   letter-spacing: 7.84px;
   line-height: 51.6px;
   position: absolute;
   text-align: center;
-  top: 195px;
+  top: -44px;
   width: 735px;
 }
 
@@ -224,6 +224,7 @@
   line-height: normal;
   position: absolute;
   top: 66px;
+  width: 765px;
 }
 
 .nuestros-productos .shadow-text-2 {
@@ -241,6 +242,7 @@
   line-height: normal;
   position: absolute;
   top: 31px;
+  width: 765px;
 }
 
 .nuestros-productos .text-2 {
@@ -258,4 +260,5 @@
   line-height: normal;
   position: absolute;
   top: 0;
+  width: 765px;
 }

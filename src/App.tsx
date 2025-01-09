@@ -36,31 +36,31 @@ const App: React.FC = (): JSX.Element => {
     <div>
       {showHeader && <Head />} {/* Header visible solo si `showHeader` es true */}
       <div className="snap-container">
-        <div id="hero">
-          <Hero />
+          <div id="hero">
+            <Hero />
+          </div>
+          <div>
+            <HeroII />
+          </div>
+          <div>
+            <Caracteristicas />
+          </div>
+          <div>
+            <CaracteristicasLl />
+          </div>
+          <div>
+            <CaracteristicasIII />
+          </div>
+          <div>
+            <Tecnologias />
+          </div>
+          <div>
+            <NuestrosClientes />
+          </div>
+          <div>
+            <NuestrosProductos />
+          </div>
         </div>
-        <div>
-          <HeroII />
-        </div>
-        <div>
-          <Caracteristicas />
-        </div>
-        <div>
-          <CaracteristicasLl />
-        </div>
-        <div>
-          <CaracteristicasIII />
-        </div>
-        <div>
-          <Tecnologias />
-        </div>
-        <div>
-          <NuestrosClientes />
-        </div>
-        <div>
-          <NuestrosProductos />
-        </div>
-      </div>
     </div>
   );
 };

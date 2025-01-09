@@ -1,5 +1,5 @@
 .box {
-  height: 120px;
+  height: 108px;
   width: 1920px;
 }
 
@@ -100,6 +100,7 @@
   line-height: Truepx;
   position: absolute;
   top: 0;
+  padding-top: 6px;
 }
 
 .box .memco {
@@ -134,6 +135,7 @@
   line-height: Truepx;
   position: absolute;
   top: 0;
+  padding-top: 6px;
 }
 
 .box .location {
@@ -154,6 +156,7 @@
   line-height: Truepx;
   position: absolute;
   top: 0;
+  padding-top: 6px;
 }
 
 .box .about {
@@ -174,6 +177,7 @@
   line-height: Truepx;
   position: absolute;
   top: 0;
+  padding-top: 6px;
 }
 
 .box .contact {
@@ -194,6 +198,7 @@
   line-height: Truepx;
   position: absolute;
   top: 0;
+  padding-top: 6px;
 }
 
 .box .line {

@@ -51,7 +51,7 @@
 
 .caracteristicas-lll .padlock {
   height: 35px;
-  left: 214px;
+  left: 225px;
   position: absolute;
   top: 9px;
   width: 34px;
@@ -76,7 +76,7 @@
   height: 127px;
   left: 0;
   position: absolute;
-  top: 58px;
+  top: 71px;
   width: 516px;
 }
 
@@ -117,7 +117,7 @@
   height: 185px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -23px;
   width: 520px;
 }
 
@@ -127,7 +127,7 @@
   height: 54px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -15px;
   width: 264px;
 }
 
@@ -147,7 +147,7 @@
 
 .caracteristicas-lll .img {
   height: 35px;
-  left: 212px;
+  left: 225px;
   position: absolute;
   top: 11px;
   width: 34px;
@@ -206,7 +206,7 @@
   height: 191px;
   left: 0;
   position: absolute;
-  top: 197px;
+  top: 232px;
   width: 520px;
 }
 
@@ -216,7 +216,7 @@
   height: 55px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -7px;
   width: 352px;
 }
 
@@ -236,10 +236,10 @@
 
 .caracteristicas-lll .robot {
   height: 36px;
-  left: 303px;
+  left: 353px;
   object-fit: cover;
   position: absolute;
-  top: 10px;
+  top: 8px;
   width: 38px;
 }
 
@@ -271,6 +271,14 @@
   position: absolute;
   top: 14px;
   width: 232px;
+}
+.caracteristicas-lll .title-8 {
+  height: 24px;
+  left: 26px;
+  position: absolute;
+  top: 14px;
+  width: 450px;
+  margin-top: 10px;
 }
 
 .caracteristicas-lll .frame-3 {
@@ -329,7 +337,7 @@
 }
 
 .caracteristicas-lll .funcionalidades-dos {
-  height: 240px;
+  height: 245px;
   left: 0;
   position: absolute;
   top: 0;
@@ -352,19 +360,19 @@
   font-size: 32px;
   font-style: italic;
   font-weight: 300;
-  left: 29px;
+  left: 18px;
   letter-spacing: -1.28px;
   line-height: 29.3px;
   position: absolute;
-  top: 21px;
+  top: 24px;
   white-space: nowrap;
 }
 
 .caracteristicas-lll .icon-funcionalidades {
   height: 46px;
-  left: 313px;
+  left: 319px;
   position: absolute;
-  top: 14px;
+  top: 13px;
   width: 43px;
 }
 
@@ -431,19 +439,20 @@
 .caracteristicas-lll .category-3 {
   border: 1px solid;
   border-color: transparent;
-  height: 69px;
+  height: 75px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -7px;
   width: 375px;
+
 }
 
 .caracteristicas-lll .icon-funcionalidades-2 {
-  height: 41px;
-  left: 313px;
+  height: 46px;
+  left: 319px;
   position: absolute;
-  top: 10px;
-  width: 41px;
+  top: 13px;
+  width: 43px;
 }
 
 .caracteristicas-lll .icon {
@@ -452,11 +461,11 @@
   font-size: 32px;
   font-style: italic;
   font-weight: 300;
-  left: 28px;
+  left: 18px;
   letter-spacing: -1.28px;
   line-height: 29.3px;
   position: absolute;
-  top: 16px;
+  top: 24px;
   white-space: nowrap;
 }
 
@@ -503,11 +512,11 @@
 }
 
 .caracteristicas-lll .lines {
-  height: 692px;
-  left: 316px;
-  position: absolute;
-  top: 408px;
-  width: 1318px;
+  height: 787px;
+  left: 15.4vw;
+  position: relative;
+  top: 38vh;
+  width: 1349px;
 }
 
 .caracteristicas-lll .overlap-3 {
@@ -551,11 +560,11 @@
 }
 
 .caracteristicas-lll .vector-4 {
-  height: 336px;
-  left: 1px;
+  height: 148px;
+  left: 0px;
   position: absolute;
-  top: 56px;
-  width: 245px;
+  top: 8px;
+  width: 218px;
 }
 
 .caracteristicas-lll .overlap-5 {
@@ -617,4 +626,53 @@
   position: absolute;
   top: 269px;
   width: 206px;
+}
+
+
+
+.caracteristicas-lll .rectangle-category {
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+    to bottom,
+    rgb(55.61, 136.33, 106.73),
+    rgb(39.47, 178, 202.44) 86.03%
+  )
+  1;
+  height: 74px;
+  position: relative;
+  transform: rotate(180deg);
+  width: 375px;
+}
+
+.caracteristicas-lll .rectangle-analisis {
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+  to bottom,
+  rgb(55.61, 136.33, 106.73),
+  rgb(39.47, 178, 202.44) 86.03%
+)
+1;
+  height: 74px;
+  position: relative;
+  transform: rotate(180deg);
+  width: 407px;
+  top: -12px;
+}
+
+.caracteristicas-lll .rectangle-seguridad {
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+  to bottom,
+  rgb(55.61, 136.33, 106.73),
+  rgb(39.47, 178, 202.44) 86.03%
+)
+1;
+  height: 74px;
+  position: relative;
+  transform: rotate(180deg);
+  width: 277px;
+  top: -10px;
 }

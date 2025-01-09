@@ -40,11 +40,11 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(
-    180deg,
-    rgb(3, 229, 204) 4.5%,
-    rgb(31, 169, 229) 66.5%,
-    rgb(2, 220, 243) 87%
-  );
+  180deg,
+  rgb(3, 229, 204) 4.5%,
+  rgb(31, 169, 229) 66.5%,
+  rgb(2, 220, 243) 87%
+);
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Regular", Helvetica;
@@ -56,7 +56,7 @@
   line-height: normal;
   position: absolute;
   top: 125px;
-  width: 433px;
+  width: 476px;
 }
 
 .hero-ll .float-info {
@@ -291,14 +291,8 @@
 
 .hero-ll .rectangle {
   background-color: #02dcf305;
-  border: 1px solid;
   border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
-      rgb(2, 220, 243),
-      rgb(2, 220, 243) 78%
-    )
-    1;
+
   border-radius: 82px;
   box-shadow: inset 0px 43px 76px -45px #00eeff40;
   height: 41px;

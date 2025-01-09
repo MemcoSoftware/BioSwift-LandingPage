@@ -120,7 +120,7 @@ export const CaracteristicasLl = (): JSX.Element => {
               <img
                 className="text-customizable"
                 alt="Text customizable"
-                src={iconNotifications}
+                src={textCustomizable}
               />
 
               <img

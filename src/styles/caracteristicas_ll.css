@@ -1,32 +1,32 @@
 .caracteristicas-ll {
   background-color: #061320;
-  height: 768px;
+  height: 1080px;
   width: 1920px;
 }
 
 .caracteristicas-ll .overlap {
-  height: 768px;
+  height: 1080px;
   position: relative;
 }
 
 .caracteristicas-ll .third-line {
-  height: 148px;
-  left: 233px;
+  height: 169px;
+  left: 211px;
   position: absolute;
-  top: 575px;
+  top: 758px;
   width: 1506px;
 }
 
 .caracteristicas-ll .overlap-group {
-  height: 148px;
+  height: 169px;
   position: relative;
 }
 
 .caracteristicas-ll .tech-support {
-  height: 109px;
+  height: 124px;
   left: 1281px;
   position: absolute;
-  top: 34px;
+  top: 39px;
   width: 180px;
 }
 
@@ -34,12 +34,12 @@
   height: 15px;
   left: 1px;
   position: absolute;
-  top: 93px;
+  top: 106px;
   width: 176px;
 }
 
 .caracteristicas-ll .icon-support {
-  height: 84px;
+  height: 96px;
   left: 50px;
   position: absolute;
   top: 0;
@@ -47,47 +47,47 @@
 }
 
 .caracteristicas-ll .operational {
-  height: 105px;
+  height: 112px;
   left: 829px;
   position: absolute;
-  top: 40px;
+  top: 54px;
   width: 274px;
 }
 
 .caracteristicas-ll .text-filters {
-  height: 15px;
-  left: 1px;
+  height: 18px;
+  left: 33px;
   position: absolute;
-  top: 89px;
-  width: 271px;
+  top: 88px;
+  width: 215px;
 }
 
 .caracteristicas-ll .icon-filters {
-  height: 72px;
-  left: 100px;
+  height: 80px;
+  left: 102px;
   position: absolute;
-  top: 0;
+  top: -10px;
   width: 78px;
 }
 
 .caracteristicas-ll .advanced-filters {
-  height: 105px;
+  height: 120px;
   left: 459px;
   position: absolute;
-  top: 40px;
+  top: 46px;
   width: 192px;
 }
 
 .caracteristicas-ll .img {
-  height: 15px;
-  left: 1px;
+  height: 13px;
+  left: 2px;
   position: absolute;
-  top: 89px;
+  top: 103px;
   width: 188px;
 }
 
 .caracteristicas-ll .icon-filters-2 {
-  height: 73px;
+  height: 83px;
   left: 53px;
   position: absolute;
   top: 0;
@@ -95,10 +95,10 @@
 }
 
 .caracteristicas-ll .intelligent-reports {
-  height: 105px;
+  height: 120px;
   left: 60px;
   position: absolute;
-  top: 40px;
+  top: 46px;
   width: 219px;
 }
 
@@ -106,12 +106,12 @@
   height: 15px;
   left: 1px;
   position: absolute;
-  top: 89px;
+  top: 101px;
   width: 215px;
 }
 
 .caracteristicas-ll .icon-intelligent {
-  height: 73px;
+  height: 83px;
   left: 73px;
   position: absolute;
   top: 0;
@@ -119,7 +119,7 @@
 }
 
 .caracteristicas-ll .div {
-  height: 148px;
+  height: 169px;
   left: 0;
   position: absolute;
   top: 0;
@@ -127,7 +127,7 @@
 }
 
 .caracteristicas-ll .img-2 {
-  height: 154px;
+  height: 176px;
   left: -2px;
   position: absolute;
   top: -3px;
@@ -135,7 +135,7 @@
 }
 
 .caracteristicas-ll .img-3 {
-  height: 155px;
+  height: 177px;
   left: 408px;
   position: absolute;
   top: -3px;
@@ -143,15 +143,15 @@
 }
 
 .caracteristicas-ll .img-4 {
-  height: 154px;
+  height: 175px;
   left: 758px;
   position: absolute;
-  top: -2px;
+  top: -3px;
   width: 418px;
 }
 
 .caracteristicas-ll .img-5 {
-  height: 155px;
+  height: 177px;
   left: 1232px;
   position: absolute;
   top: -3px;
@@ -159,18 +159,18 @@
 }
 
 .caracteristicas-ll .second-line {
-  height: 148px;
-  left: 233px;
+  height: 169px;
+  left: 211px;
   position: absolute;
-  top: 311px;
+  top: 457px;
   width: 1506px;
 }
 
 .caracteristicas-ll .notifications {
-  height: 99px;
+  height: 113px;
   left: 1288px;
   position: absolute;
-  top: 42px;
+  top: 48px;
   width: 167px;
 }
 
@@ -178,12 +178,12 @@
   height: 15px;
   left: 1px;
   position: absolute;
-  top: 83px;
+  top: 94px;
   width: 163px;
 }
 
 .caracteristicas-ll .icon-notifications {
-  height: 70px;
+  height: 80px;
   left: 53px;
   position: absolute;
   top: 0;
@@ -191,23 +191,23 @@
 }
 
 .caracteristicas-ll .customizable-reports {
-  height: 113px;
+  height: 127px;
   left: 830px;
   position: absolute;
-  top: 30px;
+  top: 36px;
   width: 275px;
 }
 
 .caracteristicas-ll .text-customizable-2 {
   height: 15px;
-  left: 1px;
+  left: 70px;
   position: absolute;
-  top: 97px;
-  width: 271px;
+  top: 102px;
+  width: 150px;
 }
 
 .caracteristicas-ll .icon-customizable {
-  height: 87px;
+  height: 94px;
   left: 105px;
   position: absolute;
   top: 0;
@@ -215,10 +215,10 @@
 }
 
 .caracteristicas-ll .graphic-reports {
-  height: 101px;
+  height: 115px;
   left: 458px;
   position: absolute;
-  top: 42px;
+  top: 48px;
   width: 194px;
 }
 
@@ -226,12 +226,12 @@
   height: 15px;
   left: 1px;
   position: absolute;
-  top: 87px;
+  top: 99px;
   width: 190px;
 }
 
 .caracteristicas-ll .icon-reports {
-  height: 64px;
+  height: 73px;
   left: 63px;
   position: absolute;
   top: 0;
@@ -239,10 +239,10 @@
 }
 
 .caracteristicas-ll .strong-password {
-  height: 100px;
+  height: 114px;
   left: 60px;
   position: absolute;
-  top: 39px;
+  top: 45px;
   width: 218px;
 }
 
@@ -250,12 +250,12 @@
   height: 17px;
   left: 1px;
   position: absolute;
-  top: 81px;
+  top: 93px;
   width: 215px;
 }
 
 .caracteristicas-ll .icon-password {
-  height: 67px;
+  height: 77px;
   left: 73px;
   position: absolute;
   top: 0;
@@ -263,31 +263,31 @@
 }
 
 .caracteristicas-ll .first-line {
-  height: 148px;
-  left: 233px;
+  height: 169px;
+  left: 211px;
   position: absolute;
-  top: 47px;
+  top: 155px;
   width: 1506px;
 }
 
 .caracteristicas-ll .api-integration {
-  height: 97px;
+  height: 110px;
   left: 1280px;
   position: absolute;
-  top: 44px;
-  width: 182px;
+  top: 50px;
+  width: 184px;
 }
 
 .caracteristicas-ll .text-integration {
   height: 13px;
-  left: 1px;
+  left: 2px;
   position: absolute;
-  top: 82px;
+  top: 93px;
   width: 180px;
 }
 
 .caracteristicas-ll .icon-integration {
-  height: 64px;
+  height: 73px;
   left: 61px;
   position: absolute;
   top: 0;
@@ -295,34 +295,34 @@
 }
 
 .caracteristicas-ll .documentation-access {
-  height: 109px;
-  left: 835px;
+  height: 126px;
+  left: 831px;
   position: absolute;
-  top: 33px;
-  width: 265px;
+  top: 38px;
+  width: 271px;
 }
 
 .caracteristicas-ll .text-access {
   height: 15px;
-  left: 0;
+  left: 3px;
   position: absolute;
-  top: 93px;
+  top: 106px;
   width: 263px;
 }
 
 .caracteristicas-ll .icon-access {
-  height: 77px;
-  left: 96px;
+  height: 88px;
+  left: 100px;
   position: absolute;
   top: 0;
   width: 77px;
 }
 
 .caracteristicas-ll .intuitive-design {
-  height: 123px;
+  height: 140px;
   left: 468px;
   position: absolute;
-  top: 19px;
+  top: 22px;
   width: 175px;
 }
 
@@ -330,12 +330,12 @@
   height: 19px;
   left: 1px;
   position: absolute;
-  top: 102px;
+  top: 117px;
   width: 171px;
 }
 
 .caracteristicas-ll .icon-intuitive {
-  height: 89px;
+  height: 102px;
   left: 31px;
   position: absolute;
   top: 0;
@@ -343,10 +343,10 @@
 }
 
 .caracteristicas-ll .dashboard {
-  height: 112px;
+  height: 128px;
   left: 58px;
   position: absolute;
-  top: 29px;
+  top: 33px;
   width: 222px;
 }
 
@@ -354,12 +354,12 @@
   height: 13px;
   left: 1px;
   position: absolute;
-  top: 97px;
+  top: 111px;
   width: 218px;
 }
 
 .caracteristicas-ll .icon-dashboard {
-  height: 88px;
+  height: 100px;
   left: 69px;
   position: absolute;
   top: 0;
@@ -367,7 +367,7 @@
 }
 
 .caracteristicas-ll .effects {
-  height: 768px;
+  height: 1080px;
   left: 0;
   position: absolute;
   top: 0;
@@ -375,12 +375,8 @@
 }
 
 .caracteristicas-ll .rectangle {
-  background: linear-gradient(
-    180deg,
-    rgba(217, 217, 217, 0) 0%,
-    rgba(115, 115, 115, 0.68) 100%
-  );
-  height: 768px;
+  background: linear-gradient(269deg, rgba(217, 217, 217, 0) 0%, rgba(115, 115, 115, 0.68) 100%);
+  height: 1080px;
   left: 1739px;
   position: absolute;
   top: 0;
@@ -389,12 +385,8 @@
 }
 
 .caracteristicas-ll .rectangle-2 {
-  background: linear-gradient(
-    180deg,
-    rgba(217, 217, 217, 0) 0%,
-    rgba(115, 115, 115, 0.68) 100%
-  );
-  height: 768px;
+  background: linear-gradient(269deg, rgba(217, 217, 217, 0) 0%, rgba(115, 115, 115, 0.68) 100%);
+  height: 1080px;
   left: 0;
   position: absolute;
   top: 0;

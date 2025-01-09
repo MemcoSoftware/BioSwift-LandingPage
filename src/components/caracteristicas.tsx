@@ -71,8 +71,11 @@ export const Caracteristicas = (): JSX.Element => {
             </div>
 
             <div className="funcionalidades">
+              
               <div className="overlap-3">
+                <div className="div"/>
                 <div className="overlap-group-3">
+                
                   <img className="img" alt="Icon" src={image} />
 
                   <p className="description-2">
@@ -92,13 +95,7 @@ export const Caracteristicas = (): JSX.Element => {
               </div>
             </div>
 
-            <div className="neon-lines">
-              <div className="rectangle" />
-
-              <div className="rectangle-2" />
-
-              <div className="rectangle-3" />
-            </div>
+       
           </div>
         </div>
 

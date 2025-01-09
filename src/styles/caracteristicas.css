@@ -47,6 +47,7 @@
   
   .caracteristicas .overlap-group {
     height: 541px;
+    
     position: relative;
     width: 1368px;
   }
@@ -97,19 +98,31 @@
   
   .caracteristicas .text-wrapper {
     letter-spacing: 0.2px;
+    left: 25px;
+    position: relative;
   }
   
   .caracteristicas .span {
     letter-spacing: -0.1px;
+    left: 25px;
+    position: relative;
   }
   
   .caracteristicas .title {
-    color: #00000033;
+    background: linear-gradient(
+      180deg,
+      rgb(55.61, 136.33, 106.73) 0%,
+      rgb(39.47, 178, 202.44) 86.03%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Para navegadores modernos */
+    color: transparent; /* Asegura que el texto no tenga un color base */
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 34px;
     font-weight: 600;
     height: 49px;
-    left: 19px;
+    left: 10px;
     letter-spacing: -2.04px;
     line-height: 49px;
     position: absolute;
@@ -128,7 +141,7 @@
   
   .caracteristicas .overlap-group-2 {
     height: 445px;
-    left: 4px;
+    left: 25px;
     position: absolute;
     top: 88px;
     width: 379px;
@@ -136,10 +149,10 @@
   
   .caracteristicas .icon {
     height: 96px;
-    left: 277px;
+    left: 255px;
     object-fit: cover;
     position: absolute;
-    top: 349px;
+    top: 339px;
     width: 102px;
   }
   
@@ -157,7 +170,15 @@
   }
   
   .caracteristicas .title-2 {
-    color: #00000033;
+    background: linear-gradient(
+      180deg,
+      rgb(55.61, 136.33, 106.73) 0%,
+      rgb(39.47, 178, 202.44) 86.03%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Para navegadores modernos */
+    color: transparent; /* Asegura que el texto no tenga un color base */
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 36px;
     font-weight: 600;
@@ -167,7 +188,7 @@
     line-height: 40.7px;
     position: absolute;
     text-align: center;
-    top: 13px;
+    top: 25px;
     width: 387px;
   }
   
@@ -188,7 +209,7 @@
   
   .caracteristicas .overlap-group-3 {
     height: 432px;
-    left: 7px;
+    left: 25px;
     position: absolute;
     top: 90px;
     width: 378px;
@@ -196,7 +217,7 @@
   
   .caracteristicas .img {
     height: 85px;
-    left: 293px;
+    left: 265px;
     position: absolute;
     top: 347px;
     width: 85px;
@@ -216,17 +237,25 @@
   }
   
   .caracteristicas .title-3 {
-    color: #00000033;
+    background: linear-gradient(
+      180deg,
+      rgb(55.61, 136.33, 106.73) 0%,
+      rgb(39.47, 178, 202.44) 86.03%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Para navegadores modernos */
+    color: transparent; /* Asegura que el texto no tenga un color base */
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 36px;
     font-weight: 600;
     height: 54px;
-    left: 36px;
+    left: 28px;
     letter-spacing: -1.08px;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 18px;
+    top: 25px;
   }
   
   .caracteristicas .neon-lines {
