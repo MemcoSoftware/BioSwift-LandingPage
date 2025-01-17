@@ -1,43 +1,43 @@
 .head {
-  height: 108px;
-  width: 1920px;
+  height: 10vh;
+  width: 100vw;
 }
 
 .head .header {
   background-color: transparent;
-  height: 120px;
+  height: 11.11vh;
   left: 0;
   position: fixed;
   top: 0;
-  width: 1920px;
+  width: 100vw;
 }
 
 .head .overlap {
-  height: 120px;
+  height: 11.11vh;
   position: relative;
-  width: 1920px;
+  width: 100vw;
 }
 
 .head .side-effects {
-  height: 120px;
+  height: 11.11vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100vw;
 }
 
 .head .overlap-group {
-  height: 120px;
+  height: 11.11vh;
   position: relative;
 }
 
 .head .rectangle {
   background-color: #071320;
-  height: 108px;
+  height: 10vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100vw;
 }
 
 .head .div {
@@ -46,33 +46,33 @@
     rgba(15, 185, 198, 0.18) 0%,
     rgba(0, 0, 0, 0) 66.5%
   );
-  height: 120px;
+  height: 11.11vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100vw;
 }
 
 .head .nav {
-  height: 49px;
-  left: 675px;
+  height: 4.54vh;
+  left: 35.16vw;
   position: absolute;
-  top: 30px;
-  width: 1210px;
+  top: 2.78vh;
+  width: 63.02vw;
 }
 
 .head .login {
-  height: 48px;
-  left: 998px;
+  height: 4.44vh;
+  left: 51.98vw;
   position: absolute;
   top: 0;
-  width: 214px;
+  width: 11.15vw;
 }
 
 .head .overlap-group-2 {
-  height: 48px;
+  height: 4.44vh;
   position: relative;
-  width: 212px;
+  width: 11.04vw;
 }
 
 .head .rectangle-2 {
@@ -82,33 +82,33 @@
     rgb(230, 236, 237) 100%
   );
   border-radius: 12px;
-  height: 46px;
+  height: 4.26vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 212px;
+  width: 11.04vw;
 }
 
 .head .text-wrapper {
   background-blend-mode: luminosity;
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-weight: 600;
-  left: 60px;
-  letter-spacing: -1.28px;
-  line-height: Truepx;
+  left: 3.13vw;
+  letter-spacing: -0.067vw;
+  line-height: 1.67vw;
   position: absolute;
   top: 0;
-  padding-top: 6px;
+  padding-top: 0.31vh;
 }
 
 .head .memco {
-  height: 48px;
-  left: 681px;
+  height: 4.44vh;
+  left: 35.47vw;
   position: absolute;
-  top: 1px;
-  width: 214px;
+  top: 0.06vh;
+  width: 11.15vw;
 }
 
 .head .rectangle-3 {
@@ -118,113 +118,113 @@
     rgb(30, 30, 30) 100%
   );
   border-radius: 12px;
-  height: 46px;
+  height: 4.26vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 212px;
+  width: 11.04vw;
 }
 
 .head .text-wrapper-2 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-weight: 600;
-  left: 47px;
-  letter-spacing: -1.28px;
-  line-height: Truepx;
+  left: 2.45vw;
+  letter-spacing: -0.067vw;
+  line-height: 1.67vw;
   position: absolute;
   top: 0;
-  padding-top: 6px;
+  padding-top: 0.31vh;
 }
 
 .head .location {
-  height: 48px;
-  left: 454px;
+  height: 4.44vh;
+  left: 23.65vw;
   position: absolute;
-  top: 1px;
-  width: 214px;
+  top: 0.06vh;
+  width: 11.15vw;
 }
 
 .head .text-wrapper-3 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-weight: 600;
-  left: 31px;
-  letter-spacing: -1.60px;
-  line-height: Truepx;
+  left: 1.61vw;
+  letter-spacing: -0.083vw;
+  line-height: 1.67vw;
   position: absolute;
   top: 0;
-  padding-top: 6px;
+  padding-top: 0.31vh;
 }
 
 .head .about {
-  height: 48px;
-  left: 227px;
+  height: 4.44vh;
+  left: 11.83vw;
   position: absolute;
-  top: 1px;
-  width: 214px;
+  top: 0.06vh;
+  width: 11.15vw;
 }
 
 .head .text-wrapper-4 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-weight: 600;
-  left: 29px;
-  letter-spacing: -0.96px;
-  line-height: Truepx;
+  left: 1.51vw;
+  letter-spacing: -0.05vw;
+  line-height: 1.67vw;
   position: absolute;
   top: 0;
-  padding-top: 6px;
+  padding-top: 0.31vh;
 }
 
 .head .contact {
-  height: 48px;
+  height: 4.44vh;
   left: 0;
   position: absolute;
-  top: 1px;
-  width: 214px;
+  top: 0.06vh;
+  width: 11.15vw;
 }
 
 .head .text-wrapper-5 {
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-weight: 600;
-  left: 20px;
-  letter-spacing: -1.60px;
-  line-height: Truepx;
+  left: 1.04vw;
+  letter-spacing: -0.083vw;
+  line-height: 1.67vw;
   position: absolute;
   top: 0;
-  padding-top: 6px;
+  padding-top: 0.31vh;
 }
 
 .head .line {
-  height: 43px;
-  left: 945px;
+  height: 3.98vh;
+  left: 49.22vw;
   object-fit: cover;
   position: absolute;
-  top: 4px;
-  width: 1px;
+  top: 0.37vh;
+  width: 0.05vw;
 }
 
 .head .bioinfo {
-  height: 87px;
-  left: 27px;
+  height: 8.06vh;
+  left: 1.41vw;
   position: absolute;
-  top: 11px;
-  width: 233px;
+  top: 1.02vh;
+  width: 12.14vw;
 }
 
 .head .logo {
-  height: 87px;
+  height: 8.06vh;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 68px;
+  width: 3.54vw;
 }
 
 .head .bioswift {
@@ -239,14 +239,12 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Regular", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-weight: 400;
-  left: 72px;
-  letter-spacing: -0.64px;
-  line-height: Truepx;
+  left: 3.75vw;
+  letter-spacing: -0.033vw;
+  line-height: 1.67vw;
   position: absolute;
-  top: 20px;
-  width: 159px;
+  top: 1.85vh;
+  width: 8.28vw;
 }
-
-

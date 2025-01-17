@@ -1,38 +1,38 @@
 .nuestros-productos {
   background-color: #071320;
-  height: 1080px;
+  height: 100vh;
   overflow: hidden;
-  width: 1920px;
+  width: 100vw;
 }
 
 .nuestros-productos .overlap {
-  height: 1900px;
-  left: -141px;
+  height: 176vh;
+  left: -7.34vw;
   position: relative;
-  top: -410px;
-  width: 2203px;
+  top: -37.96vh;
+  width: 114.74vw;
 }
 
 .nuestros-productos .bg {
-  height: 1900px;
+  height: 176vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 2203px;
+  width: 114.74vw;
 }
 
 .nuestros-productos .overlap-group {
-  height: 1900px;
+  height: 176vh;
   position: relative;
 }
 
 .nuestros-productos .rectangle {
   background-color: #00000059;
-  height: 1080px;
-  left: 141px;
+  height: 100vh;
+  left: 7.34vw;
   position: absolute;
-  top: 410px;
-  width: 1920px;
+  top: 37.96vh;
+  width: 100vw;
 }
 
 .nuestros-productos .div {
@@ -43,37 +43,37 @@
     rgba(2, 220, 243, 0.05) 63.5%,
     rgba(2, 220, 243, 0) 81.32%
   );
-  filter: blur(609.8px);
-  height: 1080px;
-  left: 141px;
+  filter: blur(56.46vw);
+  height: 100vh;
+  left: 7.34vw;
   position: absolute;
-  top: 410px;
+  top: 37.96vh;
   transform: rotate(30.23deg);
-  width: 1920px;
+  width: 100vw;
 }
 
 .nuestros-productos .ver-mas {
-  height: 38px;
-  left: 1746px;
+  height: 3.52vh;
+  left: 90.94vw;
   position: absolute;
-  top: 1413px;
-  width: 204px;
+  top: 130.74vh;
+  width: 10.63vw;
 }
 
 .nuestros-productos .product-info {
-  height: 642px;
-  left: 1260px;
+  height: 59.44vh;
+  left: 65.63vw;
   position: absolute;
-  top: 568px;
-  width: 739px;
+  top: 52.59vh;
+  width: 38.49vw;
 }
 
 .nuestros-productos .overlap-2 {
-  height: 538px;
+  height: 49.81vh;
   left: 0;
   position: absolute;
-  top: 218px;
-  width: 735px;
+  top: 20.19vh;
+  width: 38.28vw;
 }
 
 .nuestros-productos .descritpion {
@@ -83,80 +83,80 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Light", Helvetica;
-  font-size: 28px;
+  font-size: 1.46vw;
   font-weight: 300;
-  height: 64vh;
+  height: 50.93vh;
   left: 0;
-  letter-spacing: 7.84px;
-  line-height: 51.6px;
+  letter-spacing: 0.41vw;
+  line-height: 4.78vh;
   position: absolute;
   text-align: center;
-  top: -44px;
-  width: 735px;
+  top: -4.07vh;
+  width: 38.28vw;
 }
 
 .nuestros-productos .vector {
-  height: 538px;
-  left: 32px;
+  height: 49.81vh;
+  left: 1.67vw;
   position: absolute;
   top: 0;
-  width: 679px;
+  width: 35.36vw;
 }
 
 .nuestros-productos .title {
   color: #ffffff;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 40px;
+  font-size: 2.08vw;
   font-weight: 600;
-  height: 106px;
-  left: 10px;
-  letter-spacing: -0.8px;
+  height: 9.81vh;
+  left: 0.52vw;
+  letter-spacing: -0.04vw;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 703px;
+  width: 36.61vw;
 }
 
 .nuestros-productos .showing-product {
-  height: 657px;
-  left: 141px;
+  height: 60.83vh;
+  left: 7.34vw;
   position: absolute;
-  top: 833px;
-  width: 1146px;
+  top: 77.13vh;
+  width: 59.69vw;
 }
 
 .nuestros-productos .product-name {
-  height: 89px;
-  left: 433px;
+  height: 8.24vh;
+  left: 22.55vw;
   position: absolute;
-  top: 678px;
-  width: 423px;
+  top: 62.78vh;
+  width: 22.03vw;
 }
 
 .nuestros-productos .marca {
   color: #02dcf3;
   font-family: "Poppins-MediumItalic", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-style: italic;
   font-weight: 500;
-  height: 15px;
-  left: 114px;
-  letter-spacing: -0.64px;
+  height: 1.39vh;
+  left: 5.94vw;
+  letter-spacing: -0.03vw;
   line-height: normal;
   position: absolute;
-  text-shadow: 0px 7px 4px #00000061;
-  top: 74px;
+  text-shadow: 0px 0.65vh 0.37vh #00000061;
+  top: 6.85vh;
   white-space: nowrap;
-  width: 192px;
+  width: 10vw;
 }
 
 .nuestros-productos .overlap-3 {
-  height: 63px;
+  height: 5.83vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 417px;
+  width: 21.72vw;
 }
 
 .nuestros-productos .shadow-text {
@@ -166,15 +166,15 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Italic", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-style: italic;
   font-weight: 400;
-  height: 48px;
+  height: 4.44vh;
   left: 0;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.03vw;
   line-height: normal;
   position: absolute;
-  top: 15px;
+  top: 1.39vh;
 }
 
 .nuestros-productos .text {
@@ -184,29 +184,29 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Italic", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw;
   font-style: italic;
   font-weight: 400;
-  height: 48px;
+  height: 4.44vh;
   left: 0;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.03vw;
   line-height: normal;
   position: absolute;
   top: 0;
 }
 
 .nuestros-productos .overlap-wrapper {
-  height: 162px;
-  left: 291px;
+  height: 15vh;
+  left: 15.16vw;
   position: absolute;
-  top: 479px;
-  width: 736px;
+  top: 44.35vh;
+  width: 38.33vw;
 }
 
 .nuestros-productos .overlap-4 {
-  height: 162px;
+  height: 15vh;
   position: relative;
-  width: 730px;
+  width: 38.02vw;
 }
 
 .nuestros-productos .text-wrapper {
@@ -216,15 +216,15 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Bold", Helvetica;
-  font-size: 64px;
+  font-size: 3.33vw;
   font-weight: 700;
-  height: 96px;
-  left: 1px;
-  letter-spacing: -1.28px;
+  height: 8.89vh;
+  left: 0.05vw;
+  letter-spacing: -0.06vw;
   line-height: normal;
   position: absolute;
-  top: 66px;
-  width: 765px;
+  top: 6.11vh;
+  width: 39.84vw;
 }
 
 .nuestros-productos .shadow-text-2 {
@@ -234,15 +234,15 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Bold", Helvetica;
-  font-size: 64px;
+  font-size: 3.33vw;
   font-weight: 700;
-  height: 96px;
+  height: 8.89vh;
   left: 0;
-  letter-spacing: -1.28px;
+  letter-spacing: -0.06vw;
   line-height: normal;
   position: absolute;
-  top: 31px;
-  width: 765px;
+  top: 2.87vh;
+  width: 39.84vw;
 }
 
 .nuestros-productos .text-2 {
@@ -252,13 +252,13 @@
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Bold", Helvetica;
-  font-size: 64px;
+  font-size: 3.33vw;
   font-weight: 700;
-  height: 96px;
+  height: 8.89vh;
   left: 0;
-  letter-spacing: -1.28px;
+  letter-spacing: -0.06vw;
   line-height: normal;
   position: absolute;
   top: 0;
-  width: 765px;
+  width: 39.84vw;
 }

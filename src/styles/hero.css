@@ -1,171 +1,167 @@
 .hero {
-    background-color: #071320;
-    height: 1110px;
-    overflow: hidden;
-    width: 1920px;
-  }
-  
-  .hero .overlap {
-    height: 1192px;
-    left: -53px;
-    position: relative;
-    top: 53px;
-    width: 2017px;
-  }
-  
-  .hero .biodata {
-    height: 1164px;
-    left: 34px;
-    position: absolute;
-    top: 28px;
-    width: 1943px;
-  }
-  
-  .hero .overlap-group {
-    height: 1164px;
-    position: relative;
-    width: 1941px;
-  }
-  
-  .hero .rectangle {
-    background: linear-gradient(
-      180deg,
-      rgba(15, 185, 198, 0.22) 0%,
-      rgba(2.69, 33.13, 35.46, 0.04) 30%,
-      rgba(0, 0, 0, 0) 66.5%,
-      rgba(15, 185, 198, 0.22) 100%
-    );
-    border-radius: 15px;
-    box-shadow: 0px 4px 0px 5px #00000040;
-    height: 494px;
-    left: 10vw;
-    position: absolute;
-    top: -1vh;
-    width: 515px;
+  background-color: #071320;
+  height: 102.78vh;
+  overflow: hidden;
+  width: 100vw;
 }
-  
+
+.hero .overlap {
+  height: 110.37vh;
+  left: -2.76vw;
+  position: relative;
+  top: 4.91vh;
+  width: 105.16vw;
+}
+
+.hero .biodata {
+  height: 107.78vh;
+  left: 1.77vw;
+  position: absolute;
+  top: 2.59vh;
+  width: 101.19vw;
+}
+
+.hero .overlap-group {
+  height: 107.78vh;
+  position: relative;
+  width: 101.09vw;
+}
+
+.hero .rectangle {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 185, 198, 0.22) 0%,
+    rgba(2.69, 33.13, 35.46, 0.04) 30%,
+    rgba(0, 0, 0, 0) 66.5%,
+    rgba(15, 185, 198, 0.22) 100%
+  );
+  border-radius: 0.78vw;
+  box-shadow: 0px 0.37vh 0px 0.46vh #00000040;
+  height: 45.74vh;
+  left: 10vw;
+  position: absolute;
+  top: -1vh;
+  width: 26.82vw;
+}
+
 .hero .logo {
   height: 41vh;
-  left: 279px;
+  left: 14.53vw;
   object-fit: cover;
   position: absolute;
-  top: 1.5vh;
-  width: 344px;
+  top: 1.39vh;
+  width: 17.92vw;
 }
-  
-  .hero .bioswift {
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(
-      180deg,
-      rgb(3, 229, 204) 4.5%,
-      rgb(31, 169, 229) 66.5%,
-      rgb(2, 220, 243) 87%
-    );
-    background-clip: text;
-    color: transparent;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 420px;
-    font-weight: 400;
-    left: 12px;
-    letter-spacing: -18.40px;
-    line-height: Truepx;
-    position: absolute;
-    top: 474px;
-}
-  
-.hero .info {
-  height: 407px;
-  left: 842px;
+
+.hero .bioswift {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+  180deg,
+  rgb(3, 229, 204) 4.5%,
+  rgb(31, 169, 229) 66.5%,
+  rgb(2, 220, 243) 87%
+);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 22.1vw;
+  font-weight: 400;
+  left: 0.63vw;
+  letter-spacing: -0.96vw;
   position: absolute;
-  top: 8vh;
-  width: 1120px;
+  top: 43.89vh;
 }
-  
-  .hero .line {
-    height: 147px;
-    left: 478px;
-    object-fit: cover;
-    position: absolute;
-    top: 260px;
-    width: 1px;
-  }
-  
-  .hero .phrase {
-    color: #ffffff;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-size: 42px;
-    font-weight: 600;
-    left: 0;
-    letter-spacing: 4.62px;
-    line-height: Truepx;
-    position: absolute;
-    top: 0;
-    width: 1114px;
-  }
-  
-  .hero .element-demo {
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(
-      180deg,
-      rgb(255, 255, 255) 0%,
-      rgb(153, 153, 153) 100%
-    );
-    background-clip: text;
-    color: transparent;
-    font-family: "Poppins-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 131px;
-    letter-spacing: -0.80px;
-    line-height: Truepx;
-    position: absolute;
-    top: 304px;
-    white-space: nowrap;
-    width: 222px;
-  }
-  
-  .hero .conocer-mas {
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(
-      180deg,
-      rgb(255, 255, 255) 0%,
-      rgb(153, 153, 153) 100%
-    );
-    background-clip: text;
-    color: transparent;
-    font-family: "Poppins-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 589px;
-    letter-spacing: -0.80px;
-    line-height: Truepx;
-    position: absolute;
-    top: 302px;
-  }
-  
-  .hero .bg {
-    height: 718px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 2017px;
-  }
-  
-  .hero .polygon {
-    height: 459px;
-    left: 1609px;
-    position: absolute;
-    top: -53px;
-    width: 364px;
-  }
-  
-  .hero .img {
-    height: 641px;
-    left: 53px;
-    position: absolute;
-    top: 315px;
-    width: 355px;
-  }
+
+.hero .info {
+  height: 37.69vh;
+  left: 43.85vw;
+  position: absolute;
+  top: 7.41vh;
+  width: 58.33vw;
+}
+
+.hero .line {
+  height: 13.61vh;
+  left: 24.90vw;
+  object-fit: cover;
+  position: absolute;
+  top: 24.07vh;
+  width: 0.05vw;
+}
+
+.hero .phrase {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 2.19vw;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0.24vw;
+  position: absolute;
+  top: 0;
+  width: 58.02vw;
+}
+
+.hero .element-demo {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgb(153, 153, 153) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 2.08vw;
+  font-weight: 700;
+  left: 6.82vw;
+  letter-spacing: -0.04vw;
+  position: absolute;
+  top: 28.15vh;
+  white-space: nowrap;
+  width: 11.56vw;
+}
+
+.hero .conocer-mas {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgb(153, 153, 153) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 2.08vw;
+  font-weight: 700;
+  left: 30.68vw;
+  letter-spacing: -0.04vw;
+  position: absolute;
+  top: 27.96vh;
+}
+
+.hero .bg {
+  height: 66.48vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 105.16vw;
+}
+
+.hero .polygon {
+  height: 42.50vh;
+  left: 83.90vw;
+  position: absolute;
+  top: -4.91vh;
+  width: 18.96vw;
+}
+
+.hero .img {
+  height: 59.35vh;
+  left: 2.76vw;
+  position: absolute;
+  top: 29.17vh;
+  width: 18.49vw;
+}

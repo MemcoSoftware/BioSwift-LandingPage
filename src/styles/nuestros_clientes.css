@@ -1,38 +1,38 @@
 .nuestros-clientes {
   background-color: #071320;
-  height: 1080px;
+  height: 100vh;
   position: relative;
-  width: 1920px;
+  width: 100vw;
 }
 
 .nuestros-clientes .overlap-group {
-  height: 842px;
+  height: 77.96vh; /* (842px / 1080px) * 100 */
   left: 0;
   position: absolute;
-  top: 238px;
-  width: 1920px;
+  top: 22.04vh; /* (238px / 1080px) * 100 */
+  width: 100vw;
 }
 
 .nuestros-clientes .bg-details {
-  height: 85px;
+  height: 7.87vh; /* (85px / 1080px) * 100 */
   left: 0;
   position: absolute;
-  top: 756px;
-  width: 1920px;
+  top: 70vh; /* (756px / 1080px) * 100 */
+  width: 100vw;
 }
 
 .nuestros-clientes .clients {
-  height: 815px;
+  height: 75.46vh; /* (815px / 1080px) * 100 */
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100vw;
 }
 
 .nuestros-clientes .main-title {
-  height: 202px;
+  height: 18.7vh; /* (202px / 1080px) * 100 */
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100vw;
 }

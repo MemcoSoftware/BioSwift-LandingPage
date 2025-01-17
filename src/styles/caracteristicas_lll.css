@@ -1,634 +1,627 @@
 .caracteristicas-lll {
   background-color: #071320;
-  height: 1080px;
-  width: 1920px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .caracteristicas-lll .overlap {
-  height: 1174px;
-  left: 16px;
+  height: 108.7vh;
+  left: 0.83vw;
   position: relative;
-  top: -115px;
-  width: 1887px;
+  top: -10.65vh;
+  width: 98.28vw;
 }
 
 .caracteristicas-lll .bg-effect {
   background: linear-gradient(180deg, rgba(217, 217, 217, 0.15) 36.51%, rgba(115, 115, 115, 0.15) 100%);
-  border-radius: 134px/115px;
-  filter: blur(300px);
-  height: 230px;
-  left: 810px;
+  border-radius: 13.89vw / 10.65vh;
+  filter: blur(27.78vw);
+  height: 21.3vh;
+  left: 42.19vw;
   position: absolute;
   top: 0;
-  width: 268px;
+  width: 13.96vw;
 }
 
 .caracteristicas-lll .seguridad {
-  height: 388px;
-  left: 1371px;
+  height: 35.93vh;
+  left: 71.41vw;
   position: absolute;
-  top: 786px;
-  width: 516px;
+  top: 72.78vh;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .seguridad-dos {
-  height: 185px;
+  height: 17.13vh;
   left: 0;
   position: absolute;
-  top: 203px;
-  width: 520px;
+  top: 18.8vh;
+  width: 27.08vw;
 }
 
 .caracteristicas-lll .category {
-  border: 1px solid;
-  border-color: transparent;
-  height: 53px;
+  border: 1px solid transparent;
+  height: 4.91vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 264px;
+  width: 13.75vw;
 }
 
 .caracteristicas-lll .padlock {
-  height: 35px;
-  left: 225px;
+  height: 3.24vh;
+  left: 11.72vw;
   position: absolute;
-  top: 9px;
-  width: 34px;
+  top: 0.83vh;
+  width: 1.77vw;
 }
 
 .caracteristicas-lll .text {
   color: #ffffff;
   font-family: "Poppins-LightItalic", Helvetica;
-  font-size: 32px;
+  font-size: 2.96vh;
   font-style: italic;
   font-weight: 300;
-  height: 29px;
-  left: 20px;
-  letter-spacing: -0.64px;
-  line-height: 29.3px;
+  height: 2.69vh;
+  left: 1.04vw;
+  letter-spacing: -0.06vw;
+  line-height: 2.71vh;
   position: absolute;
-  top: 13px;
+  top: 1.2vh;
   white-space: nowrap;
 }
 
 .caracteristicas-lll .overlap-group {
-  height: 127px;
+  height: 11.76vh;
   left: 0;
   position: absolute;
-  top: 71px;
-  width: 516px;
+  top: 6.57vh;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .description {
   color: #ffffff;
   font-family: "Poppins-ExtraLight", Helvetica;
-  font-size: 18px;
+  font-size: 1.67vh;
   font-weight: 200;
-  left: 22px;
+  left: 1.15vw;
   letter-spacing: 0;
-  line-height: 16.5px;
+  line-height: 1.53vh;
   position: absolute;
   text-align: right;
-  top: 76px;
-  width: 479px;
+  top: 7.04vh;
+  width: 24.95vw;
 }
 
 .caracteristicas-lll .title {
-  height: 52px;
-  left: 25px;
+  height: 4.81vh;
+  left: 1.3vw;
   position: absolute;
-  top: 11px;
-  width: 232px;
+  top: 1.02vh;
+  width: 12.08vw;
 }
 
 .caracteristicas-lll .frame {
-  border: 2px solid;
-  border-color: transparent;
+  border: 2px solid transparent;
   border-image: linear-gradient(to bottom, rgb(102, 102, 102), rgb(204, 204, 204)) 1;
-  height: 127px;
+  height: 11.76vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 516px;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .seguridad-uno {
-  height: 185px;
+  height: 17.13vh;
   left: 0;
   position: absolute;
-  top: -23px;
-  width: 520px;
+  top: -2.13vh;
+  width: 27.08vw;
 }
 
 .caracteristicas-lll .CHARACTERISTICS {
-  border: 1px solid;
-  border-color: transparent;
-  height: 54px;
+  border: 1px solid transparent;
+  height: 5vh;
   left: 0;
   position: absolute;
-  top: -15px;
-  width: 264px;
+  top: -1.39vh;
+  width: 13.75vw;
 }
 
 .caracteristicas-lll .text-wrapper {
   color: #ffffff;
   font-family: "Poppins-LightItalic", Helvetica;
-  font-size: 32px;
+  font-size: 2.96vh;
   font-style: italic;
   font-weight: 300;
-  left: 20px;
-  letter-spacing: -0.64px;
-  line-height: 29.3px;
+  left: 1.04vw;
+  letter-spacing: -0.06vw;
+  line-height: 2.71vh;
   position: absolute;
-  top: 14px;
+  top: 1.3vh;
   white-space: nowrap;
 }
 
 .caracteristicas-lll .img {
-  height: 35px;
-  left: 225px;
+  height: 3.24vh;
+  left: 11.72vw;
   position: absolute;
-  top: 11px;
-  width: 34px;
+  top: 1.02vh;
+  width: 1.77vw;
 }
 
 .caracteristicas-lll .div {
-  height: 128px;
+  height: 11.85vh;
   left: 0;
   position: absolute;
-  top: 57px;
-  width: 516px;
+  top: 5.28vh;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .p {
   color: #ffffff;
   font-family: "Poppins-ExtraLight", Helvetica;
-  font-size: 18px;
+  font-size: 1.67vh;
   font-weight: 200;
-  left: 22px;
+  left: 1.15vw;
   letter-spacing: 0;
-  line-height: 16.5px;
+  line-height: 1.53vh;
   position: absolute;
   text-align: right;
-  top: 77px;
-  width: 479px;
+  top: 7.13vh;
+  width: 24.95vw;
 }
 
 .caracteristicas-lll .title-2 {
-  height: 52px;
-  left: 25px;
+  height: 4.81vh;
+  left: 1.3vw;
   position: absolute;
-  top: 12px;
-  width: 232px;
+  top: 1.11vh;
+  width: 12.08vw;
 }
 
 .caracteristicas-lll .frame-2 {
-  border: 2px solid;
-  border-color: transparent;
+  border: 2px solid transparent;
   border-image: linear-gradient(to bottom, rgb(102, 102, 102), rgb(204, 204, 204)) 1;
-  height: 128px;
+  height: 11.85vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 516px;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .reporte-analisis {
-  height: 388px;
+  height: 35.93vh;
   left: 0;
   position: absolute;
-  top: 660px;
-  width: 516px;
+  top: 61.11vh;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .reporte {
-  height: 191px;
+  height: 17.69vh;
   left: 0;
   position: absolute;
-  top: 232px;
-  width: 520px;
+  top: 21.48vh;
+  width: 27.08vw;
 }
 
 .caracteristicas-lll .div-2 {
-  border: 1px solid;
-  border-color: transparent;
-  height: 55px;
+  border: 1px solid transparent;
+  height: 5.09vh;
   left: 0;
   position: absolute;
-  top: -7px;
-  width: 352px;
+  top: -0.65vh;
+  width: 18.33vw;
 }
 
 .caracteristicas-lll .text-wrapper-2 {
   color: #ffffff;
   font-family: "Poppins-LightItalic", Helvetica;
-  font-size: 32px;
+  font-size: 2.96vh;
   font-style: italic;
   font-weight: 300;
-  left: 14px;
-  letter-spacing: -1.28px;
-  line-height: 29.3px;
+  left: 0.73vw;
+  letter-spacing: -0.11vw;
+  line-height: 2.71vh;
   position: absolute;
-  top: 12px;
+  top: 1.11vh;
   white-space: nowrap;
 }
 
 .caracteristicas-lll .robot {
-  height: 36px;
-  left: 353px;
+  height: 3.33vh;
+  left: 18.39vw;
   object-fit: cover;
   position: absolute;
-  top: 8px;
-  width: 38px;
+  top: 0.74vh;
+  width: 1.98vw;
 }
 
 .caracteristicas-lll .overlap-group-2 {
-  height: 131px;
+  height: 12.13vh;
   left: 0;
   position: absolute;
-  top: 60px;
-  width: 516px;
+  top: 5.56vh;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .text-wrapper-3 {
   color: #ffffff;
   font-family: "Poppins-ExtraLight", Helvetica;
-  font-size: 18px;
+  font-size: 1.67vh;
   font-weight: 200;
-  left: 22px;
+  left: 1.15vw;
   letter-spacing: 0;
-  line-height: 16.5px;
+  line-height: 1.53vh;
   position: absolute;
   text-align: right;
-  top: 78px;
-  width: 478px;
+  top: 7.22vh;
+  width: 24.9vw;
 }
 
 .caracteristicas-lll .title-3 {
-  height: 52px;
-  left: 26px;
+  height: 4.81vh;
+  left: 1.35vw;
   position: absolute;
-  top: 14px;
-  width: 232px;
+  top: 1.3vh;
+  width: 12.08vw;
 }
+
 .caracteristicas-lll .title-8 {
-  height: 24px;
-  left: 26px;
+  height: 2.22vh;
+  left: 1.35vw;
   position: absolute;
-  top: 14px;
-  width: 450px;
-  margin-top: 10px;
+  top: 1.3vh;
+  width: 23.44vw;
+  margin-top: 0.93vh;
 }
 
 .caracteristicas-lll .frame-3 {
-  border: 2px solid;
-  border-color: transparent;
+  border: 2px solid transparent;
   border-image: linear-gradient(to bottom, rgb(102, 102, 102), rgb(204, 204, 204)) 1;
-  height: 131px;
+  height: 12.13vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 516px;
+  width: 26.88vw;
 }
 
 .caracteristicas-lll .reporte-2 {
-  height: 191px;
+  height: 17.69vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 520px;
+  width: 27.08vw;
 }
 
 .caracteristicas-lll .text-2 {
   color: #ffffff;
   font-family: "Poppins-LightItalic", Helvetica;
-  font-size: 32px;
+  font-size: 2.96vh;
   font-style: italic;
   font-weight: 300;
-  left: 15px;
-  letter-spacing: -1.28px;
-  line-height: 29.3px;
+  left: 0.78vw;
+  letter-spacing: -0.11vw;
+  line-height: 2.71vh;
   position: absolute;
-  top: 11px;
+  top: 1.02vh;
   white-space: nowrap;
 }
+
 
 .caracteristicas-lll .description-2 {
   color: #ffffff;
   font-family: "Poppins-ExtraLight", Helvetica;
-  font-size: 18px;
+  font-size: 0.94vw; /* 18px */
   font-weight: 200;
-  left: 22px;
+  left: 1.15vw; /* 22px */
   letter-spacing: 0;
-  line-height: 16.5px;
+  line-height: 0.86vw; /* 16.5px */
   position: absolute;
   text-align: right;
-  top: 79px;
-  width: 478px;
+  top: 4.11vh; /* 79px */
+  width: 24.9vw; /* 478px */
 }
 
 .caracteristicas-lll .funcionalidades {
-  height: 245px;
-  left: 36px;
+  height: 12.76vh; /* 245px */
+  left: 1.88vw; /* 36px */
   position: absolute;
-  top: 168px;
-  width: 1813px;
+  top: 15.56vh; /* 168px */
+  width: 94.43vw; /* 1813px */
 }
 
 .caracteristicas-lll .funcionalidades-dos {
-  height: 245px;
+  height: 12.76vh; /* 245px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 727px;
+  width: 37.86vw; /* 727px */
 }
 
 .caracteristicas-lll .category-2 {
   border: 1px solid;
   border-color: transparent;
-  height: 75px;
+  height: 3.91vh; /* 75px */
   left: 0;
   position: absolute;
   top: 0;
-  width: 375px;
+  width: 19.53vw; /* 375px */
 }
 
 .caracteristicas-lll .text-3 {
   color: #ffffff;
   font-family: "Poppins-LightItalic", Helvetica;
-  font-size: 32px;
+  font-size: 1.67vw; /* 32px */
   font-style: italic;
   font-weight: 300;
-  left: 18px;
-  letter-spacing: -1.28px;
-  line-height: 29.3px;
+  left: 0.94vw; /* 18px */
+  letter-spacing: -0.07vw; /* -1.28px */
+  line-height: 1.53vw; /* 29.3px */
   position: absolute;
-  top: 24px;
+  top: 1.25vh; /* 24px */
   white-space: nowrap;
 }
 
 .caracteristicas-lll .icon-funcionalidades {
-  height: 46px;
-  left: 319px;
+  height: 2.39vh; /* 46px */
+  left: 16.61vw; /* 319px */
   position: absolute;
-  top: 13px;
-  width: 43px;
+  top: 0.68vh; /* 13px */
+  width: 2.24vw; /* 43px */
 }
 
 .caracteristicas-lll .overlap-group-3 {
-  height: 159px;
+  height: 8.28vh; /* 159px */
   left: 0;
   position: absolute;
-  top: 81px;
-  width: 723px;
+  top: 4.22vh; /* 81px */
+  width: 37.66vw; /* 723px */
 }
 
 .caracteristicas-lll .description-3 {
   color: #ffffff;
   font-family: "Poppins-ExtraLight", Helvetica;
-  font-size: 25px;
+  font-size: 1.3vw; /* 25px */
   font-weight: 200;
-  left: 30px;
+  left: 1.56vw; /* 30px */
   letter-spacing: 0;
-  line-height: 22.9px;
+  line-height: 1.19vw; /* 22.9px */
   position: absolute;
   text-align: right;
-  top: 88px;
-  width: 670px;
+  top: 4.58vh; /* 88px */
+  width: 34.9vw; /* 670px */
 }
 
 .caracteristicas-lll .title-4 {
-  height: 35px;
-  left: 28px;
+  height: 1.82vh; /* 35px */
+  left: 1.46vw; /* 28px */
   position: absolute;
-  top: 29px;
-  width: 648px;
+  top: 1.51vh; /* 29px */
+  width: 33.75vw; /* 648px */
 }
 
 .caracteristicas-lll .ellipse-wrapper {
   border: 2px solid;
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgb(102, 102, 102), rgb(204, 204, 204)) 1;
-  height: 159px;
+  height: 8.28vh; /* 159px */
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 723px;
+  width: 37.66vw; /* 723px */
 }
 
 .caracteristicas-lll .ellipse {
   background: linear-gradient(180deg, rgb(217, 217, 217) 0%, rgb(115, 115, 115) 100%);
-  border-radius: 378.5px/23px;
-  filter: blur(134.8px);
-  height: 46px;
+  border-radius: 378.5px / 23px;
+  filter: blur(7.02vw); /* 134.8px */
+  height: 2.39vh; /* 46px */
   position: relative;
-  top: -76px;
-  width: 757px;
+  top: -3.96vh; /* -76px */
+  width: 39.43vw; /* 757px */
 }
 
 .caracteristicas-lll .funcionalidades-uno {
-  height: 240px;
-  left: 1090px;
+  height: 22.22vh;
+  left: 56.77vw;
   position: absolute;
-  top: 5px;
-  width: 727px;
+  top: 0.46vh;
+  width: 37.86vw;
 }
 
 .caracteristicas-lll .category-3 {
   border: 1px solid;
   border-color: transparent;
-  height: 75px;
+  height: 6.94vh;
   left: 0;
   position: absolute;
-  top: -7px;
-  width: 375px;
-
+  top: -0.65vh;
+  width: 19.53vw;
 }
 
 .caracteristicas-lll .icon-funcionalidades-2 {
-  height: 46px;
-  left: 319px;
+  height: 4.26vh;
+  left: 16.61vw;
   position: absolute;
-  top: 13px;
-  width: 43px;
+  top: 1.2vh;
+  width: 2.24vw;
 }
 
 .caracteristicas-lll .icon {
   color: #ffffff;
   font-family: "Poppins-LightItalic", Helvetica;
-  font-size: 32px;
+  font-size: 1.66vw;
   font-style: italic;
   font-weight: 300;
-  left: 18px;
-  letter-spacing: -1.28px;
-  line-height: 29.3px;
+  left: 0.94vw;
+  letter-spacing: -0.07vw;
+  line-height: 1.52vh;
   position: absolute;
-  top: 24px;
+  top: 2.22vh;
   white-space: nowrap;
 }
 
 .caracteristicas-lll .overlap-2 {
-  height: 166px;
+  height: 15.37vh;
   left: 0;
   position: absolute;
-  top: 74px;
-  width: 723px;
+  top: 6.85vh;
+  width: 37.65vw;
 }
 
 .caracteristicas-lll .description-4 {
   color: #ffffff;
   font-family: "Poppins-ExtraLight", Helvetica;
-  font-size: 25px;
+  font-size: 1.3vw;
   font-weight: 200;
-  left: 29px;
+  left: 1.51vw;
   letter-spacing: 0;
-  line-height: 22.9px;
+  line-height: 2.12vh;
   position: absolute;
   text-align: right;
-  top: 87px;
-  width: 671px;
+  top: 8.05vh;
+  width: 34.95vw;
 }
 
 .caracteristicas-lll .title-5 {
-  height: 35px;
-  left: 34px;
+  height: 3.24vh;
+  left: 1.77vw;
   position: absolute;
-  top: 30px;
-  width: 648px;
+  top: 2.77vh;
+  width: 33.75vw;
 }
 
 .caracteristicas-lll .div-wrapper {
   border: 2px solid;
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgb(102, 102, 102), rgb(204, 204, 204)) 1;
-  height: 166px;
+  height: 15.37vh;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 723px;
+  width: 37.65vw;
 }
 
 .caracteristicas-lll .lines {
-  height: 787px;
+  height: 72.87vh;
   left: 15.4vw;
   position: relative;
-  top: 38vh;
-  width: 1349px;
+  top: 35.19vh;
+  width: 70.25vw;
 }
 
 .caracteristicas-lll .overlap-3 {
-  height: 283px;
-  left: -18px;
+  height: 26.2vh;
+  left: -0.94vw;
   position: absolute;
   top: 0;
-  width: 1349px;
+  width: 70.25vw;
 }
 
 .caracteristicas-lll .vector {
-  height: 283px;
+  height: 26.2vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 658px;
+  width: 34.27vw;
 }
 
 .caracteristicas-lll .vector-2 {
-  height: 248px;
-  left: 632px;
+  height: 22.96vh;
+  left: 32.92vw;
   position: absolute;
-  top: 9px;
-  width: 717px;
+  top: 0.83vh;
+  width: 37.34vw;
 }
 
 .caracteristicas-lll .overlap-4 {
-  height: 392px;
-  left: 181px;
+  height: 36.3vh;
+  left: 9.42vw;
   position: absolute;
-  top: 395px;
-  width: 246px;
+  top: 36.57vh;
+  width: 12.81vw;
 }
 
 .caracteristicas-lll .vector-3 {
-  height: 176px;
+  height: 16.29vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 221px;
+  width: 11.51vw;
 }
 
 .caracteristicas-lll .vector-4 {
-  height: 148px;
-  left: 0px;
+  height: 13.7vh;
+  left: 0;
   position: absolute;
-  top: 8px;
-  width: 218px;
+  top: 0.74vh;
+  width: 11.35vw;
 }
 
 .caracteristicas-lll .overlap-5 {
-  height: 345px;
-  left: 858px;
+  height: 31.94vh;
+  left: 44.69vw;
   position: absolute;
-  top: 397px;
-  width: 211px;
+  top: 36.76vh;
+  width: 10.99vw;
 }
 
 .caracteristicas-lll .vector-5 {
-  height: 172px;
-  left: 1px;
+  height: 15.93vh;
+  left: 0.05vw;
   position: absolute;
   top: 0;
-  width: 210px;
+  width: 10.94vw;
 }
 
 .caracteristicas-lll .vector-6 {
-  height: 286px;
+  height: 26.48vh;
   left: 0;
   position: absolute;
-  top: 59px;
-  width: 209px;
+  top: 5.46vh;
+  width: 10.89vw;
 }
 
 .caracteristicas-lll .triangle {
-  height: 576px;
-  left: 676px;
+  height: 53.33vh;
+  left: 35.21vw;
   position: absolute;
-  top: 427px;
-  width: 540px;
+  top: 39.54vh;
+  width: 28.13vw;
 }
 
 .caracteristicas-lll .overlap-6 {
   background-size: 100% 100%;
-  height: 633px;
-  left: -65px;
+  height: 58.61vh;
+  left: -3.39vw;
   position: relative;
-  top: -101px;
-  width: 671px;
+  top: -9.35vh;
+  width: 34.95vw;
 }
 
 .caracteristicas-lll .icon-ll {
-  height: 198px;
-  left: 235px;
+  height: 18.33vh;
+  left: 12.24vw;
   mix-blend-mode: darken;
   object-fit: cover;
   position: absolute;
-  top: 269px;
-  width: 198px;
+  top: 24.91vh;
+  width: 10.31vw;
 }
 
 .caracteristicas-lll .icon-2 {
-  height: 206px;
-  left: 232px;
+  height: 19.07vh;
+  left: 12.08vw;
   mix-blend-mode: soft-light;
   object-fit: cover;
   position: absolute;
-  top: 269px;
-  width: 206px;
+  top: 24.91vh;
+  width: 10.73vw;
 }
-
-
 
 .caracteristicas-lll .rectangle-category {
   border: 1px solid;
@@ -637,42 +630,39 @@
     to bottom,
     rgb(55.61, 136.33, 106.73),
     rgb(39.47, 178, 202.44) 86.03%
-  )
-  1;
-  height: 74px;
+  ) 1;
+  height: 6.85vh;
   position: relative;
   transform: rotate(180deg);
-  width: 375px;
+  width: 19.53vw;
 }
 
 .caracteristicas-lll .rectangle-analisis {
   border: 1px solid;
   border-color: transparent;
   border-image: linear-gradient(
-  to bottom,
-  rgb(55.61, 136.33, 106.73),
-  rgb(39.47, 178, 202.44) 86.03%
-)
-1;
-  height: 74px;
+    to bottom,
+    rgb(55.61, 136.33, 106.73),
+    rgb(39.47, 178, 202.44) 86.03%
+  ) 1;
+  height: 6.85vh;
   position: relative;
   transform: rotate(180deg);
-  width: 407px;
-  top: -12px;
+  width: 21.2vw;
+  top: -1.11vh;
 }
 
 .caracteristicas-lll .rectangle-seguridad {
   border: 1px solid;
   border-color: transparent;
   border-image: linear-gradient(
-  to bottom,
-  rgb(55.61, 136.33, 106.73),
-  rgb(39.47, 178, 202.44) 86.03%
-)
-1;
-  height: 74px;
+    to bottom,
+    rgb(55.61, 136.33, 106.73),
+    rgb(39.47, 178, 202.44) 86.03%
+  ) 1;
+  height: 6.85vh;
   position: relative;
   transform: rotate(180deg);
-  width: 277px;
-  top: -10px;
+  width: 14.43vw;
+  top: -0.93vh;
 }

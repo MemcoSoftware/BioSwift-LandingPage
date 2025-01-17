@@ -1,78 +1,78 @@
 .hero-ll {
   background-color: #071320;
-  height: 1110px;
-  width: 1920px;
+  height: 102.78vh;
+  width: 100vw;
 }
 
 .hero-ll .overlap {
-  height: 1046px;
+  height: 96.85vh;
   position: relative;
-  top: -14px;
-  width: 1855px;
+  top: -1.30vh;
+  width: 96.61vw;
 }
 
 .hero-ll .test-bioswift {
-  height: 216px;
-  left: 757px;
+  height: 20vh;
+  left: 39.43vw;
   position: absolute;
-  top: 790px;
-  width: 435px;
+  top: 73.15vh;
+  width: 22.66vw;
 }
 
 .hero-ll .overlap-group {
   background-size: 100% 100%;
-  height: 106px;
-  left: 149px;
+  height: 9.81vh;
+  left: 7.76vw;
   position: absolute;
   top: 0;
-  width: 108px;
+  width: 5.63vw;
 }
 
 .hero-ll .arrow {
-  height: 64px;
-  left: 26px;
+  height: 5.93vh;
+  left: 1.35vw;
   position: absolute;
-  top: 21px;
-  width: 61px;
+  top: 1.94vh;
+  width: 3.18vw;
 }
 
 .hero-ll .text {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(
-  180deg,
-  rgb(3, 229, 204) 4.5%,
-  rgb(31, 169, 229) 66.5%,
-  rgb(2, 220, 243) 87%
-);
+    180deg,
+    rgb(3, 229, 204) 4.5%,
+    rgb(31, 169, 229) 66.5%,
+    rgb(2, 220, 243) 87%
+  );
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Regular", Helvetica;
-  font-size: 64px;
+  font-size: 5.93vh;
   font-weight: 400;
-  height: 91px;
+  height: 8.43vh;
   left: 0;
-  letter-spacing: -1.92px;
+  letter-spacing: -0.1vw;
   line-height: normal;
   position: absolute;
-  top: 125px;
-  width: 476px;
+  top: 11.57vh;
+  width: 24.79vw;
 }
 
 .hero-ll .float-info {
-  height: 752px;
-  left: 57px;
+  height: 69.63vh;
+  left: 2.97vw;
   position: absolute;
-  top: 294px;
-  width: 1750px;
+  top: 27.22vh;
+  width: 91.15vw;
 }
 
 .hero-ll .indicadores {
-  height: 209px;
-  left: 1512px;
+  height: 19.35vh;
+  left: 78.75vw;
   position: absolute;
-  top: 543px;
-  width: 240px;
+  top: 50.28vh;
+  width: 12.50vw;
 }
 
 .hero-ll .div {
@@ -81,41 +81,41 @@
     rgba(2, 220, 243, 0.1) 0%,
     rgba(115, 115, 115, 0.1) 100%
   );
-  border-radius: 22px;
-  box-shadow: 0px 4px 31px 22px #00000040;
-  height: 209px;
+  border-radius: 1.15vw;
+  box-shadow: 0px 0.37vh 2.87vh 2.04vh #00000040;
+  height: 19.35vh;
   position: relative;
-  width: 238px;
+  width: 12.40vw;
 }
 
 .hero-ll .text-wrapper {
   color: #ffffff;
   font-family: "Poppins-Light", Helvetica;
-  font-size: 24px;
+  font-size: 2.22vh;
   font-weight: 300;
-  left: 18px;
-  letter-spacing: 1.20px;
+  left: 0.94vw;
+  letter-spacing: 0.06vw;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 130px;
-  width: 207px;
+  top: 12.04vh;
+  width: 10.78vw;
 }
 
 .hero-ll .vector {
-  height: 94px;
-  left: 77px;
+  height: 8.70vh;
+  left: 4.01vw;
   position: absolute;
-  top: 20px;
-  width: 93px;
+  top: 1.85vh;
+  width: 4.84vw;
 }
 
 .hero-ll .trazabilidad-gestion {
-  height: 196px;
+  height: 18.15vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 320px;
+  width: 16.67vw;
 }
 
 .hero-ll .overlap-2 {
@@ -124,282 +124,281 @@
     rgba(2, 220, 243, 0.1) 0%,
     rgba(115, 115, 115, 0.1) 100%
   );
-  border-radius: 22px;
-  box-shadow: 0px 4px 31px 22px #00000040;
-  height: 196px;
+  border-radius: 1.15vw;
+  box-shadow: 0px 0.37vh 2.87vh 2.04vh #00000040;
+  height: 18.15vh;
   position: relative;
-  width: 318px;
+  width: 16.56vw;
 }
 
 .hero-ll .p {
   color: #ffffff;
   font-family: "Poppins-Light", Helvetica;
-  font-size: 24px;
+  font-size: 2.22vh;
   font-weight: 300;
-  left: 7px;
-  letter-spacing: 1.20px;
+  left: 0.36vw;
+  letter-spacing: 0.06vw;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 117px;
-  width: 306px;
+  top: 10.83vh;
+  width: 15.94vw;
 }
 
 .hero-ll .heart-m {
-  height: 86px;
-  left: 121px;
+  height: 7.96vh;
+  left: 6.30vw;
   position: absolute;
-  top: 17px;
-  width: 90px;
+  top: 1.57vh;
+  width: 4.69vw;
 }
 
 .hero-ll .lines {
-  height: 362px;
-  left: 210px;
+  height: 33.52vh;
+  left: 10.94vw;
   position: absolute;
-  top: 486px;
-  width: 1500px;
+  top: 45vh;
+  width: 78.13vw;
 }
 
 .hero-ll .overlap-3 {
-  height: 162px;
-  left: -9px;
+  height: 15vh;
+  left: -0.47vw;
   position: absolute;
-  top: -9px;
-  width: 404px;
+  top: -0.83vh;
+  width: 21.04vw;
 }
 
 .hero-ll .img {
-  height: 124px;
-  left: 21px;
+  height: 11.48vh;
+  left: 1.09vw;
   position: absolute;
-  top: 12px;
-  width: 376px;
+  top: 1.11vh;
+  width: 19.58vw;
 }
 
 .hero-ll .vector-2 {
-  height: 162px;
+  height: 15vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 404px;
+  width: 21.04vw;
 }
 
 .hero-ll .overlap-4 {
-  height: 287px;
-  left: 1061px;
+  height: 26.57vh;
+  left: 55.26vw;
   position: absolute;
-  top: 84px;
-  width: 439px;
+  top: 7.78vh;
+  width: 22.87vw;
 }
 
 .hero-ll .vector-3 {
-  height: 266px;
-  left: 25px;
+  height: 24.63vh;
+  left: 1.30vw;
   position: absolute;
   top: 0;
-  width: 414px;
+  width: 21.56vw;
 }
 
 .hero-ll .vector-4 {
-  height: 284px;
+  height: 26.30vh;
   left: 0;
   position: absolute;
-  top: 2px;
-  width: 432px;
+  top: 0.19vh;
+  width: 22.50vw;
 }
 
 .hero-ll .main-text {
-  height: 293px;
-  left: 409px;
+  height: 27.13vh;
+  left: 21.30vw;
   position: absolute;
-  top: 434px;
-  width: 1127px;
+  top: 40.19vh;
+  width: 58.70vw;
 }
 
 .hero-ll .texto {
-  height: 164px;
-  left: 117px;
+  height: 15.19vh;
+  left: 6.09vw;
   position: absolute;
-  top: 3px;
-  width: 837px;
+  top: 0.28vh;
+  width: 43.60vw;
 }
 
 .hero-ll .subtexto {
-  height: 61px;
-  left: 2px;
+  height: 5.65vh;
+  left: 0.10vw;
   position: absolute;
-  top: 228px;
-  width: 1103px;
+  top: 21.11vh;
+  width: 57.45vw;
 }
 
 .hero-ll .upper-capsules {
-  height: 264px;
-  left: 196px;
+  height: 24.44vh;
+  left: 10.21vw;
   position: absolute;
-  top: 104px;
-  width: 1526px;
+  top: 9.63vh;
+  width: 79.58vw;
 }
 
 .hero-ll .phrase-capsule {
-  height: 105px;
-  left: 505px;
+  height: 9.72vh;
+  left: 26.30vw;
   position: absolute;
-  top: 159px;
-  width: 516px;
+  top: 14.72vh;
+  width: 26.88vw;
 }
 
 .hero-ll .best-innovation-wrapper {
   background-color: #02dcf305;
-  border-radius: 82px;
-  box-shadow: inset 0px 43px 76px -45px #00eeff40;
-  height: 105px;
+  border-radius: 4.27vw;
+  box-shadow: inset 0px 3.98vh 7.04vh -4.17vh #00eeff40;
+  height: 9.72vh;
   position: relative;
-  width: 514px;
+  width: 26.77vw;
 }
 
 .hero-ll .best-innovation {
   color: #ffffff;
   font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 40px;
+  font-size: 3.70vh;
   font-weight: 600;
-  left: 24px;
-  letter-spacing: -1.60px;
-  line-height: 36.7px;
+  left: 1.25vw;
+  letter-spacing: -0.08vw;
+  line-height: 3.40vh;
   position: absolute;
   text-align: center;
-  top: 34px;
+  top: 3.15vh;
   white-space: nowrap;
 }
 
 .hero-ll .nav-capsule {
-  height: 105px;
+  height: 9.72vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1536px;
+  width: 80vw;
 }
 
 .hero-ll .overlap-5 {
   background-color: #02dcf305;
-  border-radius: 82px;
-  box-shadow: inset 0px 43px 76px -45px #00eeff40;
-  height: 105px;
+  border-radius: 4.27vw;
+  box-shadow: inset 0px 3.98vh 7.04vh -4.17vh #00eeff40;
+  height: 9.72vh;
   position: relative;
-  width: 1526px;
+  width: 79.58vw;
 }
 
 .hero-ll .rectangle {
   background-color: #02dcf305;
   border-color: transparent;
-
-  border-radius: 82px;
-  box-shadow: inset 0px 43px 76px -45px #00eeff40;
-  height: 41px;
-  left: 31px;
+  border-radius: 4.27vw;
+  box-shadow: inset 0px 3.98vh 7.04vh -4.17vh #00eeff40;
+  height: 3.80vh;
+  left: 1.61vw;
   position: absolute;
-  top: 34px;
-  width: 41px;
+  top: 3.15vh;
+  width: 2.14vw;
 }
 
 .hero-ll .text-wrapper-2 {
   color: #ffffff;
   font-family: "Poppins-Medium", Helvetica;
-  font-size: 40px;
+  font-size: 3.70vh;
   font-weight: 500;
-  left: 139px;
-  letter-spacing: -1.60px;
-  line-height: 36.7px;
+  left: 7.24vw;
+  letter-spacing: -0.08vw;
+  line-height: 3.40vh;
   position: absolute;
   text-align: center;
-  top: 34px;
-  width: 373px;
+  top: 3.15vh;
+  width: 19.43vw;
 }
 
 .hero-ll .text-wrapper-3 {
   color: #ffffff;
   font-family: "Poppins-Medium", Helvetica;
-  font-size: 40px;
+  font-size: 3.70vh;
   font-weight: 500;
-  left: 799px;
-  letter-spacing: -1.60px;
-  line-height: 36.7px;
+  left: 41.61vw;
+  letter-spacing: -0.08vw;
+  line-height: 3.40vh;
   position: absolute;
   text-align: center;
-  top: 35px;
-  width: 248px;
+  top: 3.24vh;
+  width: 12.92vw;
 }
 
 .hero-ll .text-wrapper-4 {
   color: #ffffff;
   font-family: "Poppins-Medium", Helvetica;
-  font-size: 40px;
+  font-size: 3.70vh;
   font-weight: 500;
-  left: 556px;
-  letter-spacing: -1.60px;
-  line-height: 36.7px;
+  left: 28.96vw;
+  letter-spacing: -0.08vw;
+  line-height: 3.40vh;
   position: absolute;
   text-align: center;
-  top: 34px;
-  width: 199px;
+  top: 3.15vh;
+  width: 10.36vw;
 }
 
 .hero-ll .text-wrapper-5 {
   color: #ffffff;
   font-family: "Poppins-Medium", Helvetica;
-  font-size: 40px;
+  font-size: 3.70vh;
   font-weight: 500;
-  left: 1091px;
-  letter-spacing: -1.60px;
-  line-height: 36.7px;
+  left: 56.77vw;
+  letter-spacing: -0.08vw;
+  line-height: 3.40vh;
   position: absolute;
   text-align: center;
-  top: 35px;
-  width: 217px;
+  top: 3.24vh;
+  width: 11.30vw;
 }
 
 .hero-ll .text-wrapper-6 {
   color: #ffffff;
   font-family: "Poppins-Medium", Helvetica;
-  font-size: 40px;
+  font-size: 3.70vh;
   font-weight: 500;
-  left: 1352px;
-  letter-spacing: -1.60px;
-  line-height: 36.7px;
+  left: 70.42vw;
+  letter-spacing: -0.08vw;
+  line-height: 3.40vh;
   position: absolute;
   text-align: center;
-  top: 35px;
-  width: 100px;
+  top: 3.24vh;
+  width: 5.21vw;
 }
 
 .hero-ll .bg-effects {
-  height: 955px;
+  height: 88.43vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1855px;
+  width: 96.61vw;
 }
 
 .hero-ll .polygon {
-  height: 572px;
+  height: 52.96vh;
   left: 0;
   position: absolute;
-  top: 552px;
-  width: 408px;
+  top: 51.11vh;
+  width: 21.25vw;
 }
 
 .hero-ll .polygon-2 {
-  height: 641px;
-  left: 1447px;
+  height: 59.35vh;
+  left: 75.36vw;
   position: absolute;
-  top: 124px;
-  width: 473px;
+  top: 11.48vh;
+  width: 24.64vw;
 }
 
 .hero-ll .polygon-3 {
-  height: 302px;
-  left: 222px;
+  height: 27.96vh;
+  left: 11.56vw;
   position: absolute;
-  top: 14px;
-  width: 467px;
+  top: 1.30vh;
+  width: 24.32vw;
 }
