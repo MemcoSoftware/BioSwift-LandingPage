@@ -28,8 +28,7 @@ export const Head = (): JSX.Element => {
           <div className="nav">
             <div className="login" onClick={handleLoginClick}>
               <div className="overlap-group-2">
-                <div className="rectangle-2"></div>
-                <div className="text-wrapper">LOGIN</div>
+                <div className="rectangle-2">LOGIN</div>
               </div>
             </div>
 

@@ -89,20 +89,6 @@
   position: absolute;
   top: 0;
   width: 11.04vw;
-
-}
-
-.head .login:hover .rectangle-2 {
-  background: linear-gradient(
-    180deg,
-    rgba(15, 185, 198, 0.18) 0%,
-    rgba(0, 0, 0, 0) 66.5%
-  );
-  color: #ffffff;
-
-}
-
-.head .text-wrapper {
   background-blend-mode: luminosity;
   color: #02dcf3;
   font-family: "Poppins-SemiBold", Helvetica;
@@ -110,21 +96,29 @@
   font-weight: 600;
   letter-spacing: -0.067vw;
   line-height: 1.67vw;
-  position: absolute;
-  top: 0;
-  padding-left: 60px;
-  padding-top: 5px;
+  display: flex; /* Activa Flexbox */
+  align-items: center; /* Centra el texto verticalmente */
+  justify-content: center; /* Centra el texto horizontalmente */
+  text-align: center; /* Asegura que el texto esté alineado en el centro */
+  cursor: pointer;
+  transition: box-shadow 0.8s ease, transform 0.8s ease;
 }
 
-.head .login:hover .text-wrapper {
-  background-blend-mode: luminosity;
+.head .rectangle-2:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 185, 198, 0.18) 0%,
+    rgba(0, 0, 0, 0) 66.5%
+  );
   color: #ffffff;
+  transform: scale(1.05); 
+  box-shadow: 0 0 20px 4px rgba(2, 220, 243, 0.6);
+  transform: translateY(-5px); /* Eleva ligeramente el botón */
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
-.head .login .rectangle-2,
-.head .login .text-wrapper {
-  transition: all 0.3s ease;
-}
+
+
 
 .head .memco {
   height: 4.44vh;
