@@ -67,7 +67,9 @@
   position: absolute;
   top: 0;
   width: 11.15vw;
+  cursor: pointer;
 }
+
 
 .head .overlap-group-2 {
   height: 4.44vh;
@@ -87,6 +89,17 @@
   position: absolute;
   top: 0;
   width: 11.04vw;
+
+}
+
+.head .login:hover .rectangle-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 185, 198, 0.18) 0%,
+    rgba(0, 0, 0, 0) 66.5%
+  );
+  color: #ffffff;
+
 }
 
 .head .text-wrapper {
@@ -95,12 +108,22 @@
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 1.67vw;
   font-weight: 600;
-  left: 3.13vw;
   letter-spacing: -0.067vw;
   line-height: 1.67vw;
   position: absolute;
   top: 0;
-  padding-top: 0.31vh;
+  padding-left: 60px;
+  padding-top: 5px;
+}
+
+.head .login:hover .text-wrapper {
+  background-blend-mode: luminosity;
+  color: #ffffff;
+}
+
+.head .login .rectangle-2,
+.head .login .text-wrapper {
+  transition: all 0.3s ease;
 }
 
 .head .memco {
@@ -117,6 +140,38 @@
     rgb(24.44, 24.44, 24.44) 0%,
     rgb(30, 30, 30) 100%
   );
+  color: #02dcf3;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 1.67vw;
+  font-weight: 600;
+  letter-spacing: -0.067vw;
+  line-height: 1.67vw;
+  border-radius: 12px;
+  height: 4.26vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11.04vw;
+  display: flex; /* Activa Flexbox */
+  align-items: center; /* Centra el texto verticalmente */
+  justify-content: center; /* Centra el texto horizontalmente */
+  text-align: center; /* Asegura que el texto esté alineado en el centro */
+  cursor: pointer;
+}
+
+.head .rectangle-3:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(230, 236, 237) 0%,
+    rgb(230, 236, 237) 100%
+  );
+  color: #071320;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 1.67vw;
+  font-weight: bold;
+  letter-spacing: -0.067vw;
+  line-height: 1.67vw;
+  transition: 3ms;
   border-radius: 12px;
   height: 4.26vh;
   left: 0;
