@@ -157,6 +157,7 @@
   justify-content: center; /* Centra el texto horizontalmente */
   text-align: center; /* Asegura que el texto esté alineado en el centro */
   cursor: pointer;
+  transition: box-shadow 0.8s ease, transform 0.8s ease;
 }
 
 .head .rectangle-3:hover {
@@ -178,6 +179,10 @@
   position: absolute;
   top: 0;
   width: 11.04vw;
+  transform: scale(1.05); 
+  box-shadow: 0 0 20px 4px rgba(2, 220, 243, 0.6);
+  transform: translateY(-5px); /* Eleva ligeramente el botón */
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
 .head .text-wrapper-2 {
