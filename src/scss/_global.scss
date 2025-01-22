@@ -1,0 +1,13 @@
+// Reset global
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  // Tipografía base
+  body {
+    font-family: $font-primary;
+    font-size: $font-size-base;
+  }
+  

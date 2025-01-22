@@ -33,5 +33,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+
+  "liveSassCompile.settings.formats": [
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/src/styles"
+    }
+]
+
+  
 }
