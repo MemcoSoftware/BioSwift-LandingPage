@@ -14,7 +14,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.14.2",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.15.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",
@@ -34,14 +35,11 @@
       "last 1 safari version"
     ]
   },
-
   "liveSassCompile.settings.formats": [
     {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/src/styles"
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/src/styles"
     }
-]
-
-  
+  ]
 }

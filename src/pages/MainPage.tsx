@@ -10,10 +10,9 @@ import Tecnologias from "../components/tecnologias";
 import NuestrosClientes from "../components/nuestros_clientes";
 import NuestrosProductos from "../components/nuestros_productos";
 
-// Importa todos los componentes
-
 const MainPage: React.FC = (): JSX.Element => {
   const [showHeader, setShowHeader] = useState(true);
+  const [selectedSection, setSelectedSection] = useState<string>(""); // Estado para la sección seleccionada
 
   useEffect(() => {
     const heroElement = document.getElementById("hero");
@@ -32,35 +31,69 @@ const MainPage: React.FC = (): JSX.Element => {
     return () => observer.disconnect();
   }, []);
 
+  // Efecto para desplazarse automáticamente a la sección seleccionada
+  useEffect(() => {
+    if (selectedSection) {
+      const sectionElement = document.getElementById(selectedSection);
+      if (sectionElement) {
+        sectionElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  }, [selectedSection]); // Este efecto se ejecuta cada vez que cambia `selectedSection`
+
+  // Función para manejar la sección seleccionada
+  const handleSectionChange = (section: string): void => {
+    setSelectedSection(section); // Cambia la sección activa
+  };
+
   return (
     <div>
       {showHeader && <Head />} {/* Header visible solo si `showHeader` es true */}
       <div className="snap-container">
-          <div id="hero">
-            <Hero />
-          </div>
-          <div id="heroll">
-            <HeroII />
-          </div>
-          <div id='caracteristicas'>
+        <div id="hero">
+          <Hero />
+        </div>
+
+        <div id="heroll">
+          <HeroII onSectionChange={handleSectionChange} />
+        </div>
+
+        {selectedSection === "caracteristicas" && (
+          <div id="caracteristicas">
             <Caracteristicas />
           </div>
-          <div id='caracteristicasll'>
+        )}
+
+        {selectedSection === "caracteristicasll" && (
+          <div id="caracteristicasll">
             <CaracteristicasLl />
           </div>
+        )}
+
+        {selectedSection === "caracteristicaslll" && (
           <div id="caracteristicaslll">
             <CaracteristicasIII />
           </div>
+        )}
+
+        {selectedSection === "tecnologias" && (
           <div id="tecnologias">
             <Tecnologias />
           </div>
+        )}
+
+        {selectedSection === "nuestrosClientes" && (
           <div id="nuestrosClientes">
             <NuestrosClientes />
           </div>
+        )}
+
+        {selectedSection === "nuestrosProductos" && (
           <div id="nuestrosProductos">
             <NuestrosProductos />
           </div>
-        </div>
+        )}
+      </div>
     </div>
   );
 };

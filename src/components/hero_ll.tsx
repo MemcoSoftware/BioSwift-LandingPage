@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { CircleLoader } from "react-spinners"; // Loader que vas a usar
 import arrow1 from "../images/hero_ll/arrow_1.png";
 import heartM from "../images/hero_ll/heartM.png";
 import polygon29 from "../images/hero_ll/polygon_29.png";
@@ -7,29 +8,43 @@ import polygon31 from "../images/hero_ll/polygon_31.png";
 import subtexto from "../images/hero_ll/subtexto.png";
 import texto from "../images/hero_ll/texto.png";
 import vector46 from "../images/hero_ll/vector_46.png";
-import vector47 from "../images/hero_ll/vector_47.png"
-import vector48 from "../images/hero_ll/vector_48.png"
-import vector49 from "../images/hero_ll/vector_49.png"
+import vector47 from "../images/hero_ll/vector_47.png";
+import vector48 from "../images/hero_ll/vector_48.png";
+import vector49 from "../images/hero_ll/vector_49.png";
 import vector from "../images/hero_ll/vector.png";
-import '../styles/hero_ll.css'
-import Caracteristicas from "./caracteristicas";
+import "../styles/hero_ll.css";
 
-export const HeroLl = (): JSX.Element => {
+interface HeroIIProps {
+  onSectionChange: (section: string) => void; // Prop para cambiar la sección
+}
 
-  const scrollToSection = (id: string): void => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element => {
+  const [loading, setLoading] = useState<boolean>(false); // Estado para el loader
+
+  const handleClick = (section: string) => {
+    setLoading(true); // Activa el loader
+    setTimeout(() => {
+      setLoading(false); // Desactiva el loader tras 1 segundo
+      onSectionChange(section); // Notifica a MainPage la sección seleccionada
+    }, 1000); // Simula el tiempo del loader
   };
+  
+
+
   return (
     <div className="hero-ll">
+      {/* Loader */}
+      {loading && (
+        <div className="loader-container">
+          <CircleLoader color="rgba(0, 238, 255, 1)" loading={loading} size={100} />
+        </div>
+      )}
+
       <div className="overlap">
         <div className="test-bioswift">
           <div className="overlap-group">
             <img className="arrow" alt="Arrow" src={arrow1} />
           </div>
-
           <div className="text">TEST BIOSWIFT</div>
         </div>
 
@@ -37,7 +52,6 @@ export const HeroLl = (): JSX.Element => {
           <div className="indicadores">
             <div className="div">
               <div className="text-wrapper">Indicadores en tiempo real</div>
-
               <img className="vector" alt="Vector" src={vector} />
             </div>
           </div>
@@ -45,7 +59,6 @@ export const HeroLl = (): JSX.Element => {
           <div className="trazabilidad-gestion">
             <div className="overlap-2">
               <p className="p">Trazabilidad y gestion de sus equipos</p>
-
               <img className="heart-m" alt="Heart m" src={heartM} />
             </div>
           </div>
@@ -54,20 +67,17 @@ export const HeroLl = (): JSX.Element => {
         <div className="lines">
           <div className="overlap-3">
             <img className="img" alt="Vector" src={vector46} />
-
             <img className="vector-2" alt="Vector" src={vector47} />
           </div>
 
           <div className="overlap-4">
             <img className="vector-3" alt="Vector" src={vector48} />
-
             <img className="vector-4" alt="Vector" src={vector49} />
           </div>
         </div>
 
         <div className="main-text">
           <img className="texto" alt="Texto" src={texto} />
-
           <img className="subtexto" alt="Subtexto" src={subtexto} />
         </div>
 
@@ -82,24 +92,28 @@ export const HeroLl = (): JSX.Element => {
             <div className="overlap-5">
               <div className="rectangle" />
 
-              <div className="text-wrapper-2" onClick={() => scrollToSection("caracteristicas")}>Caracteristicas</div>
-
-              <div className="text-wrapper-3" onClick={() => scrollToSection("nuestrosProductos")}>Productos</div>
-
-              <div className="text-wrapper-4" onClick={() => scrollToSection("nuestrosClientes")}>Clientes</div>
-
-              <div className="text-wrapper-5" onClick={() => scrollToSection("tecnologias")}>Tecnologias</div>
-
-              <div className="text-wrapper-6" onClick={() => scrollToSection("")}>FAQ</div>
+              <div className="text-wrapper-2" onClick={() => handleClick("caracteristicas")}>
+                Caracteristicas
+              </div>
+              <div className="text-wrapper-3" onClick={() => handleClick("nuestrosProductos")}>
+                Productos
+              </div>
+              <div className="text-wrapper-4" onClick={() => handleClick("nuestrosClientes")}>
+                Clientes
+              </div>
+              <div className="text-wrapper-5" onClick={() => handleClick("tecnologias")}>
+                Tecnologias
+              </div>
+              <div className="text-wrapper-6" onClick={() => handleClick("")}>
+                FAQ
+              </div>
             </div>
           </div>
         </div>
 
         <div className="bg-effects">
           <img className="polygon" alt="Polygon" src={polygon29} />
-
           <img className="polygon-2" alt="Polygon" src={polygon30} />
-
           <img className="polygon-3" alt="Polygon" src={polygon31} />
         </div>
       </div>
