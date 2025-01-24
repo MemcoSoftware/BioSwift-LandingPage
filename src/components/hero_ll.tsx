@@ -12,8 +12,16 @@ import vector48 from "../images/hero_ll/vector_48.png"
 import vector49 from "../images/hero_ll/vector_49.png"
 import vector from "../images/hero_ll/vector.png";
 import '../styles/hero_ll.css'
+import Caracteristicas from "./caracteristicas";
 
 export const HeroLl = (): JSX.Element => {
+
+  const scrollToSection = (id: string): void => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="hero-ll">
       <div className="overlap">
@@ -74,15 +82,15 @@ export const HeroLl = (): JSX.Element => {
             <div className="overlap-5">
               <div className="rectangle" />
 
-              <div className="text-wrapper-2">Caracteristicas</div>
+              <div className="text-wrapper-2" onClick={() => scrollToSection("caracteristicas")}>Caracteristicas</div>
 
-              <div className="text-wrapper-3">Productos</div>
+              <div className="text-wrapper-3" onClick={() => scrollToSection("nuestrosProductos")}>Productos</div>
 
-              <div className="text-wrapper-4">Clientes</div>
+              <div className="text-wrapper-4" onClick={() => scrollToSection("nuestrosClientes")}>Clientes</div>
 
-              <div className="text-wrapper-5">Servicios</div>
+              <div className="text-wrapper-5" onClick={() => scrollToSection("tecnologias")}>Tecnologias</div>
 
-              <div className="text-wrapper-6">FAQ</div>
+              <div className="text-wrapper-6" onClick={() => scrollToSection("")}>FAQ</div>
             </div>
           </div>
         </div>

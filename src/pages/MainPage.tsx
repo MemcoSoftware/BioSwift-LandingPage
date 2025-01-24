@@ -39,25 +39,25 @@ const MainPage: React.FC = (): JSX.Element => {
           <div id="hero">
             <Hero />
           </div>
-          <div>
+          <div id="heroll">
             <HeroII />
           </div>
-          <div>
+          <div id='caracteristicas'>
             <Caracteristicas />
           </div>
-          <div>
+          <div id='caracteristicasll'>
             <CaracteristicasLl />
           </div>
-          <div>
+          <div id="caracteristicaslll">
             <CaracteristicasIII />
           </div>
-          <div>
+          <div id="tecnologias">
             <Tecnologias />
           </div>
-          <div>
+          <div id="nuestrosClientes">
             <NuestrosClientes />
           </div>
-          <div>
+          <div id="nuestrosProductos">
             <NuestrosProductos />
           </div>
         </div>

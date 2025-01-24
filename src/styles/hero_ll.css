@@ -313,6 +313,7 @@
   text-align: center;
   top: 3.15vh;
   width: 19.43vw;
+  cursor: pointer;
 }
 
 .hero-ll .text-wrapper-3 {
@@ -372,11 +373,9 @@
 }
 
 .hero-ll .bg-effects {
-  height: 88.43vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 96.61vw;
 }
 
 .hero-ll .polygon {
