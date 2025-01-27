@@ -218,13 +218,72 @@ rgb(2, 220, 243) 87%
   width: 58.70vw;
 }
 
-.hero-ll .texto {
-  height: 15.19vh;
-  left: 6.09vw;
+
+
+.hero-ll .text-container {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255 255 255) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 5vw;
+  font-weight: 700;
+  left: 4.4vw;
+  letter-spacing: -0.04vw;
   position: absolute;
-  top: 0.28vh;
-  width: 43.60vw;
+  top: 0.15vh;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 47.2vw;
+  line-height: 8.2vh;
 }
+
+.hero-ll .subtext-container {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(191deg, rgb(255, 255, 255) 0%, rgb(165 165 165) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 1.5vw;
+  font-weight: 200;
+  left: -0,8vw;
+  letter-spacing: -0.04vw;
+  position: absolute;
+  top: 19.15vh;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 58.2vw;
+  line-height: 3.2vh;
+}
+
+@keyframes deslizamiento-horizontal {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+
+.hero-ll .gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(3, 229, 204),
+    rgb(31, 169, 229),
+    rgb(2, 220, 243),
+    rgb(3, 229, 204)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: deslizamiento-horizontal 5s infinite linear;
+}
+
+
 
 .hero-ll .subtexto {
   height: 5.65vh;
@@ -257,6 +316,11 @@ rgb(2, 220, 243) 87%
   height: 9.72vh;
   position: relative;
   width: 26.77vw;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-ll .best-innovation {
@@ -267,9 +331,7 @@ rgb(2, 220, 243) 87%
   left: 1.25vw;
   letter-spacing: -0.08vw;
   line-height: 3.40vh;
-  position: absolute;
   text-align: center;
-  top: 3.15vh;
   white-space: nowrap;
 }
 
@@ -300,6 +362,16 @@ rgb(2, 220, 243) 87%
   position: absolute;
   top: 3.15vh;
   width: 2.14vw;
+  
+}
+
+.hero-ll .sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  height: 10vh;
+  margin-left: 6vw;
 }
 
 .hero-ll .text-wrapper-2 {
@@ -307,70 +379,58 @@ rgb(2, 220, 243) 87%
   font-family: "Poppins-Medium", Helvetica;
   font-size: 3.70vh;
   font-weight: 500;
-  left: 7.24vw;
-  letter-spacing: -0.08vw;
   line-height: 3.40vh;
-  position: absolute;
-  text-align: center;
-  top: 3.15vh;
-  width: 19.43vw;
   cursor: pointer;
+  transition: text-shadow 0.4s ease, transform 0.4s ease, ;
+  text-shadow: none; /* Sin sombra inicial */
+  padding: 1vh 0.5vw;
+}
+.hero-ll .text-wrapper-2::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5vh; /* Ajusta la posición de la línea */
+  left: 0;
+  width: 0; /* Inicialmente oculta la línea */
+  height: 2px; /* Grosor de la línea */
+  background: rgb(255, 255, 255); /* Color de la línea */
+  transition: width 0.3s ease; /* Transición suave al aparecer la línea */
+  cursor:pointer
 }
 
-.hero-ll .text-wrapper-3 {
-  color: #ffffff;
-  font-family: "Poppins-Medium", Helvetica;
-  font-size: 3.70vh;
-  font-weight: 500;
-  left: 41.61vw;
-  letter-spacing: -0.08vw;
-  line-height: 3.40vh;
-  position: absolute;
-  text-align: center;
-  top: 3.24vh;
-  width: 12.92vw;
+.hero-ll .text-wrapper-2:hover::after {
+  width: 100%;
 }
 
-.hero-ll .text-wrapper-4 {
-  color: #ffffff;
-  font-family: "Poppins-Medium", Helvetica;
-  font-size: 3.70vh;
-  font-weight: 500;
-  left: 28.96vw;
-  letter-spacing: -0.08vw;
-  line-height: 3.40vh;
-  position: absolute;
-  text-align: center;
-  top: 3.15vh;
-  width: 10.36vw;
+.hero-ll .text-wrapper-2.active {
+  width: auto;
+  height: auto; /* Convierte la línea en un rectángulo */
+  background: transparent; /* Fondo translúcido */
+  border: 2px solid #ffffff; /* Borde del rectángulo */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 6px;
+  color: aqua;
 }
 
-.hero-ll .text-wrapper-5 {
-  color: #ffffff;
-  font-family: "Poppins-Medium", Helvetica;
-  font-size: 3.70vh;
-  font-weight: 500;
-  left: 56.77vw;
-  letter-spacing: -0.08vw;
-  line-height: 3.40vh;
-  position: absolute;
-  text-align: center;
-  top: 3.24vh;
-  width: 11.30vw;
-}
 
-.hero-ll .text-wrapper-6 {
-  color: #ffffff;
-  font-family: "Poppins-Medium", Helvetica;
-  font-size: 3.70vh;
-  font-weight: 500;
-  left: 70.42vw;
-  letter-spacing: -0.08vw;
-  line-height: 3.40vh;
-  position: absolute;
-  text-align: center;
-  top: 3.24vh;
-  width: 5.21vw;
+.hero-ll .text-wrapper-2:hover{
+  background: linear-gradient(
+    90deg,
+    rgb(3, 229, 204),
+    rgb(31, 169, 229),
+    rgb(2, 220, 243),
+    rgb(3, 229, 204)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: deslizamiento-horizontal 4s infinite linear;
+  background-size: 500%;
+  transform: translateY(-5px); /* Eleva ligeramente el botón */
+  transition: text-shadow 10s ease, transform 0.4s ease, ;
+  text-shadow: #ffffff;
 }
 
 .hero-ll .bg-effects {

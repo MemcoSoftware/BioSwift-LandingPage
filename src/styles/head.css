@@ -161,18 +161,7 @@
     rgb(230, 236, 237) 100%
   );
   color: #071320;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 1.67vw;
-  font-weight: bold;
-  letter-spacing: -0.067vw;
-  line-height: 1.67vw;
   transition: 3ms;
-  border-radius: 12px;
-  height: 4.26vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 11.04vw;
   transform: scale(1.05); 
   box-shadow: 0 0 20px 4px rgba(2, 220, 243, 0.6);
   transform: translateY(-5px); /* Eleva ligeramente el botón */

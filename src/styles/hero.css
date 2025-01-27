@@ -78,14 +78,7 @@
   
 }
 
-@keyframes escritura {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
+
 
 .hero .bioswift {
   background: linear-gradient(
@@ -98,7 +91,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: escritura 5s steps(30, end), deslizamiento-horizontal 6s infinite linear;
+  animation: deslizamiento-horizontal 6s infinite linear;
   background-size: 200%;
   white-space: nowrap; /* Evita saltos de línea */
   overflow: hidden; /* Oculta texto aún no "escrito" */

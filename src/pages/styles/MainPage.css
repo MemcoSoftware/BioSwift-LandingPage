@@ -3,6 +3,9 @@
     overflow-y: scroll; /* Permite desplazamiento vertical */
     height: 100vh; /* El contenedor ocupa todo el viewport */
     scroll-behavior: smooth; /* Transición suave entre secciones */
+    overflow-x: hidden;
+    overflow-y: visible;
+    scrollbar-width: thin;
   }
   
   .snap-container > * {

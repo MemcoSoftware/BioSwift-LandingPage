@@ -20,16 +20,16 @@ interface HeroIIProps {
 
 export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element => {
   const [loading, setLoading] = useState<boolean>(false); // Estado para el loader
+  const [activeSection, setActiveSection] = useState<string>(""); // Estado para la sección activa
 
   const handleClick = (section: string) => {
     setLoading(true); // Activa el loader
     setTimeout(() => {
       setLoading(false); // Desactiva el loader tras 1 segundo
+      setActiveSection(section); // Actualiza la sección activa
       onSectionChange(section); // Notifica a MainPage la sección seleccionada
     }, 1000); // Simula el tiempo del loader
   };
-  
-
 
   return (
     <div className="hero-ll">
@@ -77,8 +77,16 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
         </div>
 
         <div className="main-text">
-          <img className="texto" alt="Texto" src={texto} />
-          <img className="subtexto" alt="Subtexto" src={subtexto} />
+          <div className="text-container">
+         La <span className="gradient">innovación</span> está en nuestro <span className="gradient">ADN</span>
+          </div>
+
+          <div className="subtext-container">
+  <span className="gradient">Innovación tecnológica</span> diseñada para centralizar la{" "}
+  <span className="gradient">gestión de equipos biomédicos</span>, monitoreo en tiempo real,
+  análisis de datos y <span className="gradient">optimización</span> de procesos operativos.
+</div>
+
         </div>
 
         <div className="upper-capsules">
@@ -92,20 +100,38 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
             <div className="overlap-5">
               <div className="rectangle" />
 
-              <div className="text-wrapper-2" onClick={() => handleClick("caracteristicas")}>
-                Caracteristicas
-              </div>
-              <div className="text-wrapper-3" onClick={() => handleClick("nuestrosProductos")}>
-                Productos
-              </div>
-              <div className="text-wrapper-4" onClick={() => handleClick("nuestrosClientes")}>
-                Clientes
-              </div>
-              <div className="text-wrapper-5" onClick={() => handleClick("tecnologias")}>
-                Tecnologias
-              </div>
-              <div className="text-wrapper-6" onClick={() => handleClick("")}>
-                FAQ
+            <div className="sections">
+
+            <div
+        className={`text-wrapper-2 ${activeSection === "caracteristicas" ? "active" : ""}`}
+        onClick={() => handleClick("caracteristicas")}
+      >
+        Caracteristicas
+      </div>
+      <div
+        className={`text-wrapper-2 ${activeSection === "nuestrosProductos" ? "active" : ""}`}
+        onClick={() => handleClick("nuestrosProductos")}
+      >
+        Productos
+      </div>
+      <div
+        className={`text-wrapper-2 ${activeSection === "nuestrosClientes" ? "active" : ""}`}
+        onClick={() => handleClick("nuestrosClientes")}
+      >
+        Clientes
+      </div>
+      <div
+        className={`text-wrapper-2 ${activeSection === "tecnologias" ? "active" : ""}`}
+        onClick={() => handleClick("tecnologias")}
+      >
+        Tecnologias
+      </div>
+      <div
+        className={`text-wrapper-2 ${activeSection === "faq" ? "active" : ""}`}
+        onClick={() => handleClick("faq")}
+      >
+        FAQ
+      </div>
               </div>
             </div>
           </div>
