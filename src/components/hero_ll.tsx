@@ -28,7 +28,7 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
       setLoading(false); // Desactiva el loader tras 1 segundo
       setActiveSection(section); // Actualiza la sección activa
       onSectionChange(section); // Notifica a MainPage la sección seleccionada
-    }, 1000); // Simula el tiempo del loader
+    }, 650); // Simula el tiempo del loader
   };
 
   return (
@@ -46,6 +46,12 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
             <img className="arrow" alt="Arrow" src={arrow1} />
           </div>
           <div className="text">TEST BIOSWIFT</div>
+        </div>
+
+        <div className="bg-effects">
+          <div className="polygon"/>
+          <div className="polygon-2"/>
+          <div className="polygon-3"/>
         </div>
 
         <div className="float-info">
@@ -137,11 +143,7 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
           </div>
         </div>
 
-        <div className="bg-effects">
-          <img className="polygon" alt="Polygon" src={polygon29} />
-          <img className="polygon-2" alt="Polygon" src={polygon30} />
-          <img className="polygon-3" alt="Polygon" src={polygon31} />
-        </div>
+
       </div>
     </div>
   );

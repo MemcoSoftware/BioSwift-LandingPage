@@ -14,7 +14,7 @@ export const Caracteristicas = (): JSX.Element => {
     <div className="caracteristicas">
       <div className="overlap">
         <div className="ver-mas">
-          <img className="text" alt="Text" src={text} />
+          <div className="mas-text">VER <span className="gradient">MAS</span></div>
 
           <img className="arrow" alt="Arrow" src={arrow2} />
         </div>
@@ -26,22 +26,19 @@ export const Caracteristicas = (): JSX.Element => {
                 <div className="overlap-2">
                   <img className="padlock" alt="Padlock" src={padlock} />
 
-                  <p className="description">
-                    <span className="text-wrapper">
-                      Registro de actividad
-                      <br />
-                    </span>
+                  <ul className="description-2">
 
-                    <span className="span">
-                      Sesiones temporales
-                      <br />
-                      Certificados SSL/TLS
-                      <br />
-                      Roles jerárquicos avanzados
-                      <br />
-                      Acceso segmentado
-                    </span>
-                  </p>
+                     <li> Registro de actividad</li>
+
+                     <li>Sesiones temporales</li>
+                      
+                     <li> Certificados SSL/TLS</li>
+                      
+                     <li>Roles jerárquicos avanzados</li>
+                      
+                     <li> Acceso segmentado</li>
+                    
+                  </ul>
                 </div>
 
                 <div className="title">SEGURIDAD Y ACCESOS</div>
@@ -53,17 +50,19 @@ export const Caracteristicas = (): JSX.Element => {
                 <div className="overlap-group-2">
                   <img className="icon" alt="Icon" src={icon} />
 
-                  <p className="p">
-                    Panel de métricas clave
-                    <br />
-                    Comparación de períodos
-                    <br />
-                    Alertas en reportes
-                    <br />
-                    Informe de costos
-                    <br />
-                    Integración con Power BI
-                  </p>
+                  <ul className="description-2">
+
+                    <li>Panel de métricas clave</li>
+                    
+                    <li> Comparación de períodos</li>
+                    
+                    <li>Alertas en reportes</li>
+                    
+                    <li> Informe de costos</li>
+                    
+                    <li> Integración con Power BI</li>
+
+                  </ul>
                 </div>
 
                 <div className="title-2">REPORTE Y ANALISIS</div>
@@ -78,17 +77,19 @@ export const Caracteristicas = (): JSX.Element => {
                 
                   <img className="img" alt="Icon" src={image} />
 
-                  <p className="description-2">
-                    Gestión de inventarios automatizada
-                    <br />
-                    Estado de los equipos
-                    <br />
-                    Historial de intervenciones
-                    <br />
-                    Automatización de procesos
-                    <br />
-                    Monitoreo en tiempo real
-                  </p>
+                  <ul className="description-2">
+
+                    <li>Gestión de inventarios automatizada</li>
+                    
+                    <li>Estado de los equipos</li>
+                    
+                    <li> Historial de intervenciones</li>
+                    
+                    <li>Automatización de procesos</li>
+                    
+                    <li> Monitoreo en tiempo real</li>
+
+                  </ul>
                 </div>
 
                 <div className="title-3">FUNCIONALIDADES</div>
