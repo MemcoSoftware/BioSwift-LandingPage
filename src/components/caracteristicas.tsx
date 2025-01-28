@@ -9,6 +9,7 @@ import polygon28 from "../images/caracteristicas/polygon_28.png";
 import polygon29 from "../images/caracteristicas/polygon_29.png";
 import text from "../images/caracteristicas/text.png";
 import '../styles/caracteristicas.css'
+import { useRef } from "react";
 
 
 interface CaracteristicasProps {

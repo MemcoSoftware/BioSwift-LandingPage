@@ -41,6 +41,7 @@
   font-family: "Poppins-Regular", Helvetica;
   font-weight: 400;
   font-size: 3vh;
+  cursor: pointer;
 }
 
 .caracteristicas .arrow {

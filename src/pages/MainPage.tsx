@@ -9,8 +9,11 @@ import CaracteristicasIII from "../components/caracteristicas_lll";
 import Tecnologias from "../components/tecnologias";
 import NuestrosClientes from "../components/nuestros_clientes";
 import NuestrosProductos from "../components/nuestros_productos";
+import { useRef } from "react";
+
 
 const MainPage: React.FC = (): JSX.Element => {
+  const caracteristicasllRef = useRef<HTMLDivElement>(null);
   const [showHeader, setShowHeader] = useState(true);
   const [selectedSection, setSelectedSection] = useState<string>(""); // Estado para la sección seleccionada
 
@@ -49,8 +52,13 @@ const MainPage: React.FC = (): JSX.Element => {
   const [showMore, setShowMore] = useState<boolean>(false);
 
 const handleShowMore = () => {
-  setShowMore(true); // Activa la visualización de las secciones adicionales
+  setShowMore(true);
+  setTimeout(() => {
+    caracteristicasllRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, 200); // Espera un poco para asegurar que el contenido ya se renderizó
 };
+
+
 
 
   return (
@@ -73,7 +81,7 @@ const handleShowMore = () => {
 
         {showMore && (
           <>
-            <div id="caracteristicasll">
+            <div id="caracteristicasll" ref={caracteristicasllRef}>
               <CaracteristicasLl />
             </div>
             <div id="caracteristicaslll">
