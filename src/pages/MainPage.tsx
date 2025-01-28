@@ -46,6 +46,13 @@ const MainPage: React.FC = (): JSX.Element => {
     setSelectedSection(section); // Cambia la sección activa
   };
 
+  const [showMore, setShowMore] = useState<boolean>(false);
+
+const handleShowMore = () => {
+  setShowMore(true); // Activa la visualización de las secciones adicionales
+};
+
+
   return (
     <div>
       {showHeader && <Head />} {/* Header visible solo si `showHeader` es true */}
@@ -60,20 +67,19 @@ const MainPage: React.FC = (): JSX.Element => {
 
         {selectedSection === "caracteristicas" && (
           <div id="caracteristicas">
-            <Caracteristicas />
+         <Caracteristicas onShowMore={handleShowMore} />
           </div>
         )}
 
-        {selectedSection === "caracteristicasll" && (
-          <div id="caracteristicasll">
-            <CaracteristicasLl />
-          </div>
-        )}
-
-        {selectedSection === "caracteristicaslll" && (
-          <div id="caracteristicaslll">
-            <CaracteristicasIII />
-          </div>
+        {showMore && (
+          <>
+            <div id="caracteristicasll">
+              <CaracteristicasLl />
+            </div>
+            <div id="caracteristicaslll">
+              <CaracteristicasIII />
+            </div>
+          </>
         )}
 
         {selectedSection === "tecnologias" && (
