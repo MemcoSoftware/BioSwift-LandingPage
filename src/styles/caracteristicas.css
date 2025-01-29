@@ -19,6 +19,21 @@
   top: 88.17vh;
 }
 
+@keyframes fadeSwitch {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .caracteristicas .gradient {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
@@ -29,11 +44,19 @@
     rgb(2, 220, 243),
     rgb(3, 229, 204)
   );
-  background-size: 200%;
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Regular", Helvetica;
   font-weight: 400;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.gradient.reset {
+  animation: none; /* 🔹 Se desactiva la animación antes de reiniciarla */
+}
+
+.gradient.active {
+  animation: fadeSwitch 0.3s ease-in-out;
 }
 
 .caracteristicas .mas-text {
@@ -50,6 +73,15 @@
   position: absolute;
   top: 0.8vh;
   width: 1.55vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+.caracteristicas .arrow.up {
+  transform: rotate(0deg); /* 🔹 Flecha normal apuntando hacia arriba */
+}
+
+.caracteristicas .arrow.down {
+  transform: rotate(90deg); /* 🔹 Flecha rota apuntando hacia abajo */
 }
 
 .caracteristicas .overlap-wrapper {

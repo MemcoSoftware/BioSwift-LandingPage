@@ -47,12 +47,16 @@ const MainPage: React.FC = (): JSX.Element => {
   // Función para manejar la sección seleccionada
   const handleSectionChange = (section: string): void => {
     setSelectedSection(section); // Cambia la sección activa
+     // Si la nueva sección NO es "caracteristicas", resetear "showMore"
+  if (section !== "caracteristicas") {
+    setShowMore(false);
+  }
   };
 
-  const [showMore, setShowMore] = useState<boolean>(false);
+  const [showMore, setShowMore] = useState(false);
 
 const handleShowMore = () => {
-  setShowMore(true);
+  setShowMore((prev) => !prev);
   setTimeout(() => {
     caracteristicasllRef.current?.scrollIntoView({ behavior: "smooth" });
   }, 200); // Espera un poco para asegurar que el contenido ya se renderizó
@@ -75,11 +79,11 @@ const handleShowMore = () => {
 
         {selectedSection === "caracteristicas" && (
           <div id="caracteristicas">
-         <Caracteristicas onShowMore={handleShowMore} />
+         <Caracteristicas onShowMore={handleShowMore} showMore={showMore}/>
           </div>
         )}
 
-        {showMore && (
+        {selectedSection === "caracteristicas" && showMore && (
           <>
             <div id="caracteristicasll" ref={caracteristicasllRef}>
               <CaracteristicasLl />

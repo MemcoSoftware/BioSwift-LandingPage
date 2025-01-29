@@ -14,6 +14,7 @@ import iconSupport from "../images/caracteristicas_ll/icon_support.png";
 import "../styles/caracteristicas_ll.css";
 import textAccess from "../images/caracteristicas_ll/text_access.png";
 import textCustomizable from "../images/caracteristicas_ll/text_customizable.png";
+import textCustomizable2 from "../images/caracteristicas_ll/text_customizable-1.png";
 import textDashboard from "../images/caracteristicas_ll/text_dashboard.png";
 import textFilters2 from "../images/caracteristicas_ll/text_filters-1.png";
 import textFilters from "../images/caracteristicas_ll/text_filters.png";
@@ -36,245 +37,38 @@ import vectorPassword from "../images/caracteristicas_ll/vector_password.png";
 import vectorReports from "../images/caracteristicas_ll/vector_reports.png";
 import vectorSupport from "../images/caracteristicas_ll/vector_support.png";
 
+const features = [
+  { text: textAccess, icon: iconAccess, vector: vector5Access },
+  { text: textCustomizable, icon: iconCustomizable, vector: vectorCustomizable },
+  { text: textDashboard, icon: iconDashboard, vector: vectorDashboard },
+  { text: textFilters2, icon: iconFilters2, vector: vectorFilters2 },
+  { text: textFilters, icon: iconFilters, vector: vectorFilters },
+  { text: textIntegration, icon: iconIntegration, vector: vectorIntegration },
+  { text: textIntelligent, icon: iconIntelligent, vector: vectorIntelligent },
+  { text: textIntuitive, icon: iconIntuitive, vector: vectorIntuitive },
+  { text: textCustomizable2, icon: iconNotifications, vector: vectorCustomizable2 },
+  { text: textPassword, icon: iconPassword, vector: vectorPassword },
+  { text: textReports, icon: iconReports, vector: vectorReports },
+  { text: textSupport, icon: iconSupport, vector: vectorSupport },
+];
+
 export const CaracteristicasLl = (): JSX.Element => {
   return (
     <div className="caracteristicas-ll">
-      <div className="overlap">
-        <div className="third-line">
-          <div className="overlap-group">
-            <div className="tech-support">
-              <img
-                className="text-support"
-                alt="Text support"
-                src={textSupport}
-              />
-
-              <img
-                className="icon-support"
-                alt="Icon support"
-                src={iconSupport}
-              />
+      <div className="slider" style={{ "--quantity": features.length } as React.CSSProperties}>
+        {features.map((feature, index) => (
+          <div
+            className="item"
+            key={index}
+            style={{ "--position": index + 1 } as React.CSSProperties}
+          >
+            <div className="feature-content">
+              <img className="feature-text" alt={`Texto ${index}`} src={feature.text} />
+              <img className="feature-icon" alt={`Icono ${index}`} src={feature.icon} />
             </div>
-
-            <div className="operational">
-              <img
-                className="text-filters"
-                alt="Text filters"
-                src={textFilters2}
-              />
-
-              <img
-                className="icon-filters"
-                alt="Icon filters"
-                src={iconFilters}
-              />
-            </div>
-
-            <div className="advanced-filters">
-              <img className="img" alt="Text filters" src={textFilters} />
-
-              <img
-                className="icon-filters-2"
-                alt="Icon filters"
-                src={iconFilters2}
-              />
-            </div>
-
-            <div className="intelligent-reports">
-              <img
-                className="text-intelligent"
-                alt="Text intelligent"
-                src={textIntelligent}
-              />
-
-              <img
-                className="icon-intelligent"
-                alt="Icon intelligent"
-                src={iconIntelligent}
-              />
-            </div>
-
-            <div className="div">
-              <img
-                className="img-2"
-                alt="Vector intelligent"
-                src={vectorIntelligent}
-              />
-
-              <img className="img-3" alt="Vector filters" src={vectorFilters} />
-
-              <img
-                className="img-4"
-                alt="Vector filters"
-                src={vectorFilters2}
-              />
-
-              <img className="img-5" alt="Vector support" src={vectorSupport} />
-            </div>
+            <img className="feature-vector" alt={`Vector ${index}`} src={feature.vector} />
           </div>
-        </div>
-
-        <div className="second-line">
-          <div className="overlap-group">
-            <div className="notifications">
-              <img
-                className="text-customizable"
-                alt="Text customizable"
-                src={textCustomizable}
-              />
-
-              <img
-                className="icon-notifications"
-                alt="Icon notifications"
-                src={iconNotifications}
-              />
-            </div>
-
-            <div className="customizable-reports">
-              <img
-                className="text-customizable-2"
-                alt="Text customizable"
-                src={textCustomizable}
-              />
-
-              <img
-                className="icon-customizable"
-                alt="Icon customizable"
-                src={iconCustomizable}
-              />
-            </div>
-
-            <div className="graphic-reports">
-              <img
-                className="text-reports"
-                alt="Text reports"
-                src={textReports}
-              />
-
-              <img
-                className="icon-reports"
-                alt="Icon reports"
-                src={iconReports}
-              />
-            </div>
-
-            <div className="strong-password">
-              <img
-                className="text-password"
-                alt="Text password"
-                src={textPassword}
-              />
-
-              <img
-                className="icon-password"
-                alt="Icon password"
-                src={iconPassword}
-              />
-            </div>
-
-            <div className="div">
-              <img
-                className="img-2"
-                alt="Vector password"
-                src={vectorPassword}
-              />
-
-              <img className="img-3" alt="Vector reports" src={vectorReports} />
-
-              <img
-                className="img-4"
-                alt="Vector customizable"
-                src={vectorCustomizable}
-              />
-
-              <img
-                className="img-5"
-                alt="Vector customizable"
-                src={vectorCustomizable2}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="first-line">
-          <div className="overlap-group">
-            <div className="api-integration">
-              <img
-                className="text-integration"
-                alt="Text integration"
-                src={textIntegration}
-              />
-
-              <img
-                className="icon-integration"
-                alt="Icon integration"
-                src={iconIntegration}
-              />
-            </div>
-
-            <div className="documentation-access">
-              <img className="text-access" alt="Text access" src={textAccess} />
-
-              <img className="icon-access" alt="Icon access" src={iconAccess} />
-            </div>
-
-            <div className="intuitive-design">
-              <img
-                className="text-intuitive"
-                alt="Text intuitive"
-                src={textIntuitive}
-              />
-
-              <img
-                className="icon-intuitive"
-                alt="Icon intuitive"
-                src={iconIntuitive}
-              />
-            </div>
-
-            <div className="dashboard">
-              <img
-                className="text-dashboard"
-                alt="Text dashboard"
-                src={textDashboard}
-              />
-
-              <img
-                className="icon-dashboard"
-                alt="Icon dashboard"
-                src={iconDashboard}
-              />
-            </div>
-
-            <div className="div">
-              <img
-                className="img-2"
-                alt="Vector dashboard"
-                src={vectorDashboard}
-              />
-
-              <img
-                className="img-3"
-                alt="Vector intuitive"
-                src={vectorIntuitive}
-              />
-
-              <img className="img-4" alt="Vector access" src={vector5Access} />
-
-              <img
-                className="img-5"
-                alt="Vector integration"
-                src={vectorIntegration}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="effects">
-          <div className="rectangle" />
-
-          <div className="rectangle-2" />
-        </div>
+        ))}
       </div>
     </div>
   );

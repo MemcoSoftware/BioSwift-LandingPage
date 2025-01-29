@@ -10,20 +10,33 @@ import polygon29 from "../images/caracteristicas/polygon_29.png";
 import text from "../images/caracteristicas/text.png";
 import '../styles/caracteristicas.css'
 import { useRef } from "react";
-
+import { useState } from "react";
 
 interface CaracteristicasProps {
   onShowMore: () => void;
+  showMore: boolean;
 }
 
-const Caracteristicas: React.FC<CaracteristicasProps> = ({ onShowMore }) => {
+const Caracteristicas: React.FC<CaracteristicasProps> = ({ onShowMore,showMore }) => {
+  
+  const [animateKey, setAnimateKey] = useState(0); // 🔹 Clave para reiniciar animación
+
+  const handleClick = () => {
+    setAnimateKey((prevKey) => prevKey + 1); // 🔹 Cambia la clave para forzar la animación
+    onShowMore(); // 🔹 Cambia el estado de "MÁS"/"MENOS"
+  };
+
   return (
     <div className="caracteristicas">
       <div className="overlap">
-        <div className="ver-mas" onClick={onShowMore}>
-          <div className="mas-text">VER <span className="gradient">MAS</span></div>
+        <div className="ver-mas" onClick={handleClick}>
 
-          <img className="arrow" alt="Arrow" src={arrow2} />
+          <div className="mas-text">
+          VER <span key={animateKey} className="gradient active">{showMore ? "MENOS" : "MÁS"}</span>
+          </div>
+
+          <img className={`arrow ${showMore ? "down" : "up"}`} alt="Arrow" src={arrow2} />
+
         </div>
 
         <div className="overlap-wrapper">

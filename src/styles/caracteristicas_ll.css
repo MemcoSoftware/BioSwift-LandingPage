@@ -1,395 +1,93 @@
 .caracteristicas-ll {
-  background-color: #061320;
+  width: 100%;
   height: 100vh;
-  width: 100vw;
-}
-
-.caracteristicas-ll .overlap {
-  height: 100vh;
+  text-align: center;
+  overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.caracteristicas-ll .third-line {
-  height: 15.65vh;
-  left: 10.99vw;
+.slider {
   position: absolute;
-  top: 70.19vh;
-  width: 78.44vw;
+  width: 200px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateX(-16deg);
+  animation: autoRun 20s linear infinite;
+  z-index: 2;
 }
 
-.caracteristicas-ll .overlap-group {
-  height: 15.65vh;
-  position: relative;
+@keyframes autoRun {
+  from {
+    transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+  }
+  to {
+    transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+  }
 }
 
-.caracteristicas-ll .tech-support {
-  height: 11.48vh;
-  left: 66.72vw;
+.item {
   position: absolute;
-  top: 3.61vh;
-  width: 9.38vw;
+  inset: 0;
+  transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+    translateZ(550px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.caracteristicas-ll .text-support {
-  height: 1.39vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 9.81vh;
-  width: 9.17vw;
+.feature-content {
+  text-align: center;
 }
 
-.caracteristicas-ll .icon-support {
-  height: 8.89vh;
-  left: 2.60vw;
-  position: absolute;
-  top: 0;
-  width: 4.58vw;
+.feature-text {
+  width: 100px; /* Ajusta según sea necesario */
+  height: auto;
 }
 
-.caracteristicas-ll .operational {
-  height: 10.37vh;
-  left: 43.18vw;
-  position: absolute;
-  top: 5vh;
-  width: 14.27vw;
+.feature-icon {
+  width: 50px; /* Ajusta según sea necesario */
+  height: auto;
+  margin-top: 10px;
 }
 
-.caracteristicas-ll .text-filters {
-  height: 1.67vh;
-  left: 1.72vw;
-  position: absolute;
-  top: 8.15vh;
-  width: 11.20vw;
-}
-
-.caracteristicas-ll .icon-filters {
-  height: 7.41vh;
-  left: 5.31vw;
-  position: absolute;
-  top: -0.93vh;
-  width: 4.06vw;
-}
-
-.caracteristicas-ll .advanced-filters {
-  height: 11.11vh;
-  left: 23.91vw;
-  position: absolute;
-  top: 4.26vh;
-  width: 10vw;
-}
-
-.caracteristicas-ll .img {
-  height: 1.20vh;
-  left: 0.10vw;
-  position: absolute;
-  top: 9.54vh;
-  width: 9.79vw;
-}
-
-.caracteristicas-ll .icon-filters-2 {
-  height: 7.69vh;
-  left: 2.76vw;
+.feature-vector {
   position: absolute;
   top: 0;
-  width: 3.69vw;
-}
-
-.caracteristicas-ll .intelligent-reports {
-  height: 11.11vh;
-  left: 3.13vw;
-  position: absolute;
-  top: 4.26vh;
-  width: 11.41vw;
-}
-
-.caracteristicas-ll .text-intelligent {
-  height: 1.39vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 9.35vh;
-  width: 11.20vw;
-}
-
-.caracteristicas-ll .icon-intelligent {
-  height: 7.69vh;
-  left: 3.80vw;
-  position: absolute;
-  top: 0;
-  width: 3.75vw;
-}
-
-.caracteristicas-ll .div {
-  height: 15.65vh;
   left: 0;
-  position: absolute;
-  top: 0;
-  width: 78.44vw;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5; /* Ajusta la opacidad según sea necesario */
 }
 
-.caracteristicas-ll .img-2 {
-  height: 16.30vh;
-  left: -0.10vw;
-  position: absolute;
-  top: -0.28vh;
-  width: 17.81vw;
+/* Responsividad */
+@media screen and (max-width: 1023px) {
+  .slider {
+    width: 160px;
+    height: 200px;
+    left: calc(50% - 80px);
+  }
+
+  .item {
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+      translateZ(300px);
+  }
 }
 
-.caracteristicas-ll .img-3 {
-  height: 16.39vh;
-  left: 21.25vw;
-  position: absolute;
-  top: -0.28vh;
-  width: 15.26vw;
-}
+@media screen and (max-width: 767px) {
+  .slider {
+    width: 100px;
+    height: 150px;
+    left: calc(50% - 50px);
+  }
 
-.caracteristicas-ll .img-4 {
-  height: 16.20vh;
-  left: 39.48vw;
-  position: absolute;
-  top: -0.28vh;
-  width: 21.77vw;
-}
-
-.caracteristicas-ll .img-5 {
-  height: 16.39vh;
-  left: 64.17vw;
-  position: absolute;
-  top: -0.28vh;
-  width: 14.32vw;
-}
-
-.caracteristicas-ll .second-line {
-  height: 15.65vh;
-  left: 10.99vw;
-  position: absolute;
-  top: 42.31vh;
-  width: 78.44vw;
-}
-
-.caracteristicas-ll .notifications {
-  height: 10.46vh;
-  left: 67.08vw;
-  position: absolute;
-  top: 4.44vh;
-  width: 8.70vw;
-}
-
-.caracteristicas-ll .text-customizable {
-  height: 1.39vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 8.70vh;
-  width: 8.49vw;
-}
-
-.caracteristicas-ll .icon-notifications {
-  height: 7.41vh;
-  left: 2.76vw;
-  position: absolute;
-  top: 0;
-  width: 3.65vw;
-}
-
-.caracteristicas-ll .customizable-reports {
-  height: 11.76vh;
-  left: 43.23vw;
-  position: absolute;
-  top: 3.33vh;
-  width: 14.32vw;
-}
-
-.caracteristicas-ll .text-customizable-2 {
-  height: 1.39vh;
-  left: 3.65vw;
-  position: absolute;
-  top: 9.44vh;
-  width: 7.81vw;
-}
-
-.caracteristicas-ll .icon-customizable {
-  height: 8.70vh;
-  left: 5.47vw;
-  position: absolute;
-  top: 0;
-  width: 4.06vw;
-}
-
-.caracteristicas-ll .graphic-reports {
-  height: 10.65vh;
-  left: 23.85vw;
-  position: absolute;
-  top: 4.44vh;
-  width: 10.10vw;
-}
-
-.caracteristicas-ll .text-reports {
-  height: 1.39vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 9.17vh;
-  width: 9.90vw;
-}
-
-.caracteristicas-ll .icon-reports {
-  height: 6.76vh;
-  left: 3.28vw;
-  position: absolute;
-  top: 0;
-  width: 3.33vw;
-}
-
-.caracteristicas-ll .strong-password {
-  height: 10.56vh;
-  left: 3.13vw;
-  position: absolute;
-  top: 4.17vh;
-  width: 11.35vw;
-}
-
-.caracteristicas-ll .text-password {
-  height: 1.57vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 8.61vh;
-  width: 11.20vw;
-}
-
-.caracteristicas-ll .icon-password {
-  height: 7.13vh;
-  left: 3.80vw;
-  position: absolute;
-  top: 0;
-  width: 3.85vw;
-}
-
-
-.caracteristicas-ll .first-line {
-  height: 15.65vh;
-  left: 10.99vw;
-  position: absolute;
-  top: 14.35vh;
-  width: 78.44vw;
-}
-
-.caracteristicas-ll .api-integration {
-  height: 10.19vh;
-  left: 66.67vw;
-  position: absolute;
-  top: 4.63vh;
-  width: 9.58vw;
-}
-
-.caracteristicas-ll .text-integration {
-  height: 1.20vh;
-  left: 0.10vw;
-  position: absolute;
-  top: 8.61vh;
-  width: 9.38vw;
-}
-
-.caracteristicas-ll .icon-integration {
-  height: 6.76vh;
-  left: 3.18vw;
-  position: absolute;
-  top: 0;
-  width: 3.33vw;
-}
-
-.caracteristicas-ll .documentation-access {
-  height: 11.67vh;
-  left: 43.28vw;
-  position: absolute;
-  top: 3.52vh;
-  width: 14.11vw;
-}
-
-.caracteristicas-ll .text-access {
-  height: 1.39vh;
-  left: 0.16vw;
-  position: absolute;
-  top: 9.81vh;
-  width: 13.70vw;
-}
-
-.caracteristicas-ll .icon-access {
-  height: 8.15vh;
-  left: 5.21vw;
-  position: absolute;
-  top: 0;
-  width: 4.01vw;
-}
-
-.caracteristicas-ll .intuitive-design {
-  height: 12.96vh;
-  left: 24.38vw;
-  position: absolute;
-  top: 2.04vh;
-  width: 9.11vw;
-}
-
-.caracteristicas-ll .text-intuitive {
-  height: 1.76vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 10.83vh;
-  width: 8.90vw;
-}
-
-.caracteristicas-ll .icon-intuitive {
-  height: 9.44vh;
-  left: 1.61vw;
-  position: absolute;
-  top: 0;
-  width: 5.05vw;
-}
-
-.caracteristicas-ll .dashboard {
-  height: 11.85vh;
-  left: 3.02vw;
-  position: absolute;
-  top: 3.06vh;
-  width: 11.56vw;
-}
-
-.caracteristicas-ll .text-dashboard {
-  height: 1.20vh;
-  left: 0.05vw;
-  position: absolute;
-  top: 10.28vh;
-  width: 11.35vw;
-}
-
-.caracteristicas-ll .icon-dashboard {
-  height: 9.26vh;
-  left: 3.59vw;
-  position: absolute;
-  top: 0;
-  width: 4.48vw;
-}
-
-.caracteristicas-ll .effects {
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100vw;
-}
-
-.caracteristicas-ll .rectangle {
-  background: linear-gradient(269deg, rgba(217, 217, 217, 0) 0%, rgba(115, 115, 115, 0.68) 100%);
-  height: 100vh;
-  left: 90.57vw;
-  position: absolute;
-  top: 0;
-  transform: rotate(-180deg);
-  width: 9.43vw;
-}
-
-.caracteristicas-ll .rectangle-2 {
-  background: linear-gradient(269deg, rgba(217, 217, 217, 0) 0%, rgba(115, 115, 115, 0.68) 100%);
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 9.74vw;
+  .item {
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+      translateZ(180px);
+  }
 }
