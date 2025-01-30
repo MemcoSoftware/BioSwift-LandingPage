@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import iconAccess from "../images/caracteristicas_ll/icon_access.png";
 import iconCustomizable from "../images/caracteristicas_ll/icon_customizable.png";
 import iconDashboard from "../images/caracteristicas_ll/icon_dashboard.png";
@@ -29,14 +29,62 @@ const features = [
 ];
 
 export const CaracteristicasLl = (): JSX.Element => {
+  const [selectedFeature, setSelectedFeature] = useState<number | null>(null);
+  const [rotationAngle, setRotationAngle] = useState<number>(0);
+  const [autoRotation, setAutoRotation] = useState<boolean>(true);
+
+  useEffect(() => {
+    let animationFrameId: number;
+
+    const rotateSlider = () => {
+      if (autoRotation) {
+        setRotationAngle((prevAngle) => (prevAngle + 0.2) % 360); // Gira continuamente
+      }
+      animationFrameId = requestAnimationFrame(rotateSlider);
+    };
+
+    animationFrameId = requestAnimationFrame(rotateSlider);
+
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, [autoRotation]);
+
+  const handleFeatureClick = (index: number) => {
+    if (selectedFeature === index) {
+      setSelectedFeature(null);
+      setAutoRotation(true); // Reactiva la rotación automática
+    } else {
+      setSelectedFeature(index);
+      setAutoRotation(false); // Detiene la rotación automática
+      const angle = (360 / features.length) * index;
+      setRotationAngle(-angle);
+    }
+  };
+
   return (
     <div className="caracteristicas-ll">
-      <div className="slider" style={{ "--quantity": features.length } as React.CSSProperties}>
+      <div
+        className="slider"
+        style={
+          {
+            "--quantity": features.length,
+            transform: `perspective(1000px) rotateX(-16deg) rotateY(${rotationAngle}deg)`,
+            transition: "transform 1s ease",
+          } as React.CSSProperties
+        }
+      >
         {features.map((feature, index) => (
           <div
-            className="item"
+            className={`item ${selectedFeature === index ? "selected" : ""}`}
             key={index}
-            style={{ "--position": index + 1 } as React.CSSProperties}
+            style={
+              {
+                "--position": index + 1,
+                transform: `rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px)`,
+              } as React.CSSProperties
+            }
+            onClick={() => handleFeatureClick(index)}
           >
             <div className="feature-content">
               <div className="feature-title">

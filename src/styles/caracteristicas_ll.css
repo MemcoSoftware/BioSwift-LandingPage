@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f0f0f0; /* Fondo de ejemplo */
 }
 
 .slider {
@@ -17,17 +18,7 @@
   left: 50%;
   transform-style: preserve-3d;
   transform: perspective(1000px) rotateX(-16deg);
-  animation: autoRun 20s linear infinite;
   z-index: 2;
-}
-
-@keyframes autoRun {
-  from {
-    transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-  }
-  to {
-    transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-  }
 }
 
 .item {
@@ -38,6 +29,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  cursor: pointer;
+}
+
+.item.selected {
+  transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+    translateZ(650px) scale(1.2); /* Elevar y agrandar el ítem seleccionado */
+  z-index: 3;
 }
 
 .feature-content {

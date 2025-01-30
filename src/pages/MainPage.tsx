@@ -59,7 +59,7 @@ const handleShowMore = () => {
   setShowMore((prev) => !prev);
   setTimeout(() => {
     caracteristicasllRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, 200); // Espera un poco para asegurar que el contenido ya se renderizó
+  }, 400); // Espera un poco para asegurar que el contenido ya se renderizó
 };
 
 
