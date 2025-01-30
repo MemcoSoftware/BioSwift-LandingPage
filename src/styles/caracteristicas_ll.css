@@ -35,7 +35,7 @@
 
 .item.selected {
   transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-    translateZ(650px) scale(1.2); /* Elevar y agrandar el ítem seleccionado */
+    translateZ(520px) translateY(30px) scale(1.2)!important; /* Elevar y agrandar el ítem seleccionado */ 
   z-index: 3;
 }
 
