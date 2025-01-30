@@ -14,11 +14,20 @@ import title3 from "../images/caracteristicas_lll/title-3.png";
 import title4 from "../images/caracteristicas_lll/title-4.png";
 import title5 from "../images/caracteristicas_lll/title-5.png";
 import title from "../images/caracteristicas_lll/title.png";
-import lines from "../images/caracteristicas_lll/lines.png"
-
+import leftUpLine from "../images/caracteristicas_lll/leftUpLine.png";
+import rightUpLine from "../images/caracteristicas_lll/rightUpLine.png";
+import leftDownLine from "../images/caracteristicas_lll/leftDownLine.png";
+import rightDownLine from "../images/caracteristicas_lll/rightDownLine.png";
+import leftDownLine2 from "../images/caracteristicas_lll/rightDownLine2.png";
+import rightDownLine2 from "../images/caracteristicas_lll/rightDownLine2.png";
 export const CaracteristicasLll = (): JSX.Element => {
-    return (
+  return (
+      <div>
       <div className="caracteristicas-lll">
+      <div className="bgs-lll">
+          <div className="bg-new-lll"></div>
+          <div className="bg-second-lll"></div>
+        </div>
         <div className="overlap">
           <div className="bg-effect" />
   
@@ -36,11 +45,10 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="overlap-group">
                 <p className="description">
-                  Toda la información operativa en un solo lugar, con estadísticas
-                  y notificaciones clave.
+                Gestiona los permisos de acceso con niveles de jerarquía definidos para cada usuario. Asegura acceso solo a la información y herramientas que realmente necesita cada usuario.
                 </p>
   
-                <img className="title" alt="Title" src={title2} />
+                <div className="title-funcionalidad-2">ROLES <span className="gradient-title">JERARQUICOS AVANZADOS</span></div>
   
                 <div className="frame" />
               </div>
@@ -57,11 +65,10 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="div">
                 <p className="p">
-                  Toda la información operativa en un solo lugar, con estadísticas
-                  y notificaciones clave.
+                Define reglas de acceso específicas según áreas, usuarios o dispositivos. Implementa una seguridad granular para proteger la información y garantizar el cumplimiento de normativas.
                 </p>
   
-                <img className="title-2" alt="Title" src={title3} />
+                <div className="title-funcionalidad-2">ACCESO <span className="gradient-title">SEGMENTADO</span></div>
   
                 <div className="frame-2" />
               </div>
@@ -80,11 +87,10 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="overlap-group-2">
                 <p className="text-wrapper-3">
-                  Toda la información operativa en un solo lugar, con estadísticas
-                  y notificaciones clave.
+                Conecta y visualiza tus datos en Power BI, genera informes dinámicos e interactivos. Usa su capacidad analítica avanzada para obtener insights precisos.
                 </p>
   
-                <img className="title-3" alt="Title" src={title} />
+                <div className="title-funcionalidad-2">INTEGRACION CON <span className="gradient-title">POWER BI</span></div>
   
                 <div className="frame-3" />
               </div>
@@ -101,11 +107,10 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="overlap-group-2">
                 <p className="description-2">
-                  Toda la información operativa en un solo lugar, con estadísticas
-                  y notificaciones clave.
+                Accede en tiempo real a un conjunto de métricas estratégicas que facilitan la toma de decisiones basada en datos.
                 </p>
   
-                <img className="title-8" alt="Title" src={title5} />
+                <div className="title-funcionalidad-2">PANEL DE <span className="gradient-title">METRICAS CLAVES</span></div>
   
                 <div className="frame-3" />
               </div>
@@ -132,7 +137,7 @@ export const CaracteristicasLll = (): JSX.Element => {
                   y notificaciones clave.
                 </p>
   
-                <img className="title-4" alt="Title" src={title4} />
+                <div className="title-funcionalidad-2">MONITOREO EN <span className="gradient-title">TIEMPO </span>REAL</div>
   
                 <div className="ellipse-wrapper">
                   <div className="ellipse" />
@@ -156,11 +161,10 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="overlap-2">
                 <p className="description-4">
-                  Toda la información operativa en un solo lugar, con estadísticas
-                  y notificaciones clave.
+                Automatiza procesos clave para reducir tiempos de ejecución, minimizar errores y mejorar la productividad
                 </p>
   
-                <img className="title-5" alt="Title" src={title4} />
+                <div className="title-funcionalidad-2"><span className="gradient-title">AUTOMATIZACION </span>DE PROCESOS</div>
   
                 <div className="div-wrapper">
                   <div className="ellipse" />
@@ -168,21 +172,34 @@ export const CaracteristicasLll = (): JSX.Element => {
               </div>
             </div>
           </div>
-  
-            <img className="lines" alt="lines" src={lines}/>
+
+          <div className="lines-triangle">
+            <img src={leftUpLine} alt="Left Up Line" className="left-upline" />
+            <img src={rightUpLine} alt="Right Up Line" className="right-upline" />
+            <img src={leftDownLine} alt="Left Down Line" className="left-downline" />
+            <img src={rightDownLine} alt="Right Down Line" className="right-downline" />
+            <img src={leftDownLine2} alt="Left Down Line 2" className="left-downline-2" />
+            <img src={rightDownLine2} alt="Right Down Line 2" className="right-downline-2" />
+          </div>
   
           <div className="triangle">
             <div className="overlap-6">
-
-              <img className="icon-ll" alt="Icon ll" src={iconLl} />
-  
+              <div className="triangulo">
+              <div className="icon-triangle">
               <img className="icon-2" alt="Icon" src={icon} />
+              <img className="icon-ll" alt="Icon ll" src={iconLl} />
+              </div>
+              <div className="borde borde-top"></div>
+        <div className="borde borde-left"></div>
+        <div className="borde borde-right"></div>
+                <div className="sombra"></div>
+              </div>
 
-              <img className="triangle-icon" alt="triangle" src={triangle} />
 
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   };

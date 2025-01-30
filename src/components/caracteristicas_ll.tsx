@@ -34,19 +34,16 @@ export const CaracteristicasLl = (): JSX.Element => {
   const [autoRotation, setAutoRotation] = useState<boolean>(true);
 
   useEffect(() => {
-    let animationFrameId: number;
-
-    const rotateSlider = () => {
-      if (autoRotation) {
-        setRotationAngle((prevAngle) => (prevAngle + 0.2) % 360); // Gira continuamente
-      }
-      animationFrameId = requestAnimationFrame(rotateSlider);
-    };
-
-    animationFrameId = requestAnimationFrame(rotateSlider);
-
+    let intervalId: NodeJS.Timeout | null = null;
+  
+    if (autoRotation) {
+      intervalId = setInterval(() => {
+        setRotationAngle((prevAngle) => (prevAngle + 0.2) % 360);
+      }, 16); // Aproximadamente 60FPS (1000ms / 60 ≈ 16ms)
+    }
+  
     return () => {
-      cancelAnimationFrame(animationFrameId);
+      if (intervalId) clearInterval(intervalId);
     };
   }, [autoRotation]);
 
@@ -57,50 +54,75 @@ export const CaracteristicasLl = (): JSX.Element => {
     } else {
       setSelectedFeature(index);
       setAutoRotation(false); // Detiene la rotación automática
-      const angle = (360 / features.length) * index;
-      setRotationAngle(-angle);
+  
+      const totalItems = features.length;
+      const currentAngle = rotationAngle % 360;
+      const targetAngle = (-360 / totalItems) * index;
+  
+      // 🔥 Asegurar que siempre tome el camino más corto
+      let newRotationAngle = currentAngle;
+      const angleDifference = ((targetAngle - currentAngle + 540) % 360) - 180;
+      
+      newRotationAngle += angleDifference;
+  
+      setRotationAngle(newRotationAngle);
     }
   };
+  
 
   return (
-    <div className="caracteristicas-ll">
-      <div
-        className="slider"
-        style={
-          {
-            "--quantity": features.length,
-            transform: `perspective(1000px) rotateX(-16deg) rotateY(${rotationAngle}deg)`,
-            transition: "transform 1s ease",
-          } as React.CSSProperties
-        }
-      >
-        {features.map((feature, index) => (
-          <div
-            className={`item ${selectedFeature === index ? "selected" : ""}`}
-            key={index}
-            style={
-              {
-                "--position": index + 1,
-                transform: `rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px)`,
-              } as React.CSSProperties
-            }
-            onClick={() => handleFeatureClick(index)}
-          >
-            <div className="feature-content">
-              <div className="feature-title">
-                {feature.title.map((word, i) => (
-                  <div key={i} className={i === 1 ? "gradient-text" : ""}>
-                    {word}
-                  </div>
-                ))}
-              </div>
-              <img className="feature-icon" alt={`Icono ${feature.title.join(" ")}`} src={feature.icon} />
-            </div>
+      
+      <div className="caracteristicas-ll">
+        <div className="bgs">
+          <div className="bg-new"></div>
+          <div className="bg-second"></div>
+        </div>
+
+        <div className="overlap-title">
+          <div className="overlap-ll">
+            <div className="text-s">DESTACADOS</div>
+
+            <div className="title-text">DESTACADOS</div>
           </div>
-        ))}
+        </div>
+
+        <div
+          className="slider"
+          style={
+            {
+              "--quantity": features.length,
+              transform: `translateZ(3000px) rotateX(-8deg) rotateY(${rotationAngle}deg)`,
+              transition: "transform 1s ease",
+            } as React.CSSProperties
+          }
+        >
+          {features.map((feature, index) => (
+            <div
+            key={index}
+            className={`item ${selectedFeature === index ? "selected" : ""}`}
+            onClick={() => handleFeatureClick(index)}
+              style={
+                {
+                  "--position": index + 1,
+                  transform: `rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px)`,
+                } as React.CSSProperties
+              }
+            >
+              <div className="feature-content">
+                <div className="feature-title">
+                  {feature.title.map((word, i) => (
+                    <div key={i} className={i === 1 ? "gradient-text" : ""}>
+                      {word}
+                    </div>
+                  ))}
+                </div>
+                <img className="feature-icon" alt={`Icono ${feature.title.join(" ")}`} src={feature.icon} />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 export default CaracteristicasLl;
