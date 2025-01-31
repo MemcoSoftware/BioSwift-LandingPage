@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import icon01 from "../images/tecnologias/icon_01.png";
 import icon02 from "../images/tecnologias/icon_02.png";
 import icon03 from "../images/tecnologias/icon_03.png";
@@ -22,7 +22,35 @@ import icon20 from "../images/tecnologias/icon_20.png";
 import iconDesign from "../images/tecnologias/icon_design.png";
 import "../styles/tecnologias.css";
 
+const icons = [
+  { src: icon03, id: "icon03" , category: "BACKEND"}, // PHP
+  { src: icon01, id: "icon01" , category: "TOOLS"}, // Power BI
+  { src: icon12, id: "icon12", category: "FRONTEND" }, //Bootstrap
+  { src: icon05, id: "icon05", category: "BACKEND"}, // Python
+  { src: icon10, id: "icon10", category: "FRONTEND"}, // HTML
+  { src: icon18, id: "icon18" , category: "NUBE"}, // AWS
+  { src: icon07, id: "icon07" , category: "BACKEND"}, // Kubernetes
+  { src: icon02, id: "icon02", category: "NUBE" }, // GoDaddy
+  { src: icon09, id: "icon09" , category: "DB"}, // Mongo DB
+  { src: icon04, id: "icon04", category: "BACKEND" }, // Docker
+  { src: icon13, id: "icon13", category: "FRONTEND" }, // CSS
+  { src: icon06, id: "icon06", category: "DB"}, // MySQL
+  { src: icon11, id: "icon11" , category: "BACKEND"}, // Typescript
+  { src: icon14, id: "icon14", category: "FRONTEND" }, // React
+  { src: icon15, id: "icon15" , category: "BACKEND"}, // JavaScript
+  { src: icon16, id: "icon16", category: "FRONTEND" }, // Vue
+  { src: icon17, id: "icon17", category: "TOOLS"}, // Jira Software
+  { src: icon08, id: "icon08" , category: "BACKEND"}, // Java
+  { src: icon19, id: "icon19", category: "NUBE" }, // CPANEL
+  { src: icon20, id: "icon20" , category: "BACKEND"}, //Node JS
+];
+
 export const Tecnologias = (): JSX.Element => {
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+  const handleCategoryClick = (category: string) => {
+    setSelectedCategory(selectedCategory === category ? null : category);
+  };
     return (
         <div className="tecnologias">
           <div className="overlap">
@@ -35,7 +63,7 @@ export const Tecnologias = (): JSX.Element => {
                 <div className="ellipse-2" />
               </div>
     
-              <div className="icons">
+              {/* <div className="icons">
                 <img className="icon" alt="Icon" src={icon20} />
     
                 <img className="img" alt="Icon" src={icon19} />
@@ -81,6 +109,18 @@ export const Tecnologias = (): JSX.Element => {
                 <img className="icon-18" alt="Icon" src={icon02} />
     
                 <img className="icon-19" alt="Icon" src={icon01} />
+              </div> */}
+              <div className="icons-grid">
+                      {icons.map((icon) => (
+                        <img
+                          key={icon.id}
+                          src={icon.src}
+                          alt="Technology Icon"
+                          className={`icon ${
+                            selectedCategory && icon.category === selectedCategory ? "highlight" : "grayscale"
+                          }`}
+                        />
+                      ))}
               </div>
     
               <div className="tecnologias-title">
@@ -99,17 +139,19 @@ export const Tecnologias = (): JSX.Element => {
     
               <div className="nav">
                 <div className="overlap-6">
-                  <div className="frontend">FRONTEND</div>
+                <div onClick={() => handleCategoryClick("FRONTEND")} className="frontend">
+                  FRONTEND
+                </div>
     
                   <div className="overlap-group-3">
-                    <div className="base-datos">BASE DE DATOS</div>
+                    <div onClick={() => handleCategoryClick("DB")} className="base-datos">BASE DE DATOS</div>
     
-                    <div className="nube">NUBE</div>
+                    <div onClick={() => handleCategoryClick("NUBE")} className="nube">NUBE</div>
                   </div>
     
-                  <div className="tools">TOOLS</div>
+                  <div onClick={() => handleCategoryClick("TOOLS")} className="tools">TOOLS</div>
     
-                  <div className="backend">BACKEND</div>
+                  <div onClick={() => handleCategoryClick("BACKEND")} className="backend">BACKEND</div>
                 </div>
               </div>
             </div>

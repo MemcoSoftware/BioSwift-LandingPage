@@ -65,22 +65,48 @@
   width: 4.84vw;
 }
 
-.tecnologias .icons {
-  height: 43.43vh;
-  left: 2.86vw;
+.tecnologias .icons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 3.5rem;
+  justify-items: center;
+  padding: 2rem;
+  width: 48vw;
+  height: 50vh;
   position: absolute;
-  top: 0;
-  width: 46.67vw;
+  top: -6vh;
 }
 
 .tecnologias .icon {
-  height: 11.57vh;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 2.22vh;
-  width: 6.51vw;
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease;
 }
+
+/* Íconos normales */
+.tecnologias .grayscale {
+  filter: grayscale(100%);
+  width: 4.2vw;
+  height: 8.4vh;
+}
+
+/* Destacar íconos */
+.tecnologias .highlight {
+  filter: none;
+  width: 5.2vw;
+  height: 10.4vh;
+}
+
+/* Desplazar cada ícono en posiciones pares hacia abajo */
+.tecnologias .icons-grid .icon:nth-child(even) {
+  transform: translateY(5vh);
+}
+
+/* Opcional: animar para un mejor efecto */
+.tecnologias .icons-grid .icon:hover {
+  transform: translateY(0) scale(1.1);
+}
+
 
 .tecnologias .img {
   height: 3.24vh;
