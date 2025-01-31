@@ -81,7 +81,7 @@
 
 .caracteristicas-lll .padlock {
   height: 4.48vh;
-  left: 10vw;
+  left: 11.3vw;
   position: absolute;
   top: 0.4vh;
   width: 2.24vw;
@@ -175,7 +175,7 @@
 
 .caracteristicas-lll .img {
   height: 4.48vh;
-  left: 10vw;
+  left: 11.3vw;
   position: absolute;
   top: 0.5vh;
   width: 2.24vw;
@@ -262,7 +262,7 @@
 
 .caracteristicas-lll .robot {
   height: 3.33vh;
-  left: 15vw;
+  left: 17vw;
   object-fit: cover;
   position: absolute;
   top: 0.5vh;
@@ -554,36 +554,37 @@
 
 .right-upline {
   top: 28.1vh;
-  left: 21.5vw;
+  left: 15.5vw;
   position: absolute;
 }
 
 .left-downline {
   top: 61.9vh;
-  left: 27.7vw;
+  left: 26.74vw;
   position: absolute;
   transform: rotatey(180deg);
-  rotate: 145deg;
+  rotate: 140deg;
 }
 
 .right-downline {
-  top: 61.6vh;
-  left: 28.3vw;
+  top: 61.1vh;
+  width: 9.9vw;
+  left: 28.2vw;
   position: absolute;
   transform: rotatey(180deg);
 }
 
 .left-downline-2 {
   top: 67vh;
-  left: 60.8vw;
+  left: 59.1vw;
   position: absolute;
 }
 
 .right-downline-2 {
-    top: 55.7vh;
-    left: 62vw;
-    rotate: 321deg;
-    position: absolute;
+  top: 54.7vh;
+  left: 60.29vw;
+  rotate: 321deg;
+  position: absolute;
 }
 
 .caracteristicas-lll .overlap-3 {
@@ -733,14 +734,14 @@
   border: 1px solid;
   border-color: transparent;
   border-image: linear-gradient(
-    to bottom,
-    rgb(55.61, 136.33, 106.73),
-    rgb(39.47, 178, 202.44) 86.03%
-  ) 1;
+  to bottom,
+  rgb(55.61, 136.33, 106.73),
+  rgb(39.47, 178, 202.44) 86.03%
+) 1;
   height: 6.85vh;
   position: relative;
   transform: rotate(180deg);
-  width: 18.2vw;
+  width: 19.7vw;
   top: -1.11vh;
 }
 

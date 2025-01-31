@@ -45,10 +45,10 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="overlap-group">
                 <p className="description">
-                Gestiona los permisos de acceso con niveles de jerarquía definidos para cada usuario. Asegura acceso solo a la información y herramientas que realmente necesita cada usuario.
+                Gestiona los permisos de acceso con niveles de jerarquía definidos para cada usuario. Asegura acceso solo a la información y herramientas especificas por usuario.
                 </p>
   
-                <div className="title-funcionalidad-2">ROLES <span className="gradient-title">JERARQUICOS AVANZADOS</span></div>
+                <div className="title-funcionalidad-2">ROLES <span className="gradient-title">JERARQUICOS</span></div>
   
                 <div className="frame" />
               </div>
@@ -65,7 +65,7 @@ export const CaracteristicasLll = (): JSX.Element => {
   
               <div className="div">
                 <p className="p">
-                Define reglas de acceso específicas según áreas, usuarios o dispositivos. Implementa una seguridad granular para proteger la información y garantizar el cumplimiento de normativas.
+                Define reglas de acceso específicas según áreas, usuarios o dispositivos. Implementa una seguridad granular para proteger la información.
                 </p>
   
                 <div className="title-funcionalidad-2">ACCESO <span className="gradient-title">SEGMENTADO</span></div>
