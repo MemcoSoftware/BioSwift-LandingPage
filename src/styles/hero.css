@@ -3,6 +3,7 @@
   height: 102.78vh;
   overflow: hidden;
   width: 100vw;
+  z-index: 2;
 }
 
 .hero .overlap {
