@@ -2,7 +2,7 @@
   background-color: #071320;
   height: 102.78vh;
   width: 100vw;
-  z-index: 0;
+  z-index: 2;
 }
 
 .hero-ll .overlap {
