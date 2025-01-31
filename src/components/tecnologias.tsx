@@ -139,6 +139,7 @@ export const Tecnologias = (): JSX.Element => {
     
               <div className="nav">
                 <div className="overlap-6">
+                  <div className="sections-container-tecnologias">
                 <div onClick={() => handleCategoryClick("FRONTEND")} className="frontend">
                   FRONTEND
                 </div>
@@ -152,6 +153,7 @@ export const Tecnologias = (): JSX.Element => {
                   <div onClick={() => handleCategoryClick("TOOLS")} className="tools">TOOLS</div>
     
                   <div onClick={() => handleCategoryClick("BACKEND")} className="backend">BACKEND</div>
+                  </div>
                 </div>
               </div>
             </div>

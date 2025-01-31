@@ -9,6 +9,7 @@ import CaracteristicasIII from "../components/caracteristicas_lll";
 import Tecnologias from "../components/tecnologias";
 import NuestrosClientes from "../components/nuestros_clientes";
 import NuestrosProductos from "../components/nuestros_productos";
+import Footer from "../components/footer"
 import { useRef } from "react";
 
 
@@ -109,6 +110,12 @@ const handleShowMore = () => {
         {selectedSection === "nuestrosProductos" && (
           <div id="nuestrosProductos">
             <NuestrosProductos />
+          </div>
+        )}
+
+        {selectedSection === "Footer" && (
+          <div id="Footer">
+            <Footer />
           </div>
         )}
       </div>

@@ -312,15 +312,25 @@
   width: 42.61vw;
 }
 
+@keyframes shadow {
+  0%{
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  100%{
+    opacity: 0.2;
+  }
+}
+
 .tecnologias .shadow {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(
-    180deg,
-    rgba(2, 220, 243, 0.07) 13%,
-    rgba(31, 169, 229, 0.07) 33.5%,
-    rgba(3, 229, 204, 0.07) 95.5%
-  );
+  background: linear-gradient(180deg, rgb(40, 41, 45) 0%, rgba(40, 41, 45, 0.45) 54%, rgb(40, 41, 45) 100%);
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Bold", Helvetica;
@@ -333,18 +343,14 @@
   position: absolute;
   top: 8.52vh;
   white-space: nowrap;
-  width: 42.56vw;
+  width: 43.56vw;
+  animation: shadow 10s linear infinite;
 }
 
 .tecnologias .text-wrapper {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(
-    180deg,
-    rgba(2, 220, 243, 0.2) 13%,
-    rgba(31, 169, 229, 0.2) 33.5%,
-    rgba(3, 229, 204, 0.2) 95.5%
-  );
+  background: linear-gradient(180deg, rgb(40, 41, 45) 0%, rgba(40, 41, 45, 0.45) 54%, rgb(40, 41, 45) 100%);
   background-clip: text;
   color: transparent;
   font-family: "Poppins-Bold", Helvetica;
@@ -357,15 +363,23 @@
   position: absolute;
   top: 5.83vh;
   white-space: nowrap;
-  width: 42.56vw;
+  width: 43.56vw;
+  animation: shadow 10s linear infinite;
 }
 
 .tecnologias .text {
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(3, 229, 204) 4.5%, rgb(31, 169, 229) 66.5%, rgb(2, 220, 243) 87%);
+  background: linear-gradient(
+    90deg,
+    rgb(3, 229, 204),
+    rgb(31, 169, 229),
+    rgb(2, 220, 243),
+    rgb(3, 229, 204)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: deslizamiento-horizontal 5s infinite linear;
   font-family: "Poppins-Bold", Helvetica;
   font-size: 11.2vh;
   font-weight: 700;
@@ -376,6 +390,16 @@
   position: absolute;
   top: 0;
   white-space: nowrap;
+  background-size: 200%;
+}
+
+@keyframes deslizamiento-horizontal {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
 }
 
 .tecnologias .overlap-5 {
@@ -482,4 +506,9 @@
   position: absolute;
   top: 1.57vh;
   width: 13.54vw;
+}
+
+.tecnologias .sections-container-tecnologias{
+  position: absolute;
+  top: 8px;
 }

@@ -133,8 +133,8 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
         Tecnologias
       </div>
       <div
-        className={`text-wrapper-2 ${activeSection === "faq" ? "active" : ""}`}
-        onClick={() => handleClick("faq")}
+        className={`text-wrapper-2 ${activeSection === "Footer" ? "active" : ""}`}
+        onClick={() => handleClick("Footer")}
       >
         FAQ
       </div>
