@@ -11,7 +11,6 @@ import NuestrosClientes from "../components/nuestros_clientes";
 import NuestrosProductos from "../components/nuestros_productos";
 import Footer from "../components/footer";
 
-
 const MainPage: React.FC = (): JSX.Element => {
   const caracteristicasllRef = useRef<HTMLDivElement>(null);
   const [showHeader, setShowHeader] = useState(true);
@@ -43,11 +42,11 @@ const MainPage: React.FC = (): JSX.Element => {
         sectionElement.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
-  }, [selectedSection]); // Este efecto se ejecuta cada vez que cambia selectedSection
+  }, [selectedSection]);
 
-  // Función para manejar la sección seleccionada
+  // Función para manejar la sección seleccionada desde cualquier parte (Head, Footer, HeroII)
   const handleSectionChange = (section: string): void => {
-    setSelectedSection(section); // Cambia la sección activa
+    setSelectedSection(section);
     if (section !== "caracteristicas") {
       setShowMore(false);
     }
@@ -57,20 +56,20 @@ const MainPage: React.FC = (): JSX.Element => {
     setShowMore((prev) => !prev);
     setTimeout(() => {
       caracteristicasllRef.current?.scrollIntoView({ behavior: "smooth" });
-    }, 400); // Espera un poco para asegurar que el contenido ya se renderizó
+    }, 400);
   };
 
   return (
     <div>
-      {showHeader && <Head />} {/* Header visible solo si showHeader es true */}
+      {showHeader && <Head onSectionChange={handleSectionChange} selectedSection={selectedSection} />}
+      
       <div className="snap-container">
         <div id="hero">
           <Hero />
         </div>
 
         <div id="heroll">
-        <HeroII onSectionChange={handleSectionChange} selectedSection={selectedSection} />
-
+          <HeroII onSectionChange={handleSectionChange} selectedSection={selectedSection} />
         </div>
 
         {selectedSection === "caracteristicas" && (

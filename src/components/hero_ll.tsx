@@ -138,7 +138,7 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange, selectedSection
                   className={`text-wrapper-2 ${activeSection === "Footer" ? "active" : ""}`}
                   onClick={() => handleClick("Footer")}
                 >
-                  FAQ
+                  Contacto
                 </div>
               </div>
             </div>

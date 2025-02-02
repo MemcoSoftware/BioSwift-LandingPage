@@ -1,17 +1,43 @@
-import React from "react";
-//import line6 from "./line-6.png";
+import React, { useState, useEffect } from "react";
 import logo from "../images/head/logoBioswift.png";
-import '../styles/head.css'
+import "../styles/head.css";
 
-export const Head = (): JSX.Element => {
+interface HeadProps {
+  onSectionChange: (section: string) => void;
+  selectedSection: string;
+}
+
+export const Head: React.FC<HeadProps> = ({ onSectionChange, selectedSection }) => {
+  const [activeSection, setActiveSection] = useState<string>(selectedSection);
+
+  useEffect(() => {
+    setActiveSection(selectedSection);
+  }, [selectedSection]);
+
+  const handleClick = (section: string) => {
+    setActiveSection(section);
+    onSectionChange(section);
+  };
+
+  useEffect(() => {
+    if (selectedSection) {
+      const sectionElement = document.getElementById(selectedSection);
+      if (sectionElement) {
+        sectionElement.scrollBy({ behavior: "smooth" });
+      }
+    }
+  }, [selectedSection]);
+
   const handleLoginClick = () => {
-    // Redirección externa
     window.open("https://bioswift.net", "_blank");
   };
 
   const handleMemcoClick = () => {
-    // Redirección externa
     window.open("https://memcosas.com", "_blank");
+  };
+
+  const handleLocationClick = () => {
+    window.open("https://maps.app.goo.gl/BLpaTPttGJDvG6e6A", "_blank");
   };
 
   return (
@@ -39,28 +65,28 @@ export const Head = (): JSX.Element => {
               </div>
             </div>
 
-            <div className="location">
+            <div className="location" onClick={handleLocationClick}>
               <div className="overlap-group-2">
                 <div className="rectangle-3">LOCATION</div>
                 LOCATION
               </div>
             </div>
 
-            <div className="about">
+            <div className="about" onClick={() => handleClick("Footer")}>
               <div className="overlap-group-2">
                 <div className="rectangle-3">ABOUT US</div>
                 ABOUT US
               </div>
             </div>
 
-            <div className="contact">
+            {/* CLIENTES oculto, pero sigue en el código para usar después */}
+            {/* 
+            <div className="contact" onClick={() => handleClick("nuestrosClientes")}>
               <div className="overlap-group-2">
-                <div className="rectangle-3">CONTACTO</div>
-                CONTACTO
+                <div className="rectangle-3">CLIENTES</div>
               </div>
-            </div>
-
-            {/*<img className="line" alt="Line" src={line6} />*/}
+            </div> 
+            */}
           </div>
 
           <div className="bioinfo">

@@ -1,18 +1,58 @@
 .snap-container {
-    scroll-snap-type: y mandatory; /* Habilita el scroll snap vertical */
-    overflow-y: scroll; /* Permite desplazamiento vertical */
-    height: 100vh; /* El contenedor ocupa todo el viewport */
-    scroll-behavior: smooth; /* Transición suave entre secciones */
-    overflow-x: hidden;
-    overflow-y: visible;
-    scrollbar-width: thin;
-  }
-  
-  .snap-container > * {
-    scroll-snap-align: start; /* Cada sección encaja al inicio */
-    height: 100vh; /* Cada sección ocupa todo el viewport */
-    display: flex; /* Centra el contenido */
-    align-items: center;
-    justify-content: center;
-  }
-  
+  scroll-snap-type: y mandatory; /* Habilita el scroll snap vertical */
+  overflow-y: scroll; /* Permite desplazamiento vertical */
+  height: 100vh; /* El contenedor ocupa todo el viewport */
+  scroll-behavior: smooth; /* Transición suave entre secciones */
+  overflow-x: hidden;
+  overflow-y:scroll;
+  scrollbar-width: thin;
+}
+
+/* Aplica el scroll snap a cada sección */
+.snap-container > * {
+  scroll-snap-align: start; /* Cada sección encaja al inicio */
+  height: 100vh; /* Cada sección ocupa todo el viewport */
+  display: flex; /* Centra el contenido */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo general del scrollbar */
+.snap-container::-webkit-scrollbar {
+  width: 1px; /* Más delgado */
+  height: 2px; /* Para el scroll horizontal si se usa */
+}
+
+/* Fondo del scrollbar (prácticamente invisible) */
+.snap-container::-webkit-scrollbar-track {
+  background: transparent; /* Sin fondo visible */
+  border-radius: 10px;
+}
+
+/* Barra deslizante con efecto difuminado en los extremos */
+.snap-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(3, 229, 204, 0) 0%,  /* Transparente en la parte superior */
+    rgba(0, 64, 94, 0.8) 50%, /* Color sólido en el centro */
+    rgba(3, 229, 204, 0) 100%  /* Transparente en la parte inferior */
+  );
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Efecto hover en la barra deslizante */
+.snap-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(2, 220, 243, 0) 0%,
+    rgb(0, 61, 68) 50%,
+    rgba(2, 220, 243, 0) 100%
+  );
+}
+
+/* Compatibilidad con Firefox */
+.snap-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 46, 59, 0.6) transparent;
+}
