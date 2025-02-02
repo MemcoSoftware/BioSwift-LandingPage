@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./styles/MainPage.css";
 import Head from "../components/head";
 import Hero from "../components/hero";
@@ -9,14 +9,14 @@ import CaracteristicasIII from "../components/caracteristicas_lll";
 import Tecnologias from "../components/tecnologias";
 import NuestrosClientes from "../components/nuestros_clientes";
 import NuestrosProductos from "../components/nuestros_productos";
-import Footer from "../components/footer"
-import { useRef } from "react";
+import Footer from "../components/footer";
 
 
 const MainPage: React.FC = (): JSX.Element => {
   const caracteristicasllRef = useRef<HTMLDivElement>(null);
   const [showHeader, setShowHeader] = useState(true);
   const [selectedSection, setSelectedSection] = useState<string>(""); // Estado para la sección seleccionada
+  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     const heroElement = document.getElementById("hero");
@@ -43,44 +43,39 @@ const MainPage: React.FC = (): JSX.Element => {
         sectionElement.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
-  }, [selectedSection]); // Este efecto se ejecuta cada vez que cambia `selectedSection`
+  }, [selectedSection]); // Este efecto se ejecuta cada vez que cambia selectedSection
 
   // Función para manejar la sección seleccionada
   const handleSectionChange = (section: string): void => {
     setSelectedSection(section); // Cambia la sección activa
-     // Si la nueva sección NO es "caracteristicas", resetear "showMore"
-  if (section !== "caracteristicas") {
-    setShowMore(false);
-  }
+    if (section !== "caracteristicas") {
+      setShowMore(false);
+    }
   };
 
-  const [showMore, setShowMore] = useState(false);
-
-const handleShowMore = () => {
-  setShowMore((prev) => !prev);
-  setTimeout(() => {
-    caracteristicasllRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, 400); // Espera un poco para asegurar que el contenido ya se renderizó
-};
-
-
-
+  const handleShowMore = () => {
+    setShowMore((prev) => !prev);
+    setTimeout(() => {
+      caracteristicasllRef.current?.scrollIntoView({ behavior: "smooth" });
+    }, 400); // Espera un poco para asegurar que el contenido ya se renderizó
+  };
 
   return (
     <div>
-      {showHeader && <Head />} {/* Header visible solo si `showHeader` es true */}
+      {showHeader && <Head />} {/* Header visible solo si showHeader es true */}
       <div className="snap-container">
         <div id="hero">
           <Hero />
         </div>
 
         <div id="heroll">
-          <HeroII onSectionChange={handleSectionChange} />
+        <HeroII onSectionChange={handleSectionChange} selectedSection={selectedSection} />
+
         </div>
 
         {selectedSection === "caracteristicas" && (
           <div id="caracteristicas">
-         <Caracteristicas onShowMore={handleShowMore} showMore={showMore}/>
+            <Caracteristicas onShowMore={handleShowMore} showMore={showMore} />
           </div>
         )}
 
@@ -115,7 +110,7 @@ const handleShowMore = () => {
 
         {selectedSection === "Footer" && (
           <div id="Footer">
-            <Footer />
+            <Footer onSectionChange={handleSectionChange} />
           </div>
         )}
       </div>

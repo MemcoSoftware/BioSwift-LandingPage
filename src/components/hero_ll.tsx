@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { CircleLoader } from "react-spinners"; // Loader que vas a usar
 import arrow1 from "../images/hero_ll/arrow_1.png";
 import heartM from "../images/hero_ll/heartM.png";
@@ -16,19 +16,24 @@ import "../styles/hero_ll.css";
 
 interface HeroIIProps {
   onSectionChange: (section: string) => void; // Prop para cambiar la sección
+  selectedSection: string; // Recibe la sección activa
 }
 
-export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element => {
+export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange, selectedSection }): JSX.Element => {
   const [loading, setLoading] = useState<boolean>(false); // Estado para el loader
-  const [activeSection, setActiveSection] = useState<string>(""); // Estado para la sección activa
+  const [activeSection, setActiveSection] = useState<string>(selectedSection); // Inicializa con el estado global
+
+  useEffect(() => {
+    setActiveSection(selectedSection); // Actualiza la sección activa cuando cambia en MainPage
+  }, [selectedSection]);
 
   const handleClick = (section: string) => {
     setLoading(true); // Activa el loader
     setTimeout(() => {
-      setLoading(false); // Desactiva el loader tras 1 segundo
+      setLoading(false); // Desactiva el loader tras 650ms
       setActiveSection(section); // Actualiza la sección activa
       onSectionChange(section); // Notifica a MainPage la sección seleccionada
-    }, 650); // Simula el tiempo del loader
+    }, 650);
   };
 
   return (
@@ -49,9 +54,9 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
         </div>
 
         <div className="bg-effects">
-          <div className="polygon"/>
-          <div className="polygon-2"/>
-          <div className="polygon-3"/>
+          <div className="polygon" />
+          <div className="polygon-2" />
+          <div className="polygon-3" />
         </div>
 
         <div className="float-info">
@@ -64,7 +69,7 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
 
           <div className="trazabilidad-gestion">
             <div className="overlap-2">
-              <p className="p">Trazabilidad y gestion de sus equipos</p>
+              <p className="p">Trazabilidad y gestión de sus equipos</p>
               <img className="heart-m" alt="Heart m" src={heartM} />
             </div>
           </div>
@@ -84,15 +89,13 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
 
         <div className="main-text">
           <div className="text-container">
-         La <span className="gradient">innovación</span> está en nuestro <span className="gradient">ADN</span>
+            La <span className="gradient">innovación</span> está en nuestro <span className="gradient">ADN</span>
           </div>
-
           <div className="subtext-container">
-  <span className="gradient">Innovación tecnológica</span> diseñada para centralizar la{" "}
-  <span className="gradient">gestión de equipos biomédicos</span>, monitoreo en tiempo real,
-  análisis de datos y <span className="gradient">optimización</span> de procesos operativos.
-</div>
-
+            <span className="gradient">Innovación tecnológica</span> diseñada para centralizar la{" "}
+            <span className="gradient">gestión de equipos biomédicos</span>, monitoreo en tiempo real,
+            análisis de datos y <span className="gradient">optimización</span> de procesos operativos.
+          </div>
         </div>
 
         <div className="upper-capsules">
@@ -106,43 +109,41 @@ export const HeroLl: React.FC<HeroIIProps> = ({ onSectionChange }): JSX.Element 
             <div className="overlap-5">
               <div className="rectangle" />
 
-            <div className="sections">
-
-            <div
-        className={`text-wrapper-2 ${activeSection === "caracteristicas" ? "active" : ""}`}
-        onClick={() => handleClick("caracteristicas")}
-      >
-        Caracteristicas
-      </div>
-      <div
-        className={`text-wrapper-2 ${activeSection === "nuestrosProductos" ? "active" : ""}`}
-        onClick={() => handleClick("nuestrosProductos")}
-      >
-        Productos
-      </div>
-      <div
-        className={`text-wrapper-2 ${activeSection === "nuestrosClientes" ? "active" : ""}`}
-        onClick={() => handleClick("nuestrosClientes")}
-      >
-        Clientes
-      </div>
-      <div
-        className={`text-wrapper-2 ${activeSection === "tecnologias" ? "active" : ""}`}
-        onClick={() => handleClick("tecnologias")}
-      >
-        Tecnologias
-      </div>
-      <div
-        className={`text-wrapper-2 ${activeSection === "Footer" ? "active" : ""}`}
-        onClick={() => handleClick("Footer")}
-      >
-        FAQ
-      </div>
+              <div className="sections">
+                <div
+                  className={`text-wrapper-2 ${activeSection === "caracteristicas" ? "active" : ""}`}
+                  onClick={() => handleClick("caracteristicas")}
+                >
+                  Características
+                </div>
+                <div
+                  className={`text-wrapper-2 ${activeSection === "nuestrosProductos" ? "active" : ""}`}
+                  onClick={() => handleClick("nuestrosProductos")}
+                >
+                  Productos
+                </div>
+                <div
+                  className={`text-wrapper-2 ${activeSection === "nuestrosClientes" ? "active" : ""}`}
+                  onClick={() => handleClick("nuestrosClientes")}
+                >
+                  Clientes
+                </div>
+                <div
+                  className={`text-wrapper-2 ${activeSection === "tecnologias" ? "active" : ""}`}
+                  onClick={() => handleClick("tecnologias")}
+                >
+                  Tecnologías
+                </div>
+                <div
+                  className={`text-wrapper-2 ${activeSection === "Footer" ? "active" : ""}`}
+                  onClick={() => handleClick("Footer")}
+                >
+                  FAQ
+                </div>
               </div>
             </div>
           </div>
         </div>
-
 
       </div>
     </div>
